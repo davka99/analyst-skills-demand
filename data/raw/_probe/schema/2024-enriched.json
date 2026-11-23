@@ -1,0 +1,561 @@
+{
+  "file": "/annonser/historiska/berikade/kompletta/2024_beta1_jsonl.zip",
+  "url": "https://data.arbetsformedlingen.se/annonser/historiska/berikade/kompletta/2024_beta1_jsonl.zip",
+  "bytes": 979932785,
+  "sha256": "3bfb116b6ec104d565df5b0f2abaf7ef5c669966b23e8fedf103029d6ec2c155",
+  "seconds": 49.7,
+  "n": 20000,
+  "key_paths": {
+    "access": 20000,
+    "access_to_own_car": 20000,
+    "application_contacts": 20000,
+    "application_deadline": 20000,
+    "application_details": 20000,
+    "application_details.email": 20000,
+    "application_details.information": 20000,
+    "application_details.other": 20000,
+    "application_details.reference": 20000,
+    "application_details.url": 20000,
+    "application_details.via_af": 20000,
+    "description": 20000,
+    "description.company_information": 20000,
+    "description.conditions": 20000,
+    "description.needs": 20000,
+    "description.requirements": 20000,
+    "description.text": 20000,
+    "description.text_formatted": 20000,
+    "detected_language": 20000,
+    "driving_license": 20000,
+    "driving_license[].concept_id": 3629,
+    "driving_license[].label": 3629,
+    "driving_license[].legacy_ams_taxonomy_id": 3629,
+    "driving_license_required": 20000,
+    "duration": 20000,
+    "duration.concept_id": 20000,
+    "duration.label": 20000,
+    "duration.legacy_ams_taxonomy_id": 20000,
+    "employer": 20000,
+    "employer.email": 20000,
+    "employer.name": 20000,
+    "employer.organization_number": 20000,
+    "employer.phone_number": 20000,
+    "employer.url": 20000,
+    "employer.workplace": 20000,
+    "employment_type": 20000,
+    "employment_type[].concept_id": 20000,
+    "employment_type[].label": 20000,
+    "employment_type[].legacy_ams_taxonomy_id": 20000,
+    "employment_type[].original_value": 20000,
+    "experience_required": 20000,
+    "external_id": 20000,
+    "franchise": 20000,
+    "headline": 20000,
+    "hire_work_place": 20000,
+    "id": 20000,
+    "keywords": 20000,
+    "keywords.enriched": 19991,
+    "keywords.enriched.compound": 19991,
+    "keywords.enriched.location": 19991,
+    "keywords.enriched.occupation": 19991,
+    "keywords.enriched.skill": 19991,
+    "keywords.enriched.trait": 19991,
+    "keywords.extracted": 20000,
+    "keywords.extracted.employer": 20000,
+    "keywords.extracted.location": 20000,
+    "keywords.extracted.occupation": 20000,
+    "keywords.extracted.skill": 20000,
+    "label": 20000,
+    "larling": 20000,
+    "last_publication_date": 20000,
+    "logo_url": 20000,
+    "must_have": 20000,
+    "must_have.education": 20000,
+    "must_have.education_level": 20000,
+    "must_have.languages": 20000,
+    "must_have.skills": 20000,
+    "must_have.work_experiences": 20000,
+    "nice_to_have": 20000,
+    "nice_to_have.education": 20000,
+    "nice_to_have.education_level": 20000,
+    "nice_to_have.languages": 20000,
+    "nice_to_have.skills": 20000,
+    "nice_to_have.work_experiences": 20000,
+    "number_of_vacancies": 20000,
+    "occupation": 20000,
+    "occupation[].concept_id": 20000,
+    "occupation[].label": 20000,
+    "occupation[].legacy_ams_taxonomy_id": 20000,
+    "occupation[].original_value": 20000,
+    "occupation_field": 20000,
+    "occupation_field[].concept_id": 20000,
+    "occupation_field[].label": 20000,
+    "occupation_field[].legacy_ams_taxonomy_id": 20000,
+    "occupation_group": 20000,
+    "occupation_group[].concept_id": 20000,
+    "occupation_group[].label": 20000,
+    "occupation_group[].legacy_ams_taxonomy_id": 20000,
+    "open_for_all": 20000,
+    "original_id": 20000,
+    "publication_date": 20000,
+    "remote_work": 20000,
+    "removed": 20000,
+    "removed_date": 20000,
+    "salary_description": 20000,
+    "salary_type": 20000,
+    "salary_type.concept_id": 20000,
+    "salary_type.label": 20000,
+    "salary_type.legacy_ams_taxonomy_id": 20000,
+    "scope_of_work": 20000,
+    "scope_of_work.max": 20000,
+    "scope_of_work.min": 20000,
+    "source_type": 20000,
+    "timestamp": 20000,
+    "trainee": 20000,
+    "webpage_url": 20000,
+    "working_hours_type": 20000,
+    "working_hours_type.concept_id": 20000,
+    "working_hours_type.label": 20000,
+    "working_hours_type.legacy_ams_taxonomy_id": 20000,
+    "workplace_address": 20000,
+    "workplace_address.city": 20000,
+    "workplace_address.coordinates": 20000,
+    "workplace_address.country": 20000,
+    "workplace_address.country_code": 20000,
+    "workplace_address.country_concept_id": 20000,
+    "workplace_address.municipality": 20000,
+    "workplace_address.municipality_code": 20000,
+    "workplace_address.municipality_concept_id": 20000,
+    "workplace_address.postcode": 20000,
+    "workplace_address.region": 20000,
+    "workplace_address.region_code": 20000,
+    "workplace_address.region_concept_id": 20000,
+    "workplace_address.street_address": 20000
+  },
+  "field_shares": {
+    "id": 1.0,
+    "headline": 1.0,
+    "publication_date": 1.0,
+    "application_deadline": 1.0,
+    "description": 1.0,
+    "employer_name": 1.0,
+    "employer_orgnr": 0.9932,
+    "occupation": 1.0,
+    "occupation_id": 1.0,
+    "occupation_group": 1.0,
+    "occupation_field": 1.0,
+    "region": 0.9751,
+    "region_code": 0.9751,
+    "municipality": 0.9751,
+    "municipality_code": 0.9751,
+    "vacancies": 1.0,
+    "employment_type": 1.0,
+    "remote": 1.0,
+    "original_id": 1.0,
+    "last_publication_date": 1.0,
+    "removed_date": 0.0,
+    "source_type": 1.0,
+    "language": 0.9996,
+    "experience_required": 1.0,
+    "jobtech_skills": 1.0
+  },
+  "samples": [
+    {
+      "access": null,
+      "access_to_own_car": false,
+      "application_contacts": "[removed, D16]",
+      "application_deadline": "2025-02-10T23:59:59",
+      "application_details": "[removed, D16]",
+      "description": {
+        "text": "[removed: ad text, D16]",
+        "text_formatted": null,
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": null
+      },
+      "detected_language": "sv",
+      "driving_license": null,
+      "driving_license_required": false,
+      "duration": {
+        "concept_id": "a7uU_j21_mkL",
+        "label": "Tills vidare",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "employer": "[removed, D16]",
+      "employment_type": [
+        {
+          "concept_id": "PFZr_Syz_cUq",
+          "label": "Vanlig anställning",
+          "legacy_ams_taxonomy_id": "1",
+          "original_value": true
+        }
+      ],
+      "experience_required": false,
+      "external_id": null,
+      "franchise": false,
+      "headline": "Svensktalande Kundtjänstagent för tekniskt projekt i Aten",
+      "hire_work_place": false,
+      "id": "49a1f464766ef2e43b3c7d012fdb9678792b4eac",
+      "keywords": {
+        "extracted": {
+          "occupation": [
+            "juridik",
+            "administration",
+            "ekonomi",
+            "kundtjänstpersonal",
+            "kundtjänstmedarbetare"
+          ],
+          "skill": [
+            "svenska",
+            "engelska"
+          ],
+          "location": [
+            "grekland"
+          ],
+          "employer": [
+            "loughran agnieszka",
+            "loughran, agnieszka"
+          ]
+        },
+        "enriched": {
+          "occupation": [
+            "kundtjänstagent",
+            "kundtjänstmedarbetare"
+          ],
+          "skill": [
+            "svenska",
+            "miljö",
+            "datorkunskaper",
+            "engelska"
+          ],
+          "trait": [
+            "problemlösningsförmåga"
+          ],
+          "location": [
+            "grekland"
+          ],
+          "compound": [
+            "kundtjänstagent",
+            "kundtjänstmedarbetare",
+            "svenska",
+            "miljö",
+            "datorkunskaper"
+          ]
+        }
+      },
+      "label": "[]",
+      "larling": false,
+      "last_publication_date": "2025-02-10T23:59:59",
+      "logo_url": null,
+      "must_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [
+          {
+            "weight": 5,
+            "concept_id": "zSLA_vw2_FXN",
+            "label": "Svenska",
+            "legacy_ams_taxonomy_id": "502"
+          },
+          {
+            "weight": 5,
+            "concept_id": "NVxJ_hLg_TYS",
+            "label": "Engelska",
+            "legacy_ams_taxonomy_id": "283"
+          }
+        ],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "number_of_vacancies": 1,
+      "occupation": [
+        {
+          "concept_id": "8Uhp_XYo_z5f",
+          "label": "Kundtjänstmedarbetare",
+          "legacy_ams_taxonomy_id": "2291",
+          "original_value": true
+        }
+      ],
+      "occupation_field": [
+        {
+          "concept_id": "X82t_awd_Qyc",
+          "label": "Administration, ekonomi, juridik",
+          "legacy_ams_taxonomy_id": "1"
+        }
+      ],
+      "occupation_group": [
+        {
+          "concept_id": "pwRH_MT1_8nR",
+          "label": "Kundtjänstpersonal",
+          "legacy_ams_taxonomy_id": "4222"
+        }
+      ],
+      "open_for_all": false,
+      "original_id": "29353532",
+      "publication_date": "2024-12-31T15:07:12",
+      "remote_work": false,
+      "removed": false,
+      "removed_date": null,
+      "salary_description": null,
+      "salary_type": {
+        "concept_id": "asrX_9Df_ukn",
+        "label": "Fast och rörlig lön",
+        "legacy_ams_taxonomy_id": "7"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "source_type": "VIA_ANNONSERA",
+      "timestamp": 1735654032825,
+      "trainee": false,
+      "webpage_url": null,
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "workplace_address": {
+        "municipality": null,
+        "municipality_code": null,
+        "municipality_concept_id": null,
+        "region": null,
+        "region_code": null,
+        "region_concept_id": null,
+        "country": "Grekland",
+        "country_code": "71",
+        "country_concept_id": "BRi4_in4_xLc",
+        "street_address": null,
+        "postcode": null,
+        "city": null,
+        "coordinates": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "access": null,
+      "access_to_own_car": false,
+      "application_contacts": "[removed, D16]",
+      "application_deadline": "2025-01-03T23:59:59",
+      "application_details": "[removed, D16]",
+      "description": {
+        "text": "[removed: ad text, D16]",
+        "text_formatted": null,
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": null
+      },
+      "detected_language": "sv",
+      "driving_license": [
+        {
+          "concept_id": "VTK8_WRx_GcM",
+          "label": "B",
+          "legacy_ams_taxonomy_id": "3"
+        }
+      ],
+      "driving_license_required": true,
+      "duration": {
+        "concept_id": null,
+        "label": null,
+        "legacy_ams_taxonomy_id": null
+      },
+      "employer": "[removed, D16]",
+      "employment_type": [
+        {
+          "concept_id": "1paU_aCR_nGn",
+          "label": "Behovsanställning",
+          "legacy_ams_taxonomy_id": "4",
+          "original_value": true
+        }
+      ],
+      "experience_required": true,
+      "external_id": null,
+      "franchise": false,
+      "headline": "Budbilschaufför till kyl- och frysåkeri",
+      "hire_work_place": false,
+      "id": "2ef336c743daa5651d41669c2609816f378a140b",
+      "keywords": {
+        "extracted": {
+          "occupation": [
+            "budbilsförare",
+            "lager",
+            "transport",
+            "distribution",
+            "övriga bil-, motorcykel- och cykelförare"
+          ],
+          "skill": [
+            "svenska",
+            "budtransporter",
+            "kyl- och frys- och värmetransporter, körvana"
+          ],
+          "location": [
+            "sverige",
+            "gustavsberg",
+            "värmdö",
+            "stockholms län"
+          ],
+          "employer": [
+            "dgbn holding"
+          ]
+        },
+        "enriched": {
+          "occupation": [
+            "chaufför",
+            "budbilsförare"
+          ],
+          "skill": [
+            "körning",
+            "lossning",
+            "körkort",
+            "svenska",
+            "gymnasieexamen"
+          ],
+          "trait": [
+            "lösningsorienterad",
+            "ansvarstagande",
+            "snabbrörlig",
+            "noggrann",
+            "pigg"
+          ],
+          "location": [
+            "värmdö",
+            "stockholms län",
+            "gustavsberg",
+            "sverige"
+          ],
+          "compound": [
+            "chaufför",
+            "budbilsförare",
+            "körning",
+            "lossning",
+            "körkort"
+          ]
+        }
+      },
+      "label": "[]",
+      "larling": false,
+      "last_publication_date": "2025-01-03T23:59:59",
+      "logo_url": "https://arbetsformedlingen.se/rest/agas/api/v1/arbetsplatser/84842675/logotyper/logo.png",
+      "must_have": {
+        "skills": [
+          {
+            "weight": 10,
+            "concept_id": "BHCG_hQC_kNa",
+            "label": "Budtransporter",
+            "legacy_ams_taxonomy_id": "400084",
+            "original_value": true
+          }
+        ],
+        "languages": [
+          {
+            "weight": 10,
+            "concept_id": "zSLA_vw2_FXN",
+            "label": "Svenska",
+            "legacy_ams_taxonomy_id": "502"
+          }
+        ],
+        "work_experiences": [
+          {
+            "weight": 10,
+            "concept_id": "PtiU_6mm_yyL",
+            "label": "Budbilsförare",
+            "legacy_ams_taxonomy_id": "4332"
+          }
+        ],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [
+          {
+            "weight": 5,
+            "concept_id": "iGY5_duK_aGg",
+            "label": "Kyl- och frys- och värmetransporter, körvana",
+            "legacy_ams_taxonomy_id": "3270",
+            "original_value": true
+          }
+        ],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "number_of_vacancies": 2,
+      "occupation": [
+        {
+          "concept_id": "PtiU_6mm_yyL",
+          "label": "Budbilsförare",
+          "legacy_ams_taxonomy_id": "4332",
+          "original_value": true
+        }
+      ],
+      "occupation_field": [
+        {
+          "concept_id": "ASGV_zcE_bWf",
+          "label": "Transport, distribution, lager",
+          "legacy_ams_taxonomy_id": "19"
+        }
+      ],
+      "occupation_group": [
+        {
+          "concept_id": "P7Ay_ooF_pri",
+          "label": "Övriga bil-, motorcykel- och cykelförare",
+          "legacy_ams_taxonomy_id": "8329"
+        }
+      ],
+      "open_for_all": false,
+      "original_id": "29351542",
+      "publication_date": "2024-12-29T17:01:47",
+      "remote_work": false,
+      "removed": false,
+      "removed_date": null,
+      "salary_description": null,
+      "salary_type": {
+        "concept_id": "oG8G_9cW_nRf",
+        "label": "Fast månads- vecko- eller timlön",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": null,
+        "max": null
+      },
+      "source_type": "VIA_ANNONSERA",
+      "timestamp": 1735658157869,
+      "trainee": false,
+      "webpage_url": null,
+      "working_hours_type": {
+        "concept_id": null,
+        "label": null,
+        "legacy_ams_taxonomy_id": null
+      },
+      "workplace_address": {
+        "municipality": "Värmdö",
+        "municipality_code": "0120",
+        "municipality_concept_id": "15nx_Vut_GrH",
+        "region": "Stockholms län",
+        "region_code": "01",
+        "region_concept_id": "CifL_Rzy_Mku",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": "Mörtnäs Hagväg 11 Adwater AB",
+        "postcode": "13444",
+        "city": "Gustavsberg",
+        "coordinates": [
+          18.42611696593989,
+          59.31012989829124
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{"ann_id": "T101", "skills": ["sql", "sas", "statistics", "degree", "communication"], "notes": "statistics from 'Degree in Statistics'; SAS Enterprise Miner/Guide"}
+{"ann_id": "T102", "skills": ["degree", "english_req", "swedish_req", "communication"], "notes": "degree = eftergymnasial utbildning"}
+{"ann_id": "T103", "skills": ["sql", "python", "gcp", "experimentation"], "notes": "gcp via BigQuery; GTM (Google Tag Manager) not counted as GCP"}
+{"ann_id": "T104", "skills": ["sql", "python", "r", "statistics", "forecasting", "etl_dw", "visualization", "reporting", "degree", "english_req", "communication"], "notes": "forecasting from predictive analytics/modeling; etl_dw from data warehousing"}
+{"ann_id": "T105", "skills": ["sql", "python", "r", "sas", "stata", "tableau", "statistics", "experimentation", "reporting", "degree", "communication"], "notes": "reporting from 'build reports in Tableau'; visualization left 0 (Tableau named but no explicit visualisation/dashboard wording)"}
+{"ann_id": "T106", "skills": ["degree", "english_req", "swedish_req"], "notes": "degree only meriterande; budgetarbete not counted as forecasting"}
+{"ann_id": "T107", "skills": ["degree"], "notes": ""}
+{"ann_id": "T108", "skills": ["sql", "statistics", "visualization", "communication"], "notes": ""}
+{"ann_id": "T109", "skills": ["excel", "sql", "statistics", "etl_dw", "visualization", "degree", "english_req", "swedish_req"], "notes": "sql via MySQL/SQL-server; etl_dw from company 'bygga datalager'; reporting 0: 'rapporteringsverktyg' only describes the supervisor's experience"}
+{"ann_id": "T110", "skills": ["excel", "sql", "python", "r", "sas", "tableau", "statistics", "visualization", "degree", "communication"], "notes": "communication from 'presenting data to non-technical people'"}
+{"ann_id": "T111", "skills": ["sql", "python", "r", "power_bi", "tableau", "git", "statistics", "etl_dw", "degree", "english_req"], "notes": "etl_dw from data modeling and data warehouses"}
+{"ann_id": "T112", "skills": ["sql", "power_bi", "qlik", "gcp", "cloud_any", "etl_dw", "visualization", "reporting"], "notes": "reporting from 'developing visualizations/reports'"}
+{"ann_id": "T113", "skills": ["ai_any"], "notes": "AI only in recruiter's disclaimer about AI-based admin tools; counted per 'mentioned in any way'"}
+{"ann_id": "T114", "skills": ["excel", "sql", "qlik", "statistics", "english_req", "swedish_req", "communication"], "notes": "statistics from 'enklare statistik'/'månatlig statistik'/statistiker (descriptive); communication from många kontaktytor/beställare (uncertain); 'test' in CRM work not counted as experimentation"}
+{"ann_id": "T115", "skills": ["python", "r", "stata", "statistics", "visualization", "degree", "english_req"], "notes": "degree inferred from 'utbildningsbakgrunder' in datavetenskap/statistik (uncertain); 'kommunicera på engelska' treated as language only"}
+{"ann_id": "T116", "skills": ["sql", "statistics", "etl_dw", "visualization", "degree", "communication"], "notes": "statistics from degree field example; etl_dw from 'data warehouse engineers' in team"}
+{"ann_id": "T117", "skills": ["excel", "degree", "english_req", "communication"], "notes": "degree = civilekonom; 'uppföljningar' not counted as reporting"}
+{"ann_id": "T118", "skills": ["excel", "degree", "english_req", "swedish_req", "communication"], "notes": ""}
+{"ann_id": "T119", "skills": ["machine_learning", "ai_any", "communication"], "notes": "only Finnish required; genai 0 (speech recognition/bot interactions not explicitly generative AI); degree 0: 'preferred educational background' not clearly a degree"}
+{"ann_id": "T120", "skills": ["excel", "reporting", "degree", "english_req", "swedish_req", "communication"], "notes": "degree = eftergymnasial utbildning"}
+{"ann_id": "T121", "skills": ["reporting", "degree", "communication"], "notes": "reporting from uppföljning and summarising reports (uncertain)"}
+{"ann_id": "T122", "skills": ["statistics", "visualization", "ai_any", "degree", "swedish_req", "communication"], "notes": "ai_any from unit name 'AI - Advanced Analytics'; Swedish meritorious"}
+{"ann_id": "T123", "skills": ["visualization", "degree"], "notes": "Google Analytics/Tag Manager not GCP; 'report to' not reporting"}
+{"ann_id": "T124", "skills": ["excel", "sql", "python", "r", "statistics", "experimentation", "visualization", "reporting", "degree", "communication"], "notes": ""}
+{"ann_id": "T125", "skills": ["degree", "english_req", "swedish_req"], "notes": "communication 0: only 'pedagogic skills' (uncertain)"}
+{"ann_id": "T126", "skills": [], "notes": "data mining/modeling/KPI follow-up do not map to any key"}
+{"ann_id": "T127", "skills": ["excel", "statistics", "reporting", "degree", "english_req", "swedish_req", "communication"], "notes": "statistics from 'rapporter för divisionens resultat och statistik' (descriptive, uncertain)"}
+{"ann_id": "T128", "skills": ["power_bi", "tableau", "looker", "experimentation", "visualization", "communication"], "notes": "looker via Google Data Studio; experimentation via Optimizely/Experimentation team"}
+{"ann_id": "T129", "skills": ["power_bi", "tableau", "qlik", "statistics", "forecasting", "degree"], "notes": "tableau from misspelling 'Tableu'; 'Klassificering' under statistics not counted as ML; communication 0 (only 'samarbeta med kollegor och andra parter')"}
+{"ann_id": "T130", "skills": ["looker", "statistics", "visualization", "communication"], "notes": "looker via Google Data Studio; statistics from 'visualisera statistik' (uncertain); degree 0: 'god utbildning eller längre praktisk erfarenhet' not clearly a degree"}
+{"ann_id": "T131", "skills": ["sql", "sas", "statistics", "degree", "english_req", "swedish_req", "communication"], "notes": ""}
+{"ann_id": "T132", "skills": ["r", "qlik", "statistics", "machine_learning", "forecasting", "degree", "english_req", "swedish_req", "communication"], "notes": "forecasting from prediktionsmodell/tidsserie"}
+{"ann_id": "T133", "skills": ["statistics", "experimentation", "reporting", "degree", "english_req", "swedish_req", "communication"], "notes": "statistics from 'presentation av resultat och statistik' (uncertain); degree = eftergymnasial utbildning"}
+{"ann_id": "T134", "skills": ["sql", "vba", "reporting", "degree", "communication"], "notes": ""}
+{"ann_id": "T135", "skills": ["excel", "degree", "english_req", "swedish_req", "communication"], "notes": "'uppföljning av CRM kommunikation' not counted as reporting"}
+{"ann_id": "T136", "skills": ["excel", "looker", "visualization"], "notes": "Google Ads/Analytics/Tag Manager not GCP"}
+{"ann_id": "T137", "skills": ["excel", "sql", "python", "r", "statistics", "machine_learning", "forecasting", "visualization", "degree", "communication"], "notes": "machine_learning only via department name 'Data & Machine Learning'; forecasting from prediktiv modellering"}
+{"ann_id": "T138", "skills": [], "notes": ""}
+{"ann_id": "T139", "skills": ["etl_dw", "visualization", "reporting", "degree", "communication"], "notes": "degree inferred from 'education within Engineering, Business, Computer Science...' (uncertain); etl_dw from data modelling"}
+{"ann_id": "T140", "skills": ["forecasting", "degree", "communication"], "notes": "forecasting from prognoser; degree = civilingenjör"}
+{"ann_id": "T141", "skills": ["sql", "etl_dw", "communication"], "notes": "'Excellent proficiency in SQL' is not Excel"}
+{"ann_id": "T142", "skills": ["excel", "reporting", "degree", "english_req", "swedish_req", "communication"], "notes": ""}
+{"ann_id": "T143", "skills": ["excel", "statistics", "forecasting", "reporting", "degree", "english_req", "swedish_req", "communication"], "notes": ""}
+{"ann_id": "T144", "skills": ["power_bi", "tableau", "visualization", "english_req"], "notes": "Google Marketing Platform not GCP; communication 0 ('Marketing & Communications' is a department name)"}
+{"ann_id": "T145", "skills": ["python", "r", "qlik", "tableau", "statistics", "experimentation", "visualization", "ai_any", "degree", "communication"], "notes": "ai_any from team name 'Advanced Analytics & AI'; KPI follow-up not counted as reporting"}
+{"ann_id": "T146", "skills": ["excel", "reporting", "english_req", "swedish_req", "communication"], "notes": "degree 0: asks for a current university student, not a degree (uncertain)"}
+{"ann_id": "T147", "skills": ["sql", "gcp", "looker", "experimentation", "visualization", "reporting", "communication"], "notes": "gcp via BigQuery"}
+{"ann_id": "T148", "skills": ["sql", "python", "power_bi", "dax", "spark", "statistics", "etl_dw", "visualization", "reporting", "degree", "swedish_req", "communication"], "notes": "spark via PySpark; reporting from 'rapporteringsbehov'"}
+{"ann_id": "T149", "skills": ["reporting", "english_req", "communication"], "notes": "communication from daily dialog/many contacts with operations (uncertain)"}
+{"ann_id": "T150", "skills": ["experimentation", "visualization", "reporting"], "notes": ""}

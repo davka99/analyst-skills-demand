@@ -1,0 +1,449 @@
+[
+  {
+    "id": "f94bea0e7c87b249654b865ac40fcf38b2f3418d",
+    "external_id": "46-556559-5450-15109010",
+    "original_id": "29353357",
+    "label": "[]",
+    "webpage_url": null,
+    "logo_url": "https://arbetsformedlingen.se/rest/agas/api/v1/organisation/5565595450/logotyper/logo.png",
+    "headline": "Junior Supply Planner till välkänt detaljhandelsföretag!",
+    "application_deadline": "2025-01-31T23:59:59",
+    "number_of_vacancies": 1,
+    "description": {
+      "text": "[removed: ad text, D16]",
+      "text_formatted": null,
+      "company_information": null,
+      "needs": null,
+      "requirements": null,
+      "conditions": "[removed: ad text, D16]"
+    },
+    "employment_type": [
+      {
+        "concept_id": "PFZr_Syz_cUq",
+        "label": "Vanlig anställning",
+        "legacy_ams_taxonomy_id": "1",
+        "original_value": true
+      }
+    ],
+    "salary_type": {
+      "concept_id": "oG8G_9cW_nRf",
+      "label": "Fast månads- vecko- eller timlön",
+      "legacy_ams_taxonomy_id": "1"
+    },
+    "salary_description": "Enligt avtal",
+    "duration": {
+      "concept_id": "qQUd_4qe_NDT",
+      "label": "6 månader eller längre",
+      "legacy_ams_taxonomy_id": "2"
+    },
+    "working_hours_type": {
+      "concept_id": "6YE1_gAC_R2G",
+      "label": "Heltid",
+      "legacy_ams_taxonomy_id": "1"
+    },
+    "scope_of_work": {
+      "min": 100,
+      "max": 100
+    },
+    "access": null,
+    "employer": "[removed, D16]",
+    "application_details": "[removed, D16]",
+    "experience_required": true,
+    "access_to_own_car": false,
+    "driving_license_required": false,
+    "driving_license": null,
+    "occupation": [
+      {
+        "concept_id": "2YDV_mGq_LpN",
+        "label": "Inköpsassistent",
+        "legacy_ams_taxonomy_id": "4909",
+        "original_value": true
+      }
+    ],
+    "occupation_group": [
+      {
+        "concept_id": "iWcY_mko_rq2",
+        "label": "Inköps- och orderassistenter",
+        "legacy_ams_taxonomy_id": "4115"
+      }
+    ],
+    "occupation_field": [
+      {
+        "concept_id": "RPTn_bxG_ExZ",
+        "label": "Försäljning, inköp, marknadsföring",
+        "legacy_ams_taxonomy_id": "5"
+      }
+    ],
+    "workplace_address": {
+      "municipality": "Stockholm",
+      "municipality_code": "0180",
+      "municipality_concept_id": "AvNB_uwa_6n6",
+      "region": "Stockholms län",
+      "region_code": "01",
+      "region_concept_id": "CifL_Rzy_Mku",
+      "country": "Sverige",
+      "country_code": "199",
+      "country_concept_id": "i46j_HmG_v64",
+      "street_address": null,
+      "postcode": null,
+      "city": null,
+      "coordinates": [
+        18.06858,
+        59.329323
+      ]
+    },
+    "must_have": {
+      "skills": [],
+      "languages": [],
+      "work_experiences": [
+        {
+          "weight": 10,
+          "concept_id": "2YDV_mGq_LpN",
+          "label": "Inköpsassistent",
+          "legacy_ams_taxonomy_id": "4909"
+        }
+      ],
+      "education": [],
+      "education_level": []
+    },
+    "nice_to_have": {
+      "skills": [],
+      "languages": [],
+      "work_experiences": [],
+      "education": [],
+      "education_level": []
+    },
+    "application_contacts": "[removed, D16]",
+    "publication_date": "2024-12-31T00:01:33",
+    "last_publication_date": "2025-01-31T23:59:59",
+    "removed": false,
+    "removed_date": null,
+    "source_type": "VIA_PLATSBANKEN_DXA",
+    "timestamp": 1735599693777,
+    "remote_work": false,
+    "open_for_all": false,
+    "trainee": false,
+    "larling": false,
+    "franchise": false,
+    "hire_work_place": false,
+    "keywords": {
+      "extracted": {
+        "occupation": [
+          "inköp",
+          "inköpsassistent",
+          "marknadsföring",
+          "försäljning",
+          "inköps- och orderassistenter"
+        ],
+        "skill": [],
+        "location": [
+          "sverige",
+          "stockholms län",
+          "stockholm"
+        ],
+        "employer": [
+          "academic work"
+        ]
+      }
+    },
+    "detected_language": "sv"
+  },
+  {
+    "id": "8236c863261d93ed423820d42cb72a731fba1c98",
+    "external_id": "46-556559-5450-15109290",
+    "original_id": "29341681",
+    "label": "[]",
+    "webpage_url": null,
+    "logo_url": "https://arbetsformedlingen.se/rest/agas/api/v1/organisation/5565595450/logotyper/logo.png",
+    "headline": "Erfaren kvalitetsingenjör till AFRY!",
+    "application_deadline": "2025-01-31T23:59:59",
+    "number_of_vacancies": 1,
+    "description": {
+      "text": "[removed: ad text, D16]",
+      "text_formatted": null,
+      "company_information": null,
+      "needs": null,
+      "requirements": null,
+      "conditions": "[removed: ad text, D16]"
+    },
+    "employment_type": [
+      {
+        "concept_id": "PFZr_Syz_cUq",
+        "label": "Vanlig anställning",
+        "legacy_ams_taxonomy_id": "1",
+        "original_value": true
+      }
+    ],
+    "salary_type": {
+      "concept_id": "oG8G_9cW_nRf",
+      "label": "Fast månads- vecko- eller timlön",
+      "legacy_ams_taxonomy_id": "1"
+    },
+    "salary_description": "Enligt avtal",
+    "duration": {
+      "concept_id": "qQUd_4qe_NDT",
+      "label": "6 månader eller längre",
+      "legacy_ams_taxonomy_id": "2"
+    },
+    "working_hours_type": {
+      "concept_id": "6YE1_gAC_R2G",
+      "label": "Heltid",
+      "legacy_ams_taxonomy_id": "1"
+    },
+    "scope_of_work": {
+      "min": 100,
+      "max": 100
+    },
+    "access": null,
+    "employer": "[removed, D16]",
+    "application_details": "[removed, D16]",
+    "experience_required": true,
+    "access_to_own_car": false,
+    "driving_license_required": false,
+    "driving_license": null,
+    "occupation": [
+      {
+        "concept_id": "UATw_GJH_wTE",
+        "label": "Kvalitetsingenjör, metallurgi/Kvalitetstekniker, metallurgi",
+        "legacy_ams_taxonomy_id": "4305",
+        "original_value": true
+      }
+    ],
+    "occupation_group": [
+      {
+        "concept_id": "3jEy_yuT_aVo",
+        "label": "Ingenjörer och tekniker inom gruvteknik och metallurgi",
+        "legacy_ams_taxonomy_id": "3116"
+      }
+    ],
+    "occupation_field": [
+      {
+        "concept_id": "6Hq3_tKo_V57",
+        "label": "Yrken med teknisk inriktning",
+        "legacy_ams_taxonomy_id": "18"
+      }
+    ],
+    "workplace_address": {
+      "municipality": "Örnsköldsvik",
+      "municipality_code": "2284",
+      "municipality_concept_id": "zBmE_n6s_MnQ",
+      "region": "Västernorrlands län",
+      "region_code": "22",
+      "region_concept_id": "NvUF_SP1_1zo",
+      "country": "Sverige",
+      "country_code": "199",
+      "country_concept_id": "i46j_HmG_v64",
+      "street_address": null,
+      "postcode": null,
+      "city": null,
+      "coordinates": [
+        18.716616,
+        63.290047
+      ]
+    },
+    "must_have": {
+      "skills": [],
+      "languages": [],
+      "work_experiences": [
+        {
+          "weight": 10,
+          "concept_id": "UATw_GJH_wTE",
+          "label": "Kvalitetsingenjör, metallurgi/Kvalitetstekniker, metallurgi",
+          "legacy_ams_taxonomy_id": "4305"
+        }
+      ],
+      "education": [],
+      "education_level": []
+    },
+    "nice_to_have": {
+      "skills": [],
+      "languages": [],
+      "work_experiences": [],
+      "education": [],
+      "education_level": []
+    },
+    "application_contacts": "[removed, D16]",
+    "publication_date": "2024-12-20T12:01:31",
+    "last_publication_date": "2025-01-31T23:59:59",
+    "removed": false,
+    "removed_date": null,
+    "source_type": "VIA_PLATSBANKEN_DXA",
+    "timestamp": 1735599694347,
+    "remote_work": false,
+    "open_for_all": false,
+    "trainee": false,
+    "larling": false,
+    "franchise": false,
+    "hire_work_place": false,
+    "keywords": {
+      "extracted": {
+        "occupation": [
+          "yrken med teknisk inriktning",
+          "tekniker inom gruvteknik",
+          "ingenjörer",
+          "kvalitetstekniker",
+          "kvalitetsingenjör"
+        ],
+        "skill": [],
+        "location": [
+          "örnsköldsvik",
+          "sverige",
+          "västernorrlands län"
+        ],
+        "employer": [
+          "academic work"
+        ]
+      }
+    },
+    "detected_language": "sv"
+  },
+  {
+    "id": "20875b422af25613e058988ae4e992eb83da59bb",
+    "external_id": "46-556559-5450-15109340",
+    "original_id": "29345378",
+    "label": "[]",
+    "webpage_url": null,
+    "logo_url": "https://arbetsformedlingen.se/rest/agas/api/v1/organisation/5565595450/logotyper/logo.png",
+    "headline": "Finsktalande Customer Support till BookBeat!!",
+    "application_deadline": "2025-01-31T23:59:59",
+    "number_of_vacancies": 1,
+    "description": {
+      "text": "[removed: ad text, D16]",
+      "text_formatted": null,
+      "company_information": null,
+      "needs": null,
+      "requirements": null,
+      "conditions": "[removed: ad text, D16]"
+    },
+    "employment_type": [
+      {
+        "concept_id": "PFZr_Syz_cUq",
+        "label": "Vanlig anställning",
+        "legacy_ams_taxonomy_id": "1",
+        "original_value": true
+      }
+    ],
+    "salary_type": {
+      "concept_id": "oG8G_9cW_nRf",
+      "label": "Fast månads- vecko- eller timlön",
+      "legacy_ams_taxonomy_id": "1"
+    },
+    "salary_description": "Enligt avtal",
+    "duration": {
+      "concept_id": "qQUd_4qe_NDT",
+      "label": "6 månader eller längre",
+      "legacy_ams_taxonomy_id": "2"
+    },
+    "working_hours_type": {
+      "concept_id": "947z_JGS_Uk2",
+      "label": "Deltid",
+      "legacy_ams_taxonomy_id": "2"
+    },
+    "scope_of_work": {
+      "min": 0,
+      "max": 100
+    },
+    "access": null,
+    "employer": "[removed, D16]",
+    "application_details": "[removed, D16]",
+    "experience_required": true,
+    "access_to_own_car": false,
+    "driving_license_required": false,
+    "driving_license": null,
+    "occupation": [
+      {
+        "concept_id": "8Uhp_XYo_z5f",
+        "label": "Kundtjänstmedarbetare",
+        "legacy_ams_taxonomy_id": "2291",
+        "original_value": true
+      }
+    ],
+    "occupation_group": [
+      {
+        "concept_id": "pwRH_MT1_8nR",
+        "label": "Kundtjänstpersonal",
+        "legacy_ams_taxonomy_id": "4222"
+      }
+    ],
+    "occupation_field": [
+      {
+        "concept_id": "X82t_awd_Qyc",
+        "label": "Administration, ekonomi, juridik",
+        "legacy_ams_taxonomy_id": "1"
+      }
+    ],
+    "workplace_address": {
+      "municipality": "Stockholm",
+      "municipality_code": "0180",
+      "municipality_concept_id": "AvNB_uwa_6n6",
+      "region": "Stockholms län",
+      "region_code": "01",
+      "region_concept_id": "CifL_Rzy_Mku",
+      "country": "Sverige",
+      "country_code": "199",
+      "country_concept_id": "i46j_HmG_v64",
+      "street_address": null,
+      "postcode": null,
+      "city": null,
+      "coordinates": [
+        18.06858,
+        59.329323
+      ]
+    },
+    "must_have": {
+      "skills": [],
+      "languages": [],
+      "work_experiences": [
+        {
+          "weight": 10,
+          "concept_id": "8Uhp_XYo_z5f",
+          "label": "Kundtjänstmedarbetare",
+          "legacy_ams_taxonomy_id": "2291"
+        }
+      ],
+      "education": [],
+      "education_level": []
+    },
+    "nice_to_have": {
+      "skills": [],
+      "languages": [],
+      "work_experiences": [],
+      "education": [],
+      "education_level": []
+    },
+    "application_contacts": "[removed, D16]",
+    "publication_date": "2024-12-21T00:02:17",
+    "last_publication_date": "2025-01-31T23:59:59",
+    "removed": false,
+    "removed_date": null,
+    "source_type": "VIA_PLATSBANKEN_DXA",
+    "timestamp": 1735599695380,
+    "remote_work": false,
+    "open_for_all": false,
+    "trainee": false,
+    "larling": false,
+    "franchise": false,
+    "hire_work_place": false,
+    "keywords": {
+      "extracted": {
+        "occupation": [
+          "juridik",
+          "administration",
+          "ekonomi",
+          "kundtjänstpersonal",
+          "kundtjänstmedarbetare"
+        ],
+        "skill": [],
+        "location": [
+          "sverige",
+          "stockholms län",
+          "stockholm"
+        ],
+        "employer": [
+          "academic work"
+        ]
+      }
+    },
+    "detected_language": "sv"
+  }
+]

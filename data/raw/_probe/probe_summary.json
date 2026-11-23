@@ -1,0 +1,1110 @@
+{
+  "run_at_utc": "2026-11-20T06:40:52.227192+00:00",
+  "listings": {
+    "https://data.arbetsformedlingen.se/annonser/historiska/": {
+      "url": "https://data.arbetsformedlingen.se/annonser/historiska/",
+      "status": 200,
+      "links": [
+        "/package/dist/digi-arbetsformedlingen/digi-arbetsformedlingen.css",
+        "/package/dist/digi-arbetsformedlingen/fonts/src/fonts.css",
+        "/swagger",
+        "/rss/datajobtechdevse.xml",
+        "https://gitlab.com/arbetsformedlingen/www/data-jobtechdev-se/djs-s3-to-static-web",
+        "https://designsystem.arbetsformedlingen.se/",
+        "/annonser",
+        "/annonser/historiska/berikade/index.html",
+        "/annonser/historiska/jobad_links/index.html",
+        "/annonser/historiska/2006.jsonl.zip",
+        "/annonser/historiska/2007.jsonl.zip",
+        "/annonser/historiska/2008.jsonl.zip",
+        "/annonser/historiska/2009.jsonl.zip",
+        "/annonser/historiska/2010.jsonl.zip",
+        "/annonser/historiska/2011.jsonl.zip",
+        "/annonser/historiska/2012.jsonl.zip",
+        "/annonser/historiska/2013.jsonl.zip",
+        "/annonser/historiska/2014.jsonl.zip",
+        "/annonser/historiska/2015.jsonl.zip",
+        "/annonser/historiska/2016.jsonl.zip",
+        "/annonser/historiska/2017.jsonl.zip",
+        "/annonser/historiska/2018.jsonl.zip",
+        "/annonser/historiska/2018_municipality_patched.zip",
+        "/annonser/historiska/2019.jsonl.zip",
+        "/annonser/historiska/2019_municipality_patched.zip",
+        "/annonser/historiska/2020.jsonl.zip",
+        "/annonser/historiska/2021.jsonl.zip",
+        "/annonser/historiska/2022.jsonl.zip",
+        "/annonser/historiska/2023.jsonl.zip",
+        "/annonser/historiska/2024.jsonl.zip",
+        "/annonser/historiska/2025.jsonl.zip",
+        "/annonser/historiska/2026-Q1.jsonl.zip",
+        "/annonser/historiska/2026-Q2.jsonl.zip",
+        "/annonser/historiska/2026-Q3.jsonl.zip",
+        "/annonser/historiska/README.txt",
+        "https://jobtechdev.se/sv/accessibility",
+        "https://arbetsformedlingen.se/om-webbplatsen/oppna-data",
+        "https://arbetsformedlingen.se",
+        "https://www.facebook.com/Arbetsformedlingen",
+        "https://www.youtube.com/Arbetsformedlingen",
+        "https://www.linkedin.com/company/arbetsformedlingen",
+        "https://www.instagram.com/arbetsformedlingen"
+      ],
+      "n_links": 42,
+      "year_files": {
+        "2006": [
+          "/annonser/historiska/2006.jsonl.zip"
+        ],
+        "2007": [
+          "/annonser/historiska/2007.jsonl.zip"
+        ],
+        "2008": [
+          "/annonser/historiska/2008.jsonl.zip"
+        ],
+        "2009": [
+          "/annonser/historiska/2009.jsonl.zip"
+        ],
+        "2010": [
+          "/annonser/historiska/2010.jsonl.zip"
+        ],
+        "2011": [
+          "/annonser/historiska/2011.jsonl.zip"
+        ],
+        "2012": [
+          "/annonser/historiska/2012.jsonl.zip"
+        ],
+        "2013": [
+          "/annonser/historiska/2013.jsonl.zip"
+        ],
+        "2014": [
+          "/annonser/historiska/2014.jsonl.zip"
+        ],
+        "2015": [
+          "/annonser/historiska/2015.jsonl.zip"
+        ],
+        "2016": [
+          "/annonser/historiska/2016.jsonl.zip"
+        ],
+        "2017": [
+          "/annonser/historiska/2017.jsonl.zip"
+        ],
+        "2018": [
+          "/annonser/historiska/2018.jsonl.zip",
+          "/annonser/historiska/2018_municipality_patched.zip"
+        ],
+        "2019": [
+          "/annonser/historiska/2019.jsonl.zip",
+          "/annonser/historiska/2019_municipality_patched.zip"
+        ],
+        "2020": [
+          "/annonser/historiska/2020.jsonl.zip"
+        ],
+        "2021": [
+          "/annonser/historiska/2021.jsonl.zip"
+        ],
+        "2022": [
+          "/annonser/historiska/2022.jsonl.zip"
+        ],
+        "2023": [
+          "/annonser/historiska/2023.jsonl.zip"
+        ],
+        "2024": [
+          "/annonser/historiska/2024.jsonl.zip"
+        ],
+        "2025": [
+          "/annonser/historiska/2025.jsonl.zip"
+        ],
+        "2026": [
+          "/annonser/historiska/2026-Q1.jsonl.zip",
+          "/annonser/historiska/2026-Q2.jsonl.zip",
+          "/annonser/historiska/2026-Q3.jsonl.zip"
+        ]
+      }
+    },
+    "https://data.arbetsformedlingen.se/annonser/historiska/berikade/": {
+      "url": "https://data.arbetsformedlingen.se/annonser/historiska/berikade/",
+      "status": 200,
+      "links": [
+        "/package/dist/digi-arbetsformedlingen/digi-arbetsformedlingen.css",
+        "/package/dist/digi-arbetsformedlingen/fonts/src/fonts.css",
+        "/swagger",
+        "/rss/datajobtechdevse.xml",
+        "https://gitlab.com/arbetsformedlingen/www/data-jobtechdev-se/djs-s3-to-static-web",
+        "https://designsystem.arbetsformedlingen.se/",
+        "/annonser",
+        "/annonser/historiska",
+        "/annonser/historiska/berikade/exempel/index.html",
+        "/annonser/historiska/berikade/kompletta/index.html",
+        "/annonser/historiska/berikade/metadata/index.html",
+        "https://jobtechdev.se/sv/accessibility",
+        "https://arbetsformedlingen.se/om-webbplatsen/oppna-data",
+        "https://arbetsformedlingen.se",
+        "https://www.facebook.com/Arbetsformedlingen",
+        "https://www.youtube.com/Arbetsformedlingen",
+        "https://www.linkedin.com/company/arbetsformedlingen",
+        "https://www.instagram.com/arbetsformedlingen"
+      ],
+      "n_links": 18,
+      "year_files": {}
+    },
+    "https://data.jobtechdev.se/annonser/historiska/": {
+      "url": "https://data.jobtechdev.se/annonser/historiska/",
+      "status": 200,
+      "links": [
+        "/package/dist/digi-arbetsformedlingen/digi-arbetsformedlingen.css",
+        "/package/dist/digi-arbetsformedlingen/fonts/src/fonts.css",
+        "/swagger",
+        "/rss/datajobtechdevse.xml",
+        "https://gitlab.com/arbetsformedlingen/www/data-jobtechdev-se/djs-s3-to-static-web",
+        "https://designsystem.arbetsformedlingen.se/",
+        "/annonser",
+        "/annonser/historiska/berikade/index.html",
+        "/annonser/historiska/jobad_links/index.html",
+        "/annonser/historiska/2006.jsonl.zip",
+        "/annonser/historiska/2007.jsonl.zip",
+        "/annonser/historiska/2008.jsonl.zip",
+        "/annonser/historiska/2009.jsonl.zip",
+        "/annonser/historiska/2010.jsonl.zip",
+        "/annonser/historiska/2011.jsonl.zip",
+        "/annonser/historiska/2012.jsonl.zip",
+        "/annonser/historiska/2013.jsonl.zip",
+        "/annonser/historiska/2014.jsonl.zip",
+        "/annonser/historiska/2015.jsonl.zip",
+        "/annonser/historiska/2016.jsonl.zip",
+        "/annonser/historiska/2017.jsonl.zip",
+        "/annonser/historiska/2018.jsonl.zip",
+        "/annonser/historiska/2018_municipality_patched.zip",
+        "/annonser/historiska/2019.jsonl.zip",
+        "/annonser/historiska/2019_municipality_patched.zip",
+        "/annonser/historiska/2020.jsonl.zip",
+        "/annonser/historiska/2021.jsonl.zip",
+        "/annonser/historiska/2022.jsonl.zip",
+        "/annonser/historiska/2023.jsonl.zip",
+        "/annonser/historiska/2024.jsonl.zip",
+        "/annonser/historiska/2025.jsonl.zip",
+        "/annonser/historiska/2026-Q1.jsonl.zip",
+        "/annonser/historiska/2026-Q2.jsonl.zip",
+        "/annonser/historiska/2026-Q3.jsonl.zip",
+        "/annonser/historiska/README.txt",
+        "https://jobtechdev.se/sv/accessibility",
+        "https://arbetsformedlingen.se/om-webbplatsen/oppna-data",
+        "https://arbetsformedlingen.se",
+        "https://www.facebook.com/Arbetsformedlingen",
+        "https://www.youtube.com/Arbetsformedlingen",
+        "https://www.linkedin.com/company/arbetsformedlingen",
+        "https://www.instagram.com/arbetsformedlingen"
+      ],
+      "n_links": 42,
+      "year_files": {
+        "2006": [
+          "/annonser/historiska/2006.jsonl.zip"
+        ],
+        "2007": [
+          "/annonser/historiska/2007.jsonl.zip"
+        ],
+        "2008": [
+          "/annonser/historiska/2008.jsonl.zip"
+        ],
+        "2009": [
+          "/annonser/historiska/2009.jsonl.zip"
+        ],
+        "2010": [
+          "/annonser/historiska/2010.jsonl.zip"
+        ],
+        "2011": [
+          "/annonser/historiska/2011.jsonl.zip"
+        ],
+        "2012": [
+          "/annonser/historiska/2012.jsonl.zip"
+        ],
+        "2013": [
+          "/annonser/historiska/2013.jsonl.zip"
+        ],
+        "2014": [
+          "/annonser/historiska/2014.jsonl.zip"
+        ],
+        "2015": [
+          "/annonser/historiska/2015.jsonl.zip"
+        ],
+        "2016": [
+          "/annonser/historiska/2016.jsonl.zip"
+        ],
+        "2017": [
+          "/annonser/historiska/2017.jsonl.zip"
+        ],
+        "2018": [
+          "/annonser/historiska/2018.jsonl.zip",
+          "/annonser/historiska/2018_municipality_patched.zip"
+        ],
+        "2019": [
+          "/annonser/historiska/2019.jsonl.zip",
+          "/annonser/historiska/2019_municipality_patched.zip"
+        ],
+        "2020": [
+          "/annonser/historiska/2020.jsonl.zip"
+        ],
+        "2021": [
+          "/annonser/historiska/2021.jsonl.zip"
+        ],
+        "2022": [
+          "/annonser/historiska/2022.jsonl.zip"
+        ],
+        "2023": [
+          "/annonser/historiska/2023.jsonl.zip"
+        ],
+        "2024": [
+          "/annonser/historiska/2024.jsonl.zip"
+        ],
+        "2025": [
+          "/annonser/historiska/2025.jsonl.zip"
+        ],
+        "2026": [
+          "/annonser/historiska/2026-Q1.jsonl.zip",
+          "/annonser/historiska/2026-Q2.jsonl.zip",
+          "/annonser/historiska/2026-Q3.jsonl.zip"
+        ]
+      }
+    },
+    "https://data.jobtechdev.se/annonser/historiska/berikade/": {
+      "url": "https://data.jobtechdev.se/annonser/historiska/berikade/",
+      "status": 200,
+      "links": [
+        "/package/dist/digi-arbetsformedlingen/digi-arbetsformedlingen.css",
+        "/package/dist/digi-arbetsformedlingen/fonts/src/fonts.css",
+        "/swagger",
+        "/rss/datajobtechdevse.xml",
+        "https://gitlab.com/arbetsformedlingen/www/data-jobtechdev-se/djs-s3-to-static-web",
+        "https://designsystem.arbetsformedlingen.se/",
+        "/annonser",
+        "/annonser/historiska",
+        "/annonser/historiska/berikade/exempel/index.html",
+        "/annonser/historiska/berikade/kompletta/index.html",
+        "/annonser/historiska/berikade/metadata/index.html",
+        "https://jobtechdev.se/sv/accessibility",
+        "https://arbetsformedlingen.se/om-webbplatsen/oppna-data",
+        "https://arbetsformedlingen.se",
+        "https://www.facebook.com/Arbetsformedlingen",
+        "https://www.youtube.com/Arbetsformedlingen",
+        "https://www.linkedin.com/company/arbetsformedlingen",
+        "https://www.instagram.com/arbetsformedlingen"
+      ],
+      "n_links": 18,
+      "year_files": {}
+    }
+  },
+  "chosen_base": "https://data.arbetsformedlingen.se/annonser/historiska/",
+  "berikade_sublistings": {
+    "https://data.arbetsformedlingen.se/annonser/historiska/berikade/exempel/index.html": [
+      "/annonser/historiska/berikade/exempel/2016_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2017_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2018_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2018_municipality_patched_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2019_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2019_municipality_patched_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2020_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2021_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2022_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2023_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2024_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2025_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2026-Q1_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2026-Q2_beta1_1_percent_jsonl.zip",
+      "/annonser/historiska/berikade/exempel/2026-Q3_beta1_1_percent_jsonl.zip"
+    ],
+    "https://data.arbetsformedlingen.se/annonser/historiska/berikade/kompletta/index.html": [
+      "/annonser/historiska/berikade/kompletta/2016_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2017_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2018_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2019_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2020_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2021_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2022_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2023_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2024_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2025_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2026-Q1_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2026-Q2_beta1_jsonl.zip",
+      "/annonser/historiska/berikade/kompletta/2026-Q3_beta1_jsonl.zip"
+    ],
+    "https://data.arbetsformedlingen.se/annonser/historiska/berikade/metadata/index.html": [
+      "/annonser/historiska/berikade/metadata/2016_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2017_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2018_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2018_municipality_patched_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2019_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2019_municipality_patched_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2020_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2021_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2022_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2023_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2024_beta1_metadata_jsonl.zip",
+      "/annonser/historiska/berikade/metadata/2025_Q3_metadata_jsonl.zip"
+    ]
+  },
+  "year_file_sizes": {
+    "2006": {
+      "file": "/annonser/historiska/2006.jsonl.zip",
+      "status": 200,
+      "bytes": 105620693
+    },
+    "2007": {
+      "file": "/annonser/historiska/2007.jsonl.zip",
+      "status": 200,
+      "bytes": 147297616
+    },
+    "2008": {
+      "file": "/annonser/historiska/2008.jsonl.zip",
+      "status": 200,
+      "bytes": 149684674
+    },
+    "2009": {
+      "file": "/annonser/historiska/2009.jsonl.zip",
+      "status": 200,
+      "bytes": 107975728
+    },
+    "2010": {
+      "file": "/annonser/historiska/2010.jsonl.zip",
+      "status": 200,
+      "bytes": 167541995
+    },
+    "2011": {
+      "file": "/annonser/historiska/2011.jsonl.zip",
+      "status": 200,
+      "bytes": 228521788
+    },
+    "2012": {
+      "file": "/annonser/historiska/2012.jsonl.zip",
+      "status": 200,
+      "bytes": 237191491
+    },
+    "2013": {
+      "file": "/annonser/historiska/2013.jsonl.zip",
+      "status": 200,
+      "bytes": 250546104
+    },
+    "2014": {
+      "file": "/annonser/historiska/2014.jsonl.zip",
+      "status": 200,
+      "bytes": 341024802
+    },
+    "2015": {
+      "file": "/annonser/historiska/2015.jsonl.zip",
+      "status": 200,
+      "bytes": 496694192
+    },
+    "2016": {
+      "file": "/annonser/historiska/2016.jsonl.zip",
+      "status": 200,
+      "bytes": 620477858
+    },
+    "2017": {
+      "file": "/annonser/historiska/2017.jsonl.zip",
+      "status": 200,
+      "bytes": 670699387
+    },
+    "2018": {
+      "file": "/annonser/historiska/2018.jsonl.zip",
+      "status": 200,
+      "bytes": 699776018
+    },
+    "2019": {
+      "file": "/annonser/historiska/2019.jsonl.zip",
+      "status": 200,
+      "bytes": 676045574
+    },
+    "2020": {
+      "file": "/annonser/historiska/2020.jsonl.zip",
+      "status": 200,
+      "bytes": 569840422
+    },
+    "2021": {
+      "file": "/annonser/historiska/2021.jsonl.zip",
+      "status": 200,
+      "bytes": 860190976
+    },
+    "2022": {
+      "file": "/annonser/historiska/2022.jsonl.zip",
+      "status": 200,
+      "bytes": 1488544519
+    },
+    "2023": {
+      "file": "/annonser/historiska/2023.jsonl.zip",
+      "status": 200,
+      "bytes": 1205650921
+    },
+    "2024": {
+      "file": "/annonser/historiska/2024.jsonl.zip",
+      "status": 200,
+      "bytes": 920754005
+    },
+    "2025": {
+      "file": "/annonser/historiska/2025.jsonl.zip",
+      "status": 200,
+      "bytes": 817792226
+    },
+    "2026": {
+      "file": "/annonser/historiska/2026-Q1.jsonl.zip",
+      "status": 200,
+      "bytes": 219077958
+    }
+  },
+  "missing_years_in_window": [],
+  "probe_year": 2024,
+  "download": {
+    "url": "https://data.arbetsformedlingen.se/annonser/historiska/2024.jsonl.zip",
+    "bytes": 920754005,
+    "sha256": "cc43cee166a738122af8eea1587433dfa481555570589b44b612f1fe2611dc72",
+    "seconds": 29.1
+  },
+  "zip_members": [
+    [
+      "2024.jsonl",
+      4263228074,
+      920753847
+    ]
+  ],
+  "first_bytes": "{\"id\": \"f94bea0e7c87b249654b865ac40fcf38b2f3418d\", \"external_id\": \"46-556559-5450-15109010\", \"original_id\": \"29353357\", \"label\": \"[]\", \"webpage_url\": null, \"logo_url\": \"https://arbetsformedlingen.se/rest/agas/api/v1/organisation/5565595450/logotyper/logo.png\", \"headline\": \"Junior Supply Planner till välkänt detaljhandelsföretag!\", \"application_deadline\": \"2025-01-31T23:59:59\", \"number_of_vacanc",
+  "key_paths_first_2000": {
+    "access": 2000,
+    "access_to_own_car": 2000,
+    "application_contacts": 2000,
+    "application_deadline": 2000,
+    "application_details": 2000,
+    "application_details.email": 2000,
+    "application_details.information": 2000,
+    "application_details.other": 2000,
+    "application_details.reference": 2000,
+    "application_details.url": 2000,
+    "application_details.via_af": 2000,
+    "description": 2000,
+    "description.company_information": 2000,
+    "description.conditions": 2000,
+    "description.needs": 2000,
+    "description.requirements": 2000,
+    "description.text": 2000,
+    "description.text_formatted": 2000,
+    "detected_language": 2000,
+    "driving_license": 2000,
+    "driving_license[].concept_id": 476,
+    "driving_license[].label": 476,
+    "driving_license[].legacy_ams_taxonomy_id": 476,
+    "driving_license_required": 2000,
+    "duration": 2000,
+    "duration.concept_id": 2000,
+    "duration.label": 2000,
+    "duration.legacy_ams_taxonomy_id": 2000,
+    "employer": 2000,
+    "employer.email": 2000,
+    "employer.name": 2000,
+    "employer.organization_number": 2000,
+    "employer.phone_number": 2000,
+    "employer.url": 2000,
+    "employer.workplace": 2000,
+    "employment_type": 2000,
+    "employment_type[].concept_id": 2000,
+    "employment_type[].label": 2000,
+    "employment_type[].legacy_ams_taxonomy_id": 2000,
+    "employment_type[].original_value": 2000,
+    "experience_required": 2000,
+    "external_id": 2000,
+    "franchise": 2000,
+    "headline": 2000,
+    "hire_work_place": 2000,
+    "id": 2000,
+    "keywords": 2000,
+    "keywords.extracted": 2000,
+    "keywords.extracted.employer": 2000,
+    "keywords.extracted.location": 2000,
+    "keywords.extracted.occupation": 2000,
+    "keywords.extracted.skill": 2000,
+    "label": 2000,
+    "larling": 2000,
+    "last_publication_date": 2000,
+    "logo_url": 2000,
+    "must_have": 2000,
+    "must_have.education": 2000,
+    "must_have.education_level": 2000,
+    "must_have.languages": 2000,
+    "must_have.skills": 2000,
+    "must_have.work_experiences": 2000,
+    "nice_to_have": 2000,
+    "nice_to_have.education": 2000,
+    "nice_to_have.education_level": 2000,
+    "nice_to_have.languages": 2000,
+    "nice_to_have.skills": 2000,
+    "nice_to_have.work_experiences": 2000,
+    "number_of_vacancies": 2000,
+    "occupation": 2000,
+    "occupation[].concept_id": 2000,
+    "occupation[].label": 2000,
+    "occupation[].legacy_ams_taxonomy_id": 2000,
+    "occupation[].original_value": 2000,
+    "occupation_field": 2000,
+    "occupation_field[].concept_id": 2000,
+    "occupation_field[].label": 2000,
+    "occupation_field[].legacy_ams_taxonomy_id": 2000,
+    "occupation_group": 2000,
+    "occupation_group[].concept_id": 2000,
+    "occupation_group[].label": 2000,
+    "occupation_group[].legacy_ams_taxonomy_id": 2000,
+    "open_for_all": 2000,
+    "original_id": 2000,
+    "publication_date": 2000,
+    "remote_work": 2000,
+    "removed": 2000,
+    "removed_date": 2000,
+    "salary_description": 2000,
+    "salary_type": 2000,
+    "salary_type.concept_id": 2000,
+    "salary_type.label": 2000,
+    "salary_type.legacy_ams_taxonomy_id": 2000,
+    "scope_of_work": 2000,
+    "scope_of_work.max": 2000,
+    "scope_of_work.min": 2000,
+    "source_type": 2000,
+    "timestamp": 2000,
+    "trainee": 2000,
+    "webpage_url": 2000,
+    "working_hours_type": 2000,
+    "working_hours_type.concept_id": 2000,
+    "working_hours_type.label": 2000,
+    "working_hours_type.legacy_ams_taxonomy_id": 2000,
+    "workplace_address": 2000,
+    "workplace_address.city": 2000,
+    "workplace_address.coordinates": 2000,
+    "workplace_address.country": 2000,
+    "workplace_address.country_code": 2000,
+    "workplace_address.country_concept_id": 2000,
+    "workplace_address.municipality": 2000,
+    "workplace_address.municipality_code": 2000,
+    "workplace_address.municipality_concept_id": 2000,
+    "workplace_address.postcode": 2000,
+    "workplace_address.region": 2000,
+    "workplace_address.region_code": 2000,
+    "workplace_address.region_concept_id": 2000,
+    "workplace_address.street_address": 2000
+  },
+  "field_shares_first_2000": {
+    "id": 1.0,
+    "headline": 1.0,
+    "publication_date": 1.0,
+    "application_deadline": 1.0,
+    "description": 1.0,
+    "employer_name": 1.0,
+    "employer_orgnr": 0.978,
+    "occupation": 0.0,
+    "occupation_id": 0.0,
+    "occupation_group": 0.0,
+    "occupation_field": 0.0,
+    "region": 0.973,
+    "region_code": 0.973,
+    "municipality": 0.973,
+    "municipality_code": 0.973,
+    "vacancies": 1.0,
+    "employment_type": 0.0,
+    "remote": 1.0
+  },
+  "schema_ok": true,
+  "scan_seconds": 75.7,
+  "scan": {
+    "n_records": 717094,
+    "by_month": {
+      "2023-07": 1,
+      "2023-08": 43,
+      "2023-09": 102,
+      "2023-10": 223,
+      "2023-11": 734,
+      "2023-12": 3098,
+      "2024-01": 72883,
+      "2024-02": 71584,
+      "2024-03": 69195,
+      "2024-04": 76088,
+      "2024-05": 68717,
+      "2024-06": 55182,
+      "2024-07": 40449,
+      "2024-08": 52222,
+      "2024-09": 55662,
+      "2024-10": 58250,
+      "2024-11": 49703,
+      "2024-12": 42958
+    },
+    "by_region": {
+      "Stockholms län": 196088,
+      "Västra Götalands län": 106469,
+      "Skåne län": 78737,
+      "Östergötlands län": 31809,
+      "Uppsala län": 27588,
+      "Jönköpings län": 25833,
+      "Norrbottens län": 25433,
+      "Örebro län": 20260,
+      "(none)": 20064,
+      "Västerbottens län": 19745,
+      "Västmanlands län": 17553,
+      "Gävleborgs län": 17446,
+      "Hallands län": 17307,
+      "Dalarnas län": 16824,
+      "Kronobergs län": 16776,
+      "Södermanlands län": 16732,
+      "Västernorrlands län": 16085,
+      "Värmlands län": 12553,
+      "Kalmar län": 12547,
+      "Jämtlands län": 9317,
+      "Blekinge län": 8618,
+      "Gotlands län": 3310
+    },
+    "by_category": {
+      "(none)": 715202,
+      "data_engineer": 660,
+      "data_analyst": 421,
+      "bi_developer": 308,
+      "data_scientist": 260,
+      "analytics_analyst": 133,
+      "statistician": 80,
+      "bi_analyst": 30
+    },
+    "vacancies_total": 1271893,
+    "missing_share": {
+      "description": 0.0004,
+      "occupation": 1.0,
+      "region": 0.028
+    },
+    "n_extract": 1892,
+    "n_candidates": 0
+  },
+  "headlines_by_category": {
+    "data_analyst": [
+      "Senior Data analyst",
+      "Swedbank Robur söker Dataanalytiker med hållbarhetsfokus",
+      "Data Analyst To Retail Bi & Analytics",
+      "Master Data Analyst - Logistics & Supply Chain",
+      "Dataanalytiker som vill bidra till utveckling inom SiS",
+      "Senior Data Engineer/Data Analyst",
+      "Data Analyst With Portfolio Brands Focus To Retail Bi & Analytics",
+      "Technical Service Data Analyst",
+      "Data Analyst",
+      "Tullverket söker dataanalytiker till Tullverkets Selekteringcenter",
+      "Game Data Analyst - Games",
+      "Vi söker dataanalytiker/data scientist för analys av informationsflöden",
+      "Media Data Analyst, Value Stream Activate",
+      "Data analyst and superuser with focus on environment",
+      "Data Analyst",
+      "Data Analyst till Visma Advantage",
+      "Business Data Analyst with Passion for Sustainability",
+      "Senior Power BI Data Analyst – 11127",
+      "Product Data Analyst",
+      "Data Analyst",
+      "Power BI Data Analyst – (50% remote)",
+      "Senior Power BI Data Analyst",
+      "Power BI Data Analyst",
+      "Online Opportunity - Online Data Analyst - Norwegian (NO)",
+      "Senior Data Analyst",
+      "Digital Marknadsförare och Dataanalytiker",
+      "Dataanalytiker",
+      "Dataanalytiker PostNord App, 12 månaders vikariat, Solna/Hybrid",
+      "Senior dataanalytiker",
+      "Senior Data Scientist/Data Analyst",
+      "Data Scientist/Data Analyst",
+      "Dataanalytiker till Akademiska Hus",
+      "Data Analyst",
+      "Business Analyst/Data Analyst till Commercial Control&Analysis",
+      "Business Analyst/Data Analyst till Commercial Control&Analysis",
+      "Data Analyst - Commercial",
+      "Digital Marknadsförare och Dataanalytiker",
+      "Dataanalytiker med fokus på automation till Packoplock!",
+      "Data Analyst",
+      "Data Analyst - Transportation Application Development"
+    ],
+    "data_engineer": [
+      "Data engineer specialist",
+      "Data engineer",
+      "Data Engineer",
+      "Senior Data Engineer – 11209",
+      "Data Engineer",
+      "Junior Data Engineer",
+      "Data Engineer",
+      "Data Engineer till Sogeti Jönköping",
+      "Data Engineer",
+      "Dataingenjörer",
+      "Data Engineering Leader",
+      "Lead Data Engineer 🌟",
+      "Data Engineer – Analytics & BI 🚀",
+      "Machine Learning Expert & Data Engineer",
+      "Cloud Data Engineer (mid to senior level)",
+      "Data Engineer",
+      "Senior Data Engineer",
+      "Data Engineer till Fagerhult",
+      "Systemutvecklare/Dataingenjör till vår Analysplattform/AI-plattform",
+      "Trainee Data Engineer/ML Ops Sundbyberg",
+      "Data Engineer",
+      "Senior Azure Data Engineer!",
+      "Senior Data Engineering and Analytics Consultant",
+      "Senior Data Engineering and Analytics Consultant",
+      "Data Engineer",
+      "Erfaren Data Engineer",
+      "Data Engineer, Quality and Compliance Digital ",
+      "Lead/ Senior Data Engineer",
+      "Systemutvecklare/Dataingenjör till vår Analysplattform/AI-plattform",
+      "BI Data Engineer",
+      "Data Engineer till Attendo i Stockholm",
+      "Data engineer",
+      "Data Engineer till storbank",
+      "Senior Data Engineer",
+      "Data Engineer",
+      "Data Engineer till Sogeti – Skapa framtidens datalösningar med oss!",
+      "Data Engineer till Sogeti – Skapa framtidens datalösningar med oss!",
+      "Data Engineer till Sogeti – Skapa framtidens datalösningar med oss!",
+      "Senior Data Engineer to Sogeti Stockholm",
+      "Senior Data Engineer to Sogeti Stockholm"
+    ],
+    "bi_analyst": [
+      "BI analytiker till Prominent AB",
+      "Business Intelligence Analyst",
+      "BI-analytiker till MediCarrier",
+      "Join Our Team as a BI Analyst at Teleperformance",
+      "Join Our Team as a BI Analyst at Teleperformance",
+      "BI Analyst till Visma Spcs",
+      "Business Intelligence Analyst",
+      "Business Intelligence Analyst",
+      "Business Intelligence Analyst",
+      "Junior BI-analytiker till vår kund i Solna",
+      "BI Analyst till Visma Spcs",
+      "Junior Business Intelligence Analyst!",
+      "Business Intelligence Analyst in Solna, Stockholm County, Sweden...",
+      "Business Intelligence Analyst",
+      "Business Intelligence Analyst",
+      "Business Intelligence Analyst to Retail BI & Analytics",
+      "Business Intelligence Analyst to Retail BI & Analytics",
+      "Business Intelligence Analyst to ManpowerGroup",
+      "Business Intelligence Analyst",
+      "Business Intelligence Analyst | Philip Morris | Stockholm",
+      "BI Analyst",
+      " Business Intelligence Analyst",
+      "BI analytiker",
+      "Business Intelligence Analyst",
+      "BI Analyst",
+      "Engagerad BI Analyst till AcadeMedia",
+      "Junior Business Intelligence Analyst",
+      "Business Intelligence Analyst at Hitachi Energy",
+      "Business Intelligence Analyst",
+      "BI Analyst"
+    ],
+    "statistician": [
+      "Statistiker som vill arbeta med bland annat läkemedelsregistret",
+      "Statistiker",
+      "Statistiker",
+      "Analysavdelningen söker två seniora statistiker",
+      "Statistiker inom kliniska prövningar",
+      "Karolinska Institutet söker biostatistiker med pedagogisk glöd",
+      "Samhällsintresserad utredare/statistiker med programmeringskunskap till SCB",
+      "Statistiker vid Avdelningen för Neuro",
+      "Statistiker med inriktning statistiska metoder",
+      "Statistiker med samordningsansvar",
+      "Statistiker inriktning BI-utveckling",
+      "Nationalekonom/statistiker med programmeringskunskaper till SCB",
+      "Statistiker",
+      "Ekonom/statistiker med programmerings kunskaper till SCB",
+      "Statistiker till Regionledningsförvaltningen, Region Västernorrland",
+      "Statistiker till Regionledningsförvaltningen, Region Västernorrland",
+      "Statistiker till Regionledningsförvaltningen, Region Västernorrland",
+      "Statistiker till Regionledningsförvaltningen, Region Västernorrland",
+      "Statistiker till nytt projekt inom hälsodataanalys",
+      "Nationalekonom/statistiker",
+      "Statistiker med erfarenhet av epidemiologi",
+      "Enkätstatistiker till Socialstyrelsen",
+      "Statistiker/Programmerare till aktör inom fordonsindustrin",
+      "Statistiker",
+      "Statistiker till Naturvetarna",
+      "Statistiker med inriktning metod",
+      "Statistiker med inriktning metod",
+      "Statistiker till SCB",
+      "Statistiker till SCB",
+      "Utredare/Statistiker",
+      "Statistiker",
+      "Statistiker vid Avdelningen för försäkringsmedicin",
+      "Statistiker",
+      "Statistiker med samordningsansvar",
+      "Senior Statistician",
+      "Statistiker med samordningsansvar",
+      "Statistiker/programmerare",
+      "Statistiker/programmerare",
+      "Statistiker i psykiatrisk epidemiologi",
+      "Seniorstatistiker till SCB:s stab med inriktning kvalitetsledningssystem"
+    ],
+    "bi_developer": [
+      "Power BI-Konsult",
+      "BI utvecklare",
+      "BI-utvecklare | Kinnarps | Hybrid ",
+      "Data Engineer - Business intelligence developer to Scania ",
+      "Business Intelligence-utvecklare, VR i Stockholm",
+      "FP&A Controller/ Finance BI Developer",
+      "Är du vår nya länk mellan finans och teknik? Finance BI Developer sökes!",
+      "BI-utvecklare",
+      "BI Developer - Lindab",
+      "Senior BI Developer – 11118",
+      "BI-utvecklare med fokus på Power BI",
+      "Tullverket söker BI-utvecklare",
+      "Senior BI Developer – 11106",
+      "Affärsdriven analytisk BI-utvecklare till Sensor Försäkring!",
+      "Affärsdriven analytisk BI-utvecklare till Sensor Försäkring!",
+      "BI-utvecklare",
+      "BI-utvecklare till Utdataenhet Sahlgrenska Universitets Sjukhuset",
+      "Senior BI Consultant – Concise Specialist – 11007",
+      "Konsultuppdrag: BI-utvecklare till kund i Göteborg",
+      "Business Intelligence-konsult till Sogeti i Gävle",
+      "Senior BI Utvecklare",
+      "Senior BI Utvecklare",
+      "Senior Cognos Analytics BI Developer – 11013",
+      "Senior Business Intelligence utvecklare – Kiruna",
+      "Senior Business Intelligence utvecklare – Luleå",
+      "Data Engineer/BI-utvecklare till stort företag inom logistik!",
+      "Är du vår nya länk mellan finans och teknik? Finance BI Developer sökes!",
+      "BI-utvecklare till Softhouse Småland",
+      "BI-specialist till Alecta Fastigheter",
+      "Global Supply Chain Business Intelligence Specialist",
+      "Vi söker erfaren Datalager ETL/BI-utvecklare!",
+      "Data Engineer / BI-utvecklare – Forma framtidens datadrivna lösningar",
+      "BI-utvecklare till bolag inom Medicinteknik-branschen!",
+      "Business Intelligence Specialist till vår kund i Stockholm",
+      "Senior Business Intelligence utvecklare – Stockholm heltid",
+      "BI-utvecklare",
+      "Senior BI Developer",
+      "BI-utvecklare till SLSO (Stockholms läns sjukvårdsområde)",
+      "Senior BI-specialist",
+      "Power BI-utvecklare"
+    ],
+    "data_scientist": [
+      "Data Scientist",
+      "Software Engineer & Data Scientist",
+      "Erfarna Data Scientists till Tekniska Verken!",
+      "Trainee Data Scientist Sundbyberg",
+      "Data Scientist within Vehicle Engineering",
+      "Data Scientist",
+      "Amanuens i Datavetenskap: Applied Data Science",
+      "Data Scientist",
+      "Senior Data Scientist/ Solution Architect",
+      "Data Scientist - Early Cardiovascular, Renal and Metabolism",
+      "Konsult: Senior Data Scientist  Predictive and Proactive Operations",
+      "Senior Data Scientist",
+      "Senior Data Scientist",
+      "Senior Data Scientist till Digitalisering IT och MT Region Skåne",
+      "Energy Data Scientist",
+      "Data Scientist",
+      "Data Scientist",
+      "BCG Gamma Senior Data Scientist",
+      "Bli en del av vårt Data Science-team!",
+      "Senior Data Scientist till vår kund i Stockholm",
+      "Data Scientist - Förändring Västtrafiks Talangprogram | Experis",
+      "Data scientist",
+      "Machine Learning Engineer/Data Scientist",
+      "Data Scientist",
+      "Senior Data Scientist - Stockholm",
+      "Bioinformatician / Data Scientist",
+      "Junior Data Scientist to Stiftelsen Chalmers Industriteknik",
+      "Automationsspecialist med fokus på Data Science och AI",
+      "Data Scientist",
+      "Senior Data Scientist",
+      "AstraZeneca Student Work Placement - Data Science and AI",
+      "SEB Tech Programme: Data Scientist",
+      "Data Science Consultant",
+      "Data Science Manager",
+      "Instrument Data Scientist SANS",
+      "Junior Data Scientist to Stiftelsen Chalmers Industriteknik",
+      "Data Scientist to Mobility",
+      "Biträdande lektor i data- och systemvetenskap, inriktning data science",
+      "Junior Data Scientist to Stiftelsen Chalmers Industriteknik",
+      "Data Scientist"
+    ],
+    "analytics_analyst": [
+      "Marketing Analyst - Global Marketing",
+      "Marketing Analyst – Games",
+      "Product Analyst, Solutions Planning, Trucks Solution Management",
+      "Marknadsanalytiker",
+      "Commercial Analyst",
+      "Marketing Analyst - Global Marketing",
+      "Digital analytiker till Analysavdelningen på Sveriges Radio",
+      "Finance and Reporting Analyst",
+      "People Analyst",
+      "Senior Digital Analyst",
+      "Insights Analyst",
+      "Senior Digital Analyst",
+      "Digital Analyst",
+      "Senior Digital Analyst med fokus på CRO till vår kund i Solna",
+      "Sales Analyst",
+      "Marknadsanalytiker till JM",
+      "Digital Analyst",
+      "Senior Digital Analyst – Stockholm",
+      "Senior Digital Analytiker",
+      "Sales Analyst till PostNord Strålfors",
+      "Marknadsanalytiker med inriktning mot Power BI till Blekingetrafiken",
+      "Test & Reporting Analyst",
+      "Marknadsanalytiker inom balansering",
+      "Marknadsanalytiker inom energibranschen",
+      "Sales & Marketing Analyst",
+      "Marknadsanalytiker med inriktning mot Power BI till Blekingetrafiken",
+      "Web Analyst to Axel Johnson International",
+      "Sales Analyst",
+      "Marketing Analyst",
+      "Data Strategist & Web Analyst",
+      "HR-analytiker sökes!",
+      "Marketing Analyst",
+      "Web Analyst to Axel Johnson International",
+      "Senior Customer Analyst",
+      "Sales Analyst & Business Intelligence",
+      "Engineering Digital Analyst",
+      "Senior HRBP/HR analyst",
+      "Försäljningsanalytiker affärsutveckling till Folkspel",
+      "Web Analyst to Data Analytics team!",
+      "Marknadsanalytiker med kundansvar till InsightOne"
+    ]
+  },
+  "occupation_by_category": {
+    "data_analyst": [
+      [
+        "(none)",
+        421
+      ]
+    ],
+    "data_engineer": [
+      [
+        "(none)",
+        660
+      ]
+    ],
+    "bi_analyst": [
+      [
+        "(none)",
+        30
+      ]
+    ],
+    "statistician": [
+      [
+        "(none)",
+        80
+      ]
+    ],
+    "bi_developer": [
+      [
+        "(none)",
+        308
+      ]
+    ],
+    "data_scientist": [
+      [
+        "(none)",
+        260
+      ]
+    ],
+    "analytics_analyst": [
+      [
+        "(none)",
+        133
+      ]
+    ]
+  },
+  "description_length_quantiles": {
+    "data_analyst": [
+      45,
+      1471,
+      2782,
+      4703,
+      6334
+    ],
+    "data_engineer": [
+      149,
+      1522,
+      2708,
+      4145,
+      6289
+    ],
+    "bi_analyst": [
+      347,
+      1188,
+      2523,
+      4359,
+      5600
+    ],
+    "statistician": [
+      276,
+      2257,
+      4094,
+      4993,
+      6346
+    ],
+    "bi_developer": [
+      91,
+      801,
+      2626,
+      4349,
+      5701
+    ],
+    "data_scientist": [
+      237,
+      1322,
+      3124,
+      4847,
+      6318
+    ],
+    "analytics_analyst": [
+      9,
+      1755,
+      3025,
+      4573,
+      6016
+    ]
+  },
+  "population_n": 584,
+  "skill_share_v0_probe_year": {
+    "visualization": 0.44,
+    "communication": 0.421,
+    "statistics": 0.295,
+    "sql": 0.281,
+    "degree": 0.271,
+    "python": 0.221,
+    "reporting": 0.209,
+    "machine_learning": 0.2,
+    "ai_any": 0.199,
+    "etl_dw": 0.152,
+    "r": 0.139,
+    "excel": 0.132,
+    "english_req": 0.115,
+    "forecasting": 0.094,
+    "tableau": 0.092,
+    "power_bi": 0.091,
+    "azure": 0.086,
+    "looker": 0.077,
+    "experimentation": 0.075,
+    "aws": 0.067,
+    "gcp": 0.063,
+    "cloud_any": 0.06,
+    "swedish_req": 0.05,
+    "qlik": 0.046,
+    "dbt": 0.026,
+    "sas": 0.022,
+    "git": 0.021,
+    "snowflake": 0.019,
+    "databricks": 0.017,
+    "dax": 0.017,
+    "spark": 0.01,
+    "yh": 0.005,
+    "genai": 0.003,
+    "vba": 0.003,
+    "spss": 0.002,
+    "stata": 0.002
+  },
+  "candidates_top_occupations": [],
+  "candidates_sample_headlines": [],
+  "historical_api": {
+    "status": 200,
+    "content_type": "application/json",
+    "keys": [
+      "total",
+      "positions",
+      "query_time_in_millis",
+      "result_time_in_millis",
+      "stats",
+      "freetext_concepts",
+      "hits"
+    ],
+    "total": {
+      "value": 924
+    }
+  }
+}

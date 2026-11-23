@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="IE=edge">
+        <title>Katalog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/package/dist/digi-arbetsformedlingen/digi-arbetsformedlingen.css" rel="stylesheet" />
+        <link href="/package/dist/digi-arbetsformedlingen/fonts/src/fonts.css" rel="stylesheet" />
+		<style>
+			.icon {
+			display:inline;
+			}
+			.sc-digi-icon-file-document-h svg.sc-digi-icon-file-document {
+    			color: var(--digi--icon--color);
+    			max-width: var(--digi--icon--width);
+    			max-height: var(--digi--icon--height);
+    			width: var(--digi--icon--width, auto);
+    			height: 25px;
+			}
+			.sc-digi-icon-archive-outline-h svg.sc-digi-icon-archive-outline {
+    			color: var(--digi--icon--color);
+    			max-width: var(--digi--icon--width);
+    			max-height: var(--digi--icon--height);
+    			width: var(--digi--icon--width, auto);
+    			height: 25px;
+			}
+		</style>
+        <script type="module" src="/package/dist/digi-arbetsformedlingen/digi-arbetsformedlingen.esm.js"></script>
+
+    </head>
+<body>
+<digi-layout-block af-variation="primary">
+
+<digi-header
+        af-system-name="Data"
+        af-hide-system-name="false"
+        af-menu-button-text="Meny">
+        <a slot="header-logo" aria-label="Data startsida" href="/"></a>
+    <div slot="header-content">
+      <digi-link af-href="/swagger" title="Swagger">Swagger</digi-link>
+      &nbsp;&nbsp;
+      <digi-link af-href="/rss/datajobtechdevse.xml" title="RSS">RSS</digi-link>
+      &nbsp;&nbsp;
+      <digi-link af-href="https://gitlab.com/arbetsformedlingen/www/data-jobtechdev-se/djs-s3-to-static-web" title="Code">Code</digi-link>
+      &nbsp;&nbsp;
+      <digi-link af-href="https://designsystem.arbetsformedlingen.se/" title="Designsystem">Designsystem</digi-link>
+
+
+    </div>
+</digi-header>
+
+<digi-navigation-breadcrumbs af-current-page="historiska">
+<a href="/">Start</a>
+<a href="/annonser">annonser</a>
+</digi-navigation-breadcrumbs>
+<digi-table>
+<table id="list">
+  <thead>
+    <tr>
+
+		<th style="width:15%">Filnamn</th>
+		<th style="width:35%">Beskrivning</th>
+		<th style="width:5%">Filstorlek</th>
+		<th style="width:10%">Datum</th>
+
+    </tr>
+  </thead>
+
+
+	
+		<digi-layout-container af-no-gutter>
+			<digi-typography-heading-jumbo
+				af-text="Historiska platsannonser"
+				af-level="h1">
+			</digi-typography-heading-jumbo>
+				<digi-typography-meta af-variation="medium">						
+					<p>
+						<p>DatamÃ¤ngden Historiska platsannonser innehÃ¥ller fler Ã¤n 7 miljoner annonser som publicerats pÃ¥ ArbetsfÃ¶rmedlingens Platsbanken sedan 2006. DatamÃ¤ngden uppdateras kontinuerligt.</p>
+
+					</p>
+
+				</digi-typography-meta>
+		</digi-layout-container>
+	
+	
+<tbody>
+
+			<tr>
+				<td class="link ">
+					<digi-icon-archive-outline class="icon "></digi-icon-archive-outline>
+					<a href="/annonser/historiska/berikade/index.html" title="berikade">berikade</a>
+				</td>
+				<td> </td>
+				<td class="size">-</td>
+				<td class="date"></td>
+
+			</tr>
+			
+
+			<tr>
+				<td class="link ">
+					<digi-icon-archive-outline class="icon "></digi-icon-archive-outline>
+					<a href="/annonser/historiska/jobad_links/index.html" title="jobad_links">jobad_links</a>
+				</td>
+				<td></td>
+				<td class="size">-</td>
+				<td class="date"></td>
+
+			</tr>
+			
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2006.jsonl.zip" title="2006.jsonl.zip">2006.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">105620693</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2007.jsonl.zip" title="2007.jsonl.zip">2007.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">147297616</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2008.jsonl.zip" title="2008.jsonl.zip">2008.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">149684674</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2009.jsonl.zip" title="2009.jsonl.zip">2009.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">107975728</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2010.jsonl.zip" title="2010.jsonl.zip">2010.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">167541995</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2011.jsonl.zip" title="2011.jsonl.zip">2011.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">228521788</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2012.jsonl.zip" title="2012.jsonl.zip">2012.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">237191491</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2013.jsonl.zip" title="2013.jsonl.zip">2013.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">250546104</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2014.jsonl.zip" title="2014.jsonl.zip">2014.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">341024802</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2015.jsonl.zip" title="2015.jsonl.zip">2015.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">496694192</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2016.jsonl.zip" title="2016.jsonl.zip">2016.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">620477858</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2017.jsonl.zip" title="2017.jsonl.zip">2017.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">670699387</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2018.jsonl.zip" title="2018.jsonl.zip">2018.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">699776018</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2018_municipality_patched.zip" title="2018_municipality_patched.zip">2018_municipality_patched.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">742909522</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2019.jsonl.zip" title="2019.jsonl.zip">2019.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">676045574</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2019_municipality_patched.zip" title="2019_municipality_patched.zip">2019_municipality_patched.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">716523851</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2020.jsonl.zip" title="2020.jsonl.zip">2020.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">569840422</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2021.jsonl.zip" title="2021.jsonl.zip">2021.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">860190976</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2022.jsonl.zip" title="2022.jsonl.zip">2022.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">1488544519</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2023.jsonl.zip" title="2023.jsonl.zip">2023.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">1205650921</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2024.jsonl.zip" title="2024.jsonl.zip">2024.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">920754005</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2025.jsonl.zip" title="2025.jsonl.zip">2025.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">817792226</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2026-Q1.jsonl.zip" title="2026-Q1.jsonl.zip">2026-Q1.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">219077958</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2026-Q2.jsonl.zip" title="2026-Q2.jsonl.zip">2026-Q2.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">200415758</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:15 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/2026-Q3.jsonl.zip" title="2026-Q3.jsonl.zip">2026-Q3.jsonl.zip</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">176154439</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2026-11-10 11:01:16 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td class="link">
+				<digi-icon-file-document class="icon"></digi-icon-file-document>
+				<a href="/annonser/historiska/README.txt" title="README.txt">README.txt</a>
+			</td>
+			<td class="description"></td>
+			<td class="size">242</td>
+			<td class="date">
+				<digi-typography-time
+						af-variation="primary"
+						af-date-time=2022-02-18 10:56:14 +0000 UTC
+				</digi-typography-time>
+			</td>
+		</tr>
+		
+</tbody>
+</table></digi-table>
+</digi-layout-block>
+<digi-footer af-variation="large">
+  <div slot="content-top">
+    <div>
+      <digi-footer-card af-type="icon">
+        <ul>
+          <li>
+            <a href="https://jobtechdev.se/sv/accessibility">
+              <digi-icon-accessibility-universal></digi-icon-accessibility-universal>
+              TillgÃ¤nglighetsredogÃ¶relse
+            </a>
+          </li>
+        </ul>
+      </digi-footer-card>
+    </div>
+    <div>
+      <digi-footer-card af-type="icon" >
+	  <a href="https://arbetsformedlingen.se/om-webbplatsen/oppna-data">
+              <digi-icon-external-link-alt></digi-icon-external-link-alt>
+              Ãppna data
+	  </a>
+
+      </digi-footer-card>
+    </div>
+
+  </div>
+  <div slot="content-bottom-left">
+    <a href="https://arbetsformedlingen.se">
+      <digi-logo af-variation="large" af-color="secondary"></digi-logo>
+    </a>
+  </div>
+  <div slot="content-bottom-right">
+    <p>FÃ¶lj oss pÃ¥</p>
+    <a href="https://www.facebook.com/Arbetsformedlingen">Facebook</a>
+    <a href="https://www.youtube.com/Arbetsformedlingen">Youtube</a>
+    <a href="https://www.linkedin.com/company/arbetsformedlingen">Linkedin</a>
+    <a href="https://www.instagram.com/arbetsformedlingen">Instagram</a>
+  </div>
+</digi-footer>
+<script type="text/javascript">
+(function(window, document, dataLayerName, id) {
+window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString();f="; SameSite=Strict"}document.cookie=a+"="+b+d+f+"; path=/"}
+var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+tags.async=!0,tags.src="https://af.piwik.pro/containers/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&&window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+})(window, document, 'dataLayer', 'fe5dfccb-7911-4a60-bf2b-a431140d1846');
+</script>
+</digi-layout-block>
+</body>
+</html>

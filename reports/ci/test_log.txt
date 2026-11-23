@@ -1,0 +1,74 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.16, pytest-8.3.3, pluggy-1.7.0
+rootdir: /home/runner/work/portfolio-agent/portfolio-agent/projects/analyst-skills-demand
+configfile: pytest.ini
+testpaths: tests
+collected 184 items
+
+tests/test_analysis.py ....                                              [  2%]
+tests/test_jobtech.py ..............                                     [  9%]
+tests/test_prevalence_smoke.py .                                         [ 10%]
+tests/test_probe_smoke.py ....                                           [ 12%]
+tests/test_quality.py ......                                             [ 15%]
+tests/test_readme_numbers.py F                                           [ 16%]
+tests/test_scan.py ......                                                [ 19%]
+tests/test_skills.py ................................................... [ 47%]
+...........................................                              [ 70%]
+tests/test_stats.py .....                                                [ 73%]
+tests/test_titles.py ..............................................      [ 98%]
+tests/test_validation.py ...                                             [100%]
+
+=================================== FAILURES ===================================
+______________________ test_readme_numbers_match_results _______________________
+
+    def test_readme_numbers_match_results():
+        if not (ROOT / "reports" / "robustness.json").exists():
+            pytest.skip("results not generated yet")
+        spec = importlib.util.spec_from_file_location("check_readme", ROOT / "scripts" / "check_readme.py")
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+>       assert mod.main() == 0
+E       AssertionError: assert 1 == 0
+E        +  where 1 = <function main at 0x7850158d0180>()
+E        +    where <function main at 0x7850158d0180> = <module 'check_readme' from '/home/runner/work/portfolio-agent/portfolio-agent/projects/analyst-skills-demand/scripts/check_readme.py'>.main
+
+tests/test_readme_numbers.py:15: AssertionError
+----------------------------- Captured stdout call -----------------------------
+MISS late sql: 35 % (30–41 %)
+MISS late visualization: 49 % (44–54 %)
+MISS late degree: 43 % (37–49 %)
+MISS late ai_any: 11 % (7–15 %)
+37/41 README numbers match
+=============================== warnings summary ===============================
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+  /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+  /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+  /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+tests/test_prevalence_smoke.py::test_prevalence_stage_runs_on_synthetic_data
+  /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_readme_numbers.py::test_readme_numbers_match_results - AssertionError: assert 1 == 0
+ +  where 1 = <function main at 0x7850158d0180>()
+ +    where <function main at 0x7850158d0180> = <module 'check_readme' from '/home/runner/work/portfolio-agent/portfolio-agent/projects/analyst-skills-demand/scripts/check_readme.py'>.main
+================== 1 failed, 183 passed, 14 warnings in 4.36s ==================

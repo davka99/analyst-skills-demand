@@ -1,0 +1,461 @@
+{
+  "file": "/annonser/historiska/berikade/kompletta/2016_beta1_jsonl.zip",
+  "url": "https://data.arbetsformedlingen.se/annonser/historiska/berikade/kompletta/2016_beta1_jsonl.zip",
+  "bytes": 789990519,
+  "sha256": "274ad86bbbae129249046a6ae6d8e1bf1c9783ae74bc0d17b4d6875e221f55c0",
+  "seconds": 40.2,
+  "n": 20000,
+  "key_paths": {
+    "access": 20000,
+    "access_to_own_car": 20000,
+    "application_contacts": 20000,
+    "application_deadline": 20000,
+    "application_details": 20000,
+    "application_details.email": 20000,
+    "application_details.information": 20000,
+    "application_details.other": 20000,
+    "application_details.reference": 20000,
+    "application_details.url": 20000,
+    "application_details.via_af": 20000,
+    "description": 20000,
+    "description.company_information": 20000,
+    "description.conditions": 20000,
+    "description.needs": 20000,
+    "description.requirements": 20000,
+    "description.text": 20000,
+    "description.text_formatted": 20000,
+    "detected_language": 20000,
+    "driving_license": 20000,
+    "driving_license_required": 20000,
+    "duration": 20000,
+    "duration.concept_id": 20000,
+    "duration.label": 20000,
+    "duration.legacy_ams_taxonomy_id": 20000,
+    "employer": 20000,
+    "employer.email": 20000,
+    "employer.name": 20000,
+    "employer.organization_number": 20000,
+    "employer.phone_number": 20000,
+    "employer.url": 20000,
+    "employer.workplace": 20000,
+    "employment_type": 20000,
+    "employment_type[].concept_id": 20000,
+    "employment_type[].label": 20000,
+    "employment_type[].legacy_ams_taxonomy_id": 20000,
+    "employment_type[].original_value": 20000,
+    "experience_required": 20000,
+    "external_id": 20000,
+    "franchise": 20000,
+    "headline": 20000,
+    "hire_work_place": 20000,
+    "id": 20000,
+    "keywords": 20000,
+    "keywords.enriched": 19995,
+    "keywords.enriched.compound": 19995,
+    "keywords.enriched.location": 19995,
+    "keywords.enriched.occupation": 19995,
+    "keywords.enriched.skill": 19995,
+    "keywords.enriched.trait": 19995,
+    "keywords.extracted": 20000,
+    "keywords.extracted.employer": 20000,
+    "keywords.extracted.location": 20000,
+    "keywords.extracted.occupation": 20000,
+    "keywords.extracted.skill": 20000,
+    "larling": 20000,
+    "last_publication_date": 20000,
+    "logo_url": 20000,
+    "must_have": 20000,
+    "must_have.languages": 20000,
+    "must_have.skills": 20000,
+    "must_have.work_experiences": 20000,
+    "nice_to_have": 20000,
+    "nice_to_have.languages": 20000,
+    "nice_to_have.skills": 20000,
+    "nice_to_have.work_experiences": 20000,
+    "number_of_vacancies": 20000,
+    "occupation": 20000,
+    "occupation[].concept_id": 20000,
+    "occupation[].label": 20000,
+    "occupation[].legacy_ams_taxonomy_id": 20000,
+    "occupation[].original_value": 20000,
+    "occupation_field": 20000,
+    "occupation_field[].concept_id": 20000,
+    "occupation_field[].label": 20000,
+    "occupation_field[].legacy_ams_taxonomy_id": 20000,
+    "occupation_group": 20000,
+    "occupation_group[].concept_id": 20000,
+    "occupation_group[].label": 20000,
+    "occupation_group[].legacy_ams_taxonomy_id": 20000,
+    "open_for_all": 20000,
+    "original_id": 20000,
+    "other_old_legacy_attributes": 20000,
+    "other_old_legacy_attributes.ARBETSDRIFT": 20000,
+    "other_old_legacy_attributes.BIL_KRAV": 20000,
+    "other_old_legacy_attributes.DXA": 20000,
+    "other_old_legacy_attributes.TILLTRADE": 20000,
+    "publication_date": 20000,
+    "remote_work": 20000,
+    "removed": 20000,
+    "removed_date": 20000,
+    "salary_description": 20000,
+    "salary_type": 20000,
+    "salary_type.concept_id": 20000,
+    "salary_type.label": 20000,
+    "salary_type.legacy_ams_taxonomy_id": 20000,
+    "scope_of_work": 20000,
+    "scope_of_work.max": 20000,
+    "scope_of_work.min": 20000,
+    "source_type": 20000,
+    "timestamp": 20000,
+    "trainee": 20000,
+    "webpage_url": 20000,
+    "working_hours_type": 20000,
+    "working_hours_type.concept_id": 20000,
+    "working_hours_type.label": 20000,
+    "working_hours_type.legacy_ams_taxonomy_id": 20000,
+    "workplace_address": 20000,
+    "workplace_address.city": 20000,
+    "workplace_address.coordinates": 20000,
+    "workplace_address.country": 20000,
+    "workplace_address.country_code": 20000,
+    "workplace_address.country_concept_id": 20000,
+    "workplace_address.municipality": 20000,
+    "workplace_address.municipality_code": 20000,
+    "workplace_address.municipality_concept_id": 20000,
+    "workplace_address.postcode": 20000,
+    "workplace_address.region": 20000,
+    "workplace_address.region_code": 20000,
+    "workplace_address.region_concept_id": 20000,
+    "workplace_address.street_address": 20000
+  },
+  "field_shares": {
+    "id": 1.0,
+    "headline": 1.0,
+    "publication_date": 1.0,
+    "application_deadline": 1.0,
+    "description": 1.0,
+    "employer_name": 1.0,
+    "employer_orgnr": 0.0,
+    "occupation": 0.9966,
+    "occupation_id": 0.9966,
+    "occupation_group": 0.9966,
+    "occupation_field": 0.9966,
+    "region": 0.0,
+    "region_code": 0.0,
+    "municipality": 0.0,
+    "municipality_code": 1.0,
+    "vacancies": 1.0,
+    "employment_type": 0.0,
+    "remote": 1.0,
+    "original_id": 0.0,
+    "last_publication_date": 1.0,
+    "removed_date": 0.0,
+    "source_type": 0.0,
+    "language": 0.9845,
+    "experience_required": 0.0,
+    "jobtech_skills": 1.0
+  },
+  "samples": [
+    {
+      "access": null,
+      "access_to_own_car": null,
+      "application_contacts": "[removed, D16]",
+      "application_deadline": "2016-07-15T23:59:59",
+      "application_details": "[removed, D16]",
+      "description": {
+        "company_information": null,
+        "conditions": "[removed: ad text, D16]",
+        "needs": null,
+        "requirements": null,
+        "text": "[removed: ad text, D16]",
+        "text_formatted": null
+      },
+      "detected_language": "sv",
+      "driving_license": null,
+      "driving_license_required": null,
+      "duration": {
+        "concept_id": null,
+        "label": "3-6 månader",
+        "legacy_ams_taxonomy_id": null
+      },
+      "employer": "[removed, D16]",
+      "employment_type": [
+        {
+          "concept_id": null,
+          "label": null,
+          "legacy_ams_taxonomy_id": null,
+          "original_value": true
+        }
+      ],
+      "experience_required": null,
+      "external_id": null,
+      "franchise": false,
+      "headline": "Urval!! Vaktmästare/Allt i allo",
+      "hire_work_place": false,
+      "id": "7b060a2af25b6e38f91ab1940aa65d48ca1cf1c5",
+      "keywords": {
+        "extracted": {
+          "occupation": [],
+          "skill": [],
+          "location": [],
+          "employer": [
+            "pensionatunder linden"
+          ]
+        },
+        "enriched": {
+          "occupation": [],
+          "skill": [
+            "snickeri"
+          ],
+          "trait": [],
+          "location": [],
+          "compound": [
+            "snickeri"
+          ]
+        }
+      },
+      "larling": false,
+      "last_publication_date": "2016-07-15T23:59:59",
+      "logo_url": null,
+      "must_have": {
+        "languages": null,
+        "skills": null,
+        "work_experiences": null
+      },
+      "nice_to_have": {
+        "languages": null,
+        "skills": null,
+        "work_experiences": null
+      },
+      "number_of_vacancies": 1,
+      "occupation": [
+        {
+          "concept_id": null,
+          "label": null,
+          "legacy_ams_taxonomy_id": "",
+          "original_value": true
+        }
+      ],
+      "occupation_field": [
+        {
+          "concept_id": null,
+          "label": null,
+          "legacy_ams_taxonomy_id": null
+        }
+      ],
+      "occupation_group": [
+        {
+          "concept_id": null,
+          "label": null,
+          "legacy_ams_taxonomy_id": null
+        }
+      ],
+      "open_for_all": false,
+      "original_id": null,
+      "other_old_legacy_attributes": {
+        "ARBETSDRIFT": "Dagtid",
+        "DXA": null,
+        "BIL_KRAV": null,
+        "TILLTRADE": "Omgående"
+      },
+      "publication_date": "2016-06-20T00:00:00",
+      "remote_work": false,
+      "removed": null,
+      "removed_date": null,
+      "salary_description": null,
+      "salary_type": {
+        "concept_id": null,
+        "label": null,
+        "legacy_ams_taxonomy_id": null
+      },
+      "scope_of_work": {
+        "max": null,
+        "min": null
+      },
+      "source_type": null,
+      "timestamp": null,
+      "trainee": false,
+      "webpage_url": null,
+      "working_hours_type": {
+        "concept_id": null,
+        "label": "Deltid",
+        "legacy_ams_taxonomy_id": null
+      },
+      "workplace_address": {
+        "city": "",
+        "coordinates": null,
+        "country": "",
+        "country_code": null,
+        "country_concept_id": null,
+        "municipality": null,
+        "municipality_code": "1292",
+        "municipality_concept_id": null,
+        "postcode": null,
+        "region": null,
+        "region_code": null,
+        "region_concept_id": null,
+        "street_address": null
+      }
+    },
+    {
+      "access": null,
+      "access_to_own_car": null,
+      "application_contacts": "[removed, D16]",
+      "application_deadline": "2017-01-31T23:59:59",
+      "application_details": "[removed, D16]",
+      "description": {
+        "company_information": null,
+        "conditions": "[removed: ad text, D16]",
+        "needs": null,
+        "requirements": null,
+        "text": "[removed: ad text, D16]",
+        "text_formatted": null
+      },
+      "detected_language": "sv",
+      "driving_license": null,
+      "driving_license_required": null,
+      "duration": {
+        "concept_id": null,
+        "label": "Tills vidare",
+        "legacy_ams_taxonomy_id": null
+      },
+      "employer": "[removed, D16]",
+      "employment_type": [
+        {
+          "concept_id": null,
+          "label": null,
+          "legacy_ams_taxonomy_id": null,
+          "original_value": true
+        }
+      ],
+      "experience_required": null,
+      "external_id": null,
+      "franchise": false,
+      "headline": "REK.UPPDRAG: Administratör/säljare",
+      "hire_work_place": false,
+      "id": "8d3b93e4a6ff34e8884caf663686af74ea5e58da",
+      "keywords": {
+        "extracted": {
+          "occupation": [
+            "administration",
+            "juridik",
+            "ekonomi",
+            "övriga kontorsassistenter",
+            "sekreterare"
+          ],
+          "skill": [],
+          "location": [],
+          "employer": [
+            "alvarbåtar"
+          ]
+        },
+        "enriched": {
+          "occupation": [
+            "försäljare",
+            "administratör"
+          ],
+          "skill": [
+            "båttillbehör",
+            "kontraktsskrivning",
+            "leverantörer",
+            "kontrakt",
+            "administration"
+          ],
+          "trait": [
+            "stresstålig"
+          ],
+          "location": [],
+          "compound": [
+            "försäljare",
+            "administratör",
+            "båttillbehör",
+            "kontraktsskrivning",
+            "leverantörer"
+          ]
+        }
+      },
+      "larling": false,
+      "last_publication_date": "2017-01-31T23:59:59",
+      "logo_url": null,
+      "must_have": {
+        "languages": null,
+        "skills": null,
+        "work_experiences": null
+      },
+      "nice_to_have": {
+        "languages": null,
+        "skills": null,
+        "work_experiences": null
+      },
+      "number_of_vacancies": 1,
+      "occupation": [
+        {
+          "concept_id": "s5pR_WNm_R8W",
+          "label": "Administrativ assistent",
+          "legacy_ams_taxonomy_id": "2787",
+          "original_value": true
+        }
+      ],
+      "occupation_field": [
+        {
+          "concept_id": "X82t_awd_Qyc",
+          "label": "Administration, ekonomi, juridik",
+          "legacy_ams_taxonomy_id": "1"
+        }
+      ],
+      "occupation_group": [
+        {
+          "concept_id": "eQ4M_CNm_ozj",
+          "label": "Övriga kontorsassistenter och sekreterare",
+          "legacy_ams_taxonomy_id": "4119"
+        }
+      ],
+      "open_for_all": false,
+      "original_id": null,
+      "other_old_legacy_attributes": {
+        "ARBETSDRIFT": "Dagtid",
+        "DXA": null,
+        "BIL_KRAV": null,
+        "TILLTRADE": ""
+      },
+      "publication_date": "2016-12-21T00:00:00",
+      "remote_work": false,
+      "removed": null,
+      "removed_date": null,
+      "salary_description": null,
+      "salary_type": {
+        "concept_id": null,
+        "label": null,
+        "legacy_ams_taxonomy_id": null
+      },
+      "scope_of_work": {
+        "max": null,
+        "min": null
+      },
+      "source_type": null,
+      "timestamp": null,
+      "trainee": false,
+      "webpage_url": null,
+      "working_hours_type": {
+        "concept_id": null,
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": null
+      },
+      "workplace_address": {
+        "city": "",
+        "coordinates": null,
+        "country": "",
+        "country_code": null,
+        "country_concept_id": null,
+        "municipality": null,
+        "municipality_code": "0581",
+        "municipality_concept_id": null,
+        "postcode": null,
+        "region": null,
+        "region_code": null,
+        "region_concept_id": null,
+        "street_address": null
+      }
+    }
+  ]
+}

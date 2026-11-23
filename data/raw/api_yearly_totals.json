@@ -1,0 +1,97 @@
+{
+  "run_at_utc": "2026-11-20T07:36:35.768813+00:00",
+  "api": "https://historical.api.jobtechdev.se",
+  "years": {
+    "2016": {
+      "status": 200,
+      "params": {
+        "historical-from": "2016-01-01T00:00:00",
+        "historical-to": "2016-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 686137
+    },
+    "2017": {
+      "status": 200,
+      "params": {
+        "historical-from": "2017-01-01T00:00:00",
+        "historical-to": "2017-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 714266
+    },
+    "2018": {
+      "status": 200,
+      "params": {
+        "historical-from": "2018-01-01T00:00:00",
+        "historical-to": "2018-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 683668
+    },
+    "2019": {
+      "status": 200,
+      "params": {
+        "historical-from": "2019-01-01T00:00:00",
+        "historical-to": "2019-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 641602
+    },
+    "2020": {
+      "status": 200,
+      "params": {
+        "historical-from": "2020-01-01T00:00:00",
+        "historical-to": "2020-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 495440
+    },
+    "2021": {
+      "status": 200,
+      "params": {
+        "historical-from": "2021-01-01T00:00:00",
+        "historical-to": "2021-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 734398
+    },
+    "2022": {
+      "status": 200,
+      "params": {
+        "historical-from": "2022-01-01T00:00:00",
+        "historical-to": "2022-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 1060191
+    },
+    "2023": {
+      "status": 200,
+      "params": {
+        "historical-from": "2023-01-01T00:00:00",
+        "historical-to": "2023-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 1030902
+    },
+    "2024": {
+      "status": 200,
+      "params": {
+        "historical-from": "2024-01-01T00:00:00",
+        "historical-to": "2024-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 717333
+    },
+    "2025": {
+      "status": 200,
+      "params": {
+        "historical-from": "2025-01-01T00:00:00",
+        "historical-to": "2025-12-31T23:59:59",
+        "limit": 0
+      },
+      "total": 621875
+    }
+  },
+  "filter_works": true
+}

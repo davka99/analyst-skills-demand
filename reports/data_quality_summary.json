@@ -1,0 +1,463 @@
+{
+  "rows_extract": 15242,
+  "rows_population_any_year": 4348,
+  "rows_population_in_window": 4240,
+  "dropped_in_window": {
+    "repost": 597,
+    "same_id": 2
+  },
+  "rows_final": 3641,
+  "final_by_year": {
+    "2016": 216,
+    "2017": 217,
+    "2018": 274,
+    "2019": 325,
+    "2020": 249,
+    "2021": 513,
+    "2022": 578,
+    "2023": 487,
+    "2024": 415,
+    "2025": 367
+  },
+  "final_by_year_category": {
+    "2016|analytics_analyst": 166,
+    "2016|bi_analyst": 14,
+    "2016|data_analyst": 36,
+    "2017|analytics_analyst": 145,
+    "2017|bi_analyst": 11,
+    "2017|data_analyst": 61,
+    "2018|analytics_analyst": 147,
+    "2018|bi_analyst": 23,
+    "2018|data_analyst": 104,
+    "2019|analytics_analyst": 163,
+    "2019|bi_analyst": 16,
+    "2019|data_analyst": 146,
+    "2020|analytics_analyst": 101,
+    "2020|bi_analyst": 11,
+    "2020|data_analyst": 137,
+    "2021|analytics_analyst": 211,
+    "2021|bi_analyst": 27,
+    "2021|data_analyst": 275,
+    "2022|analytics_analyst": 203,
+    "2022|bi_analyst": 40,
+    "2022|data_analyst": 335,
+    "2023|analytics_analyst": 152,
+    "2023|bi_analyst": 25,
+    "2023|data_analyst": 310,
+    "2024|analytics_analyst": 116,
+    "2024|bi_analyst": 29,
+    "2024|data_analyst": 270,
+    "2025|analytics_analyst": 94,
+    "2025|bi_analyst": 20,
+    "2025|data_analyst": 253
+  },
+  "final_by_area": {
+    "Stockholm": 2180,
+    "Rest of Sweden": 1282,
+    "Unknown": 179
+  },
+  "final_by_year_area": {
+    "2016|Rest of Sweden": 77,
+    "2016|Stockholm": 134,
+    "2016|Unknown": 5,
+    "2017|Rest of Sweden": 91,
+    "2017|Stockholm": 125,
+    "2017|Unknown": 1,
+    "2018|Rest of Sweden": 115,
+    "2018|Stockholm": 158,
+    "2018|Unknown": 1,
+    "2019|Rest of Sweden": 126,
+    "2019|Stockholm": 198,
+    "2019|Unknown": 1,
+    "2020|Rest of Sweden": 91,
+    "2020|Stockholm": 142,
+    "2020|Unknown": 16,
+    "2021|Rest of Sweden": 165,
+    "2021|Stockholm": 331,
+    "2021|Unknown": 17,
+    "2022|Rest of Sweden": 221,
+    "2022|Stockholm": 331,
+    "2022|Unknown": 26,
+    "2023|Rest of Sweden": 160,
+    "2023|Stockholm": 284,
+    "2023|Unknown": 43,
+    "2024|Rest of Sweden": 131,
+    "2024|Stockholm": 244,
+    "2024|Unknown": 40,
+    "2025|Rest of Sweden": 105,
+    "2025|Stockholm": 233,
+    "2025|Unknown": 29
+  },
+  "language": {
+    "en": 1820,
+    "sv": 1808,
+    "(none)": 12,
+    "no": 1
+  },
+  "language_by_year": {
+    "2016|en": 56,
+    "2016|sv": 160,
+    "2017|en": 57,
+    "2017|sv": 160,
+    "2018|en": 104,
+    "2018|sv": 170,
+    "2019|en": 144,
+    "2019|sv": 181,
+    "2020|(none)": 7,
+    "2020|en": 135,
+    "2020|sv": 107,
+    "2021|en": 286,
+    "2021|sv": 227,
+    "2022|en": 355,
+    "2022|no": 1,
+    "2022|sv": 222,
+    "2023|(none)": 1,
+    "2023|en": 286,
+    "2023|sv": 200,
+    "2024|(none)": 1,
+    "2024|en": 223,
+    "2024|sv": 191,
+    "2025|(none)": 3,
+    "2025|en": 174,
+    "2025|sv": 190
+  },
+  "agency_share": 0.1782,
+  "agency_by_year": {
+    "2016": 0.3611,
+    "2017": 0.341,
+    "2018": 0.1971,
+    "2019": 0.2154,
+    "2020": 0.1687,
+    "2021": 0.1559,
+    "2022": 0.1471,
+    "2023": 0.1109,
+    "2024": 0.1277,
+    "2025": 0.1608
+  },
+  "desc_len_quantiles": {
+    "0": 0,
+    "0.01": 335,
+    "0.1": 1470,
+    "0.5": 3042,
+    "0.9": 4543,
+    "1": 6434
+  },
+  "n_desc_under_300": 28,
+  "n_employers": 1180,
+  "top10_employer_share": 0.2005,
+  "top_employers": [
+    [
+      "H & M Hennes & Mauritz Gbc AB",
+      162
+    ],
+    [
+      "Academic Work Sweden AB",
+      136
+    ],
+    [
+      "Volvo Business Services AB",
+      99
+    ],
+    [
+      "Volvo Personvagnar AB",
+      54
+    ],
+    [
+      "Vattenfall AB",
+      50
+    ],
+    [
+      "Tng Group AB",
+      49
+    ],
+    [
+      "Academic Work",
+      47
+    ],
+    [
+      "Jobbusters AB",
+      47
+    ],
+    [
+      "Experis AB",
+      44
+    ],
+    [
+      "Randstad AB",
+      42
+    ],
+    [
+      "Bravura Sverige AB",
+      41
+    ],
+    [
+      "Scania CV AB",
+      41
+    ],
+    [
+      "AB Electrolux",
+      32
+    ],
+    [
+      "Arbetsförmedlingen",
+      31
+    ],
+    [
+      "Jobs Europe AB",
+      31
+    ]
+  ],
+  "vacancies_total": 3926,
+  "region_missing_share": 0.0492,
+  "denominators": {
+    "total_by_year": {
+      "2016": 686950,
+      "2017": 715291,
+      "2018": 682969,
+      "2019": 640374,
+      "2020": 493131,
+      "2021": 733028,
+      "2022": 1060070,
+      "2023": 1026755,
+      "2024": 715470,
+      "2025": 581440
+    },
+    "by_year_area": {
+      "2016|Rest of Sweden": 471495,
+      "2016|Stockholm": 205881,
+      "2016|Unknown": 9574,
+      "2017|Rest of Sweden": 497251,
+      "2017|Stockholm": 207569,
+      "2017|Unknown": 10471,
+      "2018|Rest of Sweden": 426122,
+      "2018|Stockholm": 249322,
+      "2018|Unknown": 7525,
+      "2019|Rest of Sweden": 403289,
+      "2019|Stockholm": 225398,
+      "2019|Unknown": 11687,
+      "2020|Rest of Sweden": 326784,
+      "2020|Stockholm": 129996,
+      "2020|Unknown": 36351,
+      "2021|Rest of Sweden": 513770,
+      "2021|Stockholm": 201452,
+      "2021|Unknown": 17806,
+      "2022|Rest of Sweden": 734206,
+      "2022|Stockholm": 303484,
+      "2022|Unknown": 22380,
+      "2023|Rest of Sweden": 707293,
+      "2023|Stockholm": 298820,
+      "2023|Unknown": 20642,
+      "2024|Rest of Sweden": 499857,
+      "2024|Stockholm": 195707,
+      "2024|Unknown": 19906,
+      "2025|Rest of Sweden": 416372,
+      "2025|Stockholm": 146747,
+      "2025|Unknown": 18321
+    }
+  },
+  "manifest_years": {
+    "2016": {
+      "n_records": 718046,
+      "n_seen_in_earlier_file": 31096,
+      "records_outside_year": 0,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0003,
+        "occupation": 0.0047,
+        "region": 0.0135
+      }
+    },
+    "2017": {
+      "n_records": 715291,
+      "n_seen_in_earlier_file": 0,
+      "records_outside_year": 0,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0021,
+        "occupation": 0.0024,
+        "region": 0.0146
+      }
+    },
+    "2018": {
+      "n_records": 682969,
+      "n_seen_in_earlier_file": 0,
+      "records_outside_year": 0,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0,
+        "occupation": 0.0019,
+        "region": 0.011
+      }
+    },
+    "2019": {
+      "n_records": 640257,
+      "n_seen_in_earlier_file": 0,
+      "records_outside_year": 0,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0011,
+        "occupation": 0.0013,
+        "region": 0.0182
+      }
+    },
+    "2020": {
+      "n_records": 490713,
+      "n_seen_in_earlier_file": 0,
+      "records_outside_year": 120,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0384,
+        "occupation": 0.0002,
+        "region": 0.074
+      }
+    },
+    "2021": {
+      "n_records": 730824,
+      "n_seen_in_earlier_file": 0,
+      "records_outside_year": 2538,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0004,
+        "employer_name": 0.0,
+        "region": 0.0243
+      }
+    },
+    "2022": {
+      "n_records": 1061788,
+      "n_seen_in_earlier_file": 1011,
+      "records_outside_year": 5753,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0003,
+        "employer_name": 0.0,
+        "region": 0.0211
+      }
+    },
+    "2023": {
+      "n_records": 1028074,
+      "n_seen_in_earlier_file": 722,
+      "records_outside_year": 4757,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0003,
+        "region": 0.02
+      }
+    },
+    "2024": {
+      "n_records": 717094,
+      "n_seen_in_earlier_file": 763,
+      "records_outside_year": 4201,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0004,
+        "occupation": 0.0017,
+        "region": 0.028
+      }
+    },
+    "2025": {
+      "n_records": 582241,
+      "n_seen_in_earlier_file": 453,
+      "records_outside_year": 3030,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0005,
+        "region": 0.0315
+      }
+    },
+    "2026-Q1": {
+      "n_records": 153287,
+      "n_seen_in_earlier_file": 415,
+      "records_outside_year": 2644,
+      "n_multi_occupation": 0,
+      "missing_share": {
+        "description": 0.0005,
+        "region": 0.0247
+      }
+    }
+  },
+  "neighbour_categories_by_year": {
+    "2016|analytics_analyst": 166,
+    "2016|bi_analyst": 14,
+    "2016|bi_developer": 119,
+    "2016|data_analyst": 36,
+    "2016|data_engineer": 42,
+    "2016|data_scientist": 65,
+    "2016|master_data": 3,
+    "2016|statistician": 168,
+    "2017|analytics_analyst": 145,
+    "2017|bi_analyst": 11,
+    "2017|bi_developer": 136,
+    "2017|data_analyst": 61,
+    "2017|data_engineer": 49,
+    "2017|data_scientist": 105,
+    "2017|master_data": 3,
+    "2017|statistician": 140,
+    "2018|analytics_analyst": 147,
+    "2018|bi_analyst": 23,
+    "2018|bi_developer": 144,
+    "2018|data_analyst": 104,
+    "2018|data_engineer": 102,
+    "2018|data_scientist": 162,
+    "2018|master_data": 5,
+    "2018|statistician": 166,
+    "2019|analytics_analyst": 163,
+    "2019|bi_analyst": 16,
+    "2019|bi_developer": 217,
+    "2019|data_analyst": 146,
+    "2019|data_engineer": 165,
+    "2019|data_scientist": 237,
+    "2019|master_data": 2,
+    "2019|statistician": 118,
+    "2020|analytics_analyst": 101,
+    "2020|bi_analyst": 11,
+    "2020|bi_developer": 183,
+    "2020|data_analyst": 137,
+    "2020|data_engineer": 227,
+    "2020|data_scientist": 211,
+    "2020|statistician": 100,
+    "2021|analytics_analyst": 211,
+    "2021|bi_analyst": 27,
+    "2021|bi_developer": 257,
+    "2021|data_analyst": 275,
+    "2021|data_engineer": 457,
+    "2021|data_scientist": 340,
+    "2021|master_data": 3,
+    "2021|statistician": 98,
+    "2022|analytics_analyst": 203,
+    "2022|bi_analyst": 40,
+    "2022|bi_developer": 297,
+    "2022|data_analyst": 335,
+    "2022|data_engineer": 542,
+    "2022|data_scientist": 331,
+    "2022|master_data": 3,
+    "2022|online_rater": 1,
+    "2022|statistician": 135,
+    "2023|analytics_analyst": 152,
+    "2023|bi_analyst": 25,
+    "2023|bi_developer": 277,
+    "2023|data_analyst": 310,
+    "2023|data_engineer": 465,
+    "2023|data_scientist": 270,
+    "2023|master_data": 9,
+    "2023|online_rater": 62,
+    "2023|statistician": 102,
+    "2024|analytics_analyst": 116,
+    "2024|bi_analyst": 29,
+    "2024|bi_developer": 220,
+    "2024|data_analyst": 270,
+    "2024|data_engineer": 507,
+    "2024|data_scientist": 229,
+    "2024|master_data": 6,
+    "2024|online_rater": 72,
+    "2024|statistician": 67,
+    "2025|analytics_analyst": 94,
+    "2025|bi_analyst": 20,
+    "2025|bi_developer": 213,
+    "2025|data_analyst": 253,
+    "2025|data_engineer": 600,
+    "2025|data_scientist": 248,
+    "2025|master_data": 2,
+    "2025|online_rater": 9,
+    "2025|statistician": 61
+  }
+}

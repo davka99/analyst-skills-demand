@@ -1,0 +1,444 @@
+{
+  "file": "/annonser/historiska/2025.jsonl.zip",
+  "url": "https://data.arbetsformedlingen.se/annonser/historiska/2025.jsonl.zip",
+  "bytes": 817792226,
+  "sha256": "d571d73b0074e2d8b0ee7959e7a465465f99acc702292e0ac56416109b7a2e67",
+  "seconds": 40.7,
+  "n": 2000,
+  "key_paths": {
+    "access": 2000,
+    "access_to_own_car": 2000,
+    "application_contacts": 2000,
+    "application_deadline": 2000,
+    "application_details": 2000,
+    "application_details.email": 2000,
+    "application_details.information": 2000,
+    "application_details.other": 2000,
+    "application_details.reference": 2000,
+    "application_details.url": 2000,
+    "application_details.via_af": 2000,
+    "description": 2000,
+    "description.company_information": 2000,
+    "description.conditions": 2000,
+    "description.needs": 2000,
+    "description.requirements": 2000,
+    "description.text": 2000,
+    "description.text_formatted": 2000,
+    "detected_language": 2000,
+    "driving_license": 2000,
+    "driving_license[].concept_id": 421,
+    "driving_license[].label": 421,
+    "driving_license[].legacy_ams_taxonomy_id": 421,
+    "driving_license_required": 2000,
+    "duration": 2000,
+    "duration.concept_id": 2000,
+    "duration.label": 2000,
+    "duration.legacy_ams_taxonomy_id": 2000,
+    "employer": 2000,
+    "employer.email": 2000,
+    "employer.name": 2000,
+    "employer.organization_number": 2000,
+    "employer.phone_number": 2000,
+    "employer.url": 2000,
+    "employer.workplace": 2000,
+    "employment_type": 2000,
+    "employment_type[].concept_id": 2000,
+    "employment_type[].label": 2000,
+    "employment_type[].legacy_ams_taxonomy_id": 2000,
+    "employment_type[].original_value": 2000,
+    "experience_required": 2000,
+    "external_id": 2000,
+    "franchise": 2000,
+    "headline": 2000,
+    "hire_work_place": 2000,
+    "id": 2000,
+    "keywords": 2000,
+    "keywords.extracted": 2000,
+    "keywords.extracted.employer": 2000,
+    "keywords.extracted.location": 2000,
+    "keywords.extracted.occupation": 2000,
+    "keywords.extracted.skill": 2000,
+    "label": 2000,
+    "larling": 2000,
+    "last_publication_date": 2000,
+    "logo_url": 2000,
+    "must_have": 2000,
+    "must_have.education": 2000,
+    "must_have.education_level": 2000,
+    "must_have.languages": 2000,
+    "must_have.skills": 2000,
+    "must_have.work_experiences": 2000,
+    "nice_to_have": 2000,
+    "nice_to_have.education": 2000,
+    "nice_to_have.education_level": 2000,
+    "nice_to_have.languages": 2000,
+    "nice_to_have.skills": 2000,
+    "nice_to_have.work_experiences": 2000,
+    "number_of_vacancies": 2000,
+    "occupation": 2000,
+    "occupation[].concept_id": 2000,
+    "occupation[].label": 2000,
+    "occupation[].legacy_ams_taxonomy_id": 2000,
+    "occupation[].original_value": 2000,
+    "occupation_field": 2000,
+    "occupation_field[].concept_id": 2000,
+    "occupation_field[].label": 2000,
+    "occupation_field[].legacy_ams_taxonomy_id": 2000,
+    "occupation_group": 2000,
+    "occupation_group[].concept_id": 2000,
+    "occupation_group[].label": 2000,
+    "occupation_group[].legacy_ams_taxonomy_id": 2000,
+    "open_for_all": 2000,
+    "original_id": 2000,
+    "publication_date": 2000,
+    "remote_work": 2000,
+    "removed": 2000,
+    "removed_date": 2000,
+    "salary_description": 2000,
+    "salary_type": 2000,
+    "salary_type.concept_id": 2000,
+    "salary_type.label": 2000,
+    "salary_type.legacy_ams_taxonomy_id": 2000,
+    "scope_of_work": 2000,
+    "scope_of_work.max": 2000,
+    "scope_of_work.min": 2000,
+    "source_type": 2000,
+    "timestamp": 2000,
+    "trainee": 2000,
+    "webpage_url": 2000,
+    "working_hours_type": 2000,
+    "working_hours_type.concept_id": 2000,
+    "working_hours_type.label": 2000,
+    "working_hours_type.legacy_ams_taxonomy_id": 2000,
+    "workplace_address": 2000,
+    "workplace_address.city": 2000,
+    "workplace_address.coordinates": 2000,
+    "workplace_address.country": 2000,
+    "workplace_address.country_code": 2000,
+    "workplace_address.country_concept_id": 2000,
+    "workplace_address.municipality": 2000,
+    "workplace_address.municipality_code": 2000,
+    "workplace_address.municipality_concept_id": 2000,
+    "workplace_address.postcode": 2000,
+    "workplace_address.region": 2000,
+    "workplace_address.region_code": 2000,
+    "workplace_address.region_concept_id": 2000,
+    "workplace_address.street_address": 2000
+  },
+  "field_shares": {
+    "id": 1.0,
+    "headline": 1.0,
+    "publication_date": 1.0,
+    "application_deadline": 1.0,
+    "description": 1.0,
+    "employer_name": 1.0,
+    "employer_orgnr": 0.995,
+    "occupation": 1.0,
+    "occupation_id": 1.0,
+    "occupation_group": 1.0,
+    "occupation_field": 1.0,
+    "region": 0.9745,
+    "region_code": 0.9745,
+    "municipality": 0.9745,
+    "municipality_code": 0.9745,
+    "vacancies": 1.0,
+    "employment_type": 1.0,
+    "remote": 1.0,
+    "original_id": 1.0,
+    "last_publication_date": 1.0,
+    "removed_date": 0.0,
+    "source_type": 1.0,
+    "language": 0.999,
+    "experience_required": 1.0,
+    "jobtech_skills": 1.0
+  },
+  "samples": [
+    {
+      "id": "9eb27bb6bde1e88e4ba141937b2d74d2343f2810",
+      "external_id": "46-202100-4615-46859",
+      "original_id": "30402576",
+      "webpage_url": null,
+      "logo_url": "https://arbetsformedlingen.se/rest/agas/api/v1/organisation/2021004615/logotyper/logo.png",
+      "headline": "Inspektör Luft (fortsatt luftvärdighet) till Militära Flyginspektionen",
+      "application_deadline": "2026-01-28T23:59:59",
+      "number_of_vacancies": 1,
+      "description": {
+        "text": "[removed: ad text, D16]",
+        "text_formatted": null,
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": "[removed: ad text, D16]"
+      },
+      "employment_type": [
+        {
+          "concept_id": "PFZr_Syz_cUq",
+          "label": "Vanlig anställning",
+          "legacy_ams_taxonomy_id": "1",
+          "original_value": true
+        }
+      ],
+      "salary_type": {
+        "concept_id": "oG8G_9cW_nRf",
+        "label": "Fast månads- vecko- eller timlön",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_description": "Månadslön",
+      "duration": {
+        "concept_id": "a7uU_j21_mkL",
+        "label": "Tills vidare",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "access": null,
+      "employer": "[removed, D16]",
+      "application_details": "[removed, D16]",
+      "experience_required": true,
+      "access_to_own_car": false,
+      "driving_license_required": false,
+      "driving_license": null,
+      "occupation": [
+        {
+          "concept_id": "XjEC_vph_KJH",
+          "label": "Flygtekniker",
+          "legacy_ams_taxonomy_id": "5574",
+          "original_value": true
+        }
+      ],
+      "occupation_group": [
+        {
+          "concept_id": "eRkT_cTv_H9v",
+          "label": "Flygtekniker",
+          "legacy_ams_taxonomy_id": "3155"
+        }
+      ],
+      "occupation_field": [
+        {
+          "concept_id": "6Hq3_tKo_V57",
+          "label": "Yrken med teknisk inriktning",
+          "legacy_ams_taxonomy_id": "18"
+        }
+      ],
+      "workplace_address": {
+        "municipality": "Stockholm",
+        "municipality_code": "0180",
+        "municipality_concept_id": "AvNB_uwa_6n6",
+        "region": "Stockholms län",
+        "region_code": "01",
+        "region_concept_id": "CifL_Rzy_Mku",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": null,
+        "postcode": null,
+        "city": null,
+        "coordinates": [
+          18.06858,
+          59.329323
+        ]
+      },
+      "must_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [
+          {
+            "weight": 10,
+            "concept_id": "XjEC_vph_KJH",
+            "label": "Flygtekniker",
+            "legacy_ams_taxonomy_id": "5574"
+          }
+        ],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "application_contacts": "[removed, D16]",
+      "publication_date": "2025-12-31T00:00:00",
+      "last_publication_date": "2026-01-28T23:59:59",
+      "removed": false,
+      "removed_date": null,
+      "source_type": "VIA_PLATSBANKEN_DXA",
+      "timestamp": 1766134875127,
+      "label": [],
+      "remote_work": false,
+      "open_for_all": false,
+      "trainee": false,
+      "larling": false,
+      "franchise": false,
+      "hire_work_place": false,
+      "keywords": {
+        "extracted": {
+          "occupation": [
+            "yrken med teknisk inriktning",
+            "flygtekniker"
+          ],
+          "skill": [],
+          "location": [
+            "stockholms län",
+            "sverige",
+            "stockholm"
+          ],
+          "employer": [
+            "försvarsmakten"
+          ]
+        }
+      },
+      "detected_language": "sv"
+    },
+    {
+      "id": "0356893c29ca93df1c4e2a49ef2ef783e8e42945",
+      "external_id": "46-232100-0131-888619",
+      "original_id": "30406445",
+      "webpage_url": null,
+      "logo_url": "https://arbetsformedlingen.se/rest/agas/api/v1/organisation/2321000131/logotyper/logo.png",
+      "headline": "Tandsköterska, Specialistkliniken för endodonti Göteborg",
+      "application_deadline": "2026-01-13T23:59:59",
+      "number_of_vacancies": 1,
+      "description": {
+        "text": "[removed: ad text, D16]",
+        "text_formatted": null,
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": "[removed: ad text, D16]"
+      },
+      "employment_type": [
+        {
+          "concept_id": "PFZr_Syz_cUq",
+          "label": "Vanlig anställning",
+          "legacy_ams_taxonomy_id": "1",
+          "original_value": true
+        }
+      ],
+      "salary_type": {
+        "concept_id": "oG8G_9cW_nRf",
+        "label": "Fast månads- vecko- eller timlön",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_description": "Månadslön",
+      "duration": {
+        "concept_id": "a7uU_j21_mkL",
+        "label": "Tills vidare",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "access": null,
+      "employer": "[removed, D16]",
+      "application_details": "[removed, D16]",
+      "experience_required": false,
+      "access_to_own_car": false,
+      "driving_license_required": false,
+      "driving_license": null,
+      "occupation": [
+        {
+          "concept_id": "ckkD_JhH_Sc6",
+          "label": "Tandsköterska",
+          "legacy_ams_taxonomy_id": "5722",
+          "original_value": true
+        }
+      ],
+      "occupation_group": [
+        {
+          "concept_id": "5dxv_nVQ_N8o",
+          "label": "Tandsköterskor",
+          "legacy_ams_taxonomy_id": "5350"
+        }
+      ],
+      "occupation_field": [
+        {
+          "concept_id": "NYW6_mP6_vwf",
+          "label": "Hälso- och sjukvård",
+          "legacy_ams_taxonomy_id": "8"
+        }
+      ],
+      "workplace_address": {
+        "municipality": "Göteborg",
+        "municipality_code": "1480",
+        "municipality_concept_id": "PVZL_BQT_XtL",
+        "region": "Västra Götalands län",
+        "region_code": "14",
+        "region_concept_id": "zdoY_6u5_Krt",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": null,
+        "postcode": null,
+        "city": null,
+        "coordinates": [
+          11.97456,
+          57.70887
+        ]
+      },
+      "must_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "application_contacts": "[removed, D16]",
+      "publication_date": "2025-12-31T00:00:00",
+      "last_publication_date": "2026-01-13T23:59:59",
+      "removed": false,
+      "removed_date": null,
+      "source_type": "VIA_PLATSBANKEN_DXA",
+      "timestamp": 1766149294622,
+      "label": [],
+      "remote_work": false,
+      "open_for_all": false,
+      "trainee": false,
+      "larling": false,
+      "franchise": false,
+      "hire_work_place": false,
+      "keywords": {
+        "extracted": {
+          "occupation": [
+            "hälso- och sjukvård",
+            "tandsköterskor",
+            "tandsköterska"
+          ],
+          "skill": [],
+          "location": [
+            "göteborg",
+            "sverige",
+            "västra götalands län"
+          ],
+          "employer": [
+            "västra götalandsregionen",
+            "folktandvården, specialistkliniken för endodonti, göteborg"
+          ]
+        }
+      },
+      "detected_language": "sv"
+    }
+  ]
+}

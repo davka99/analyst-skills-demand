@@ -1,0 +1,50 @@
+{"ann_id": "D001", "skills": ["reporting"], "notes": "'Communication' only as a company value; cross-functional teams/business requirements not counted as communication skill"}
+{"ann_id": "D002", "skills": ["power_bi", "statistics", "forecasting", "reporting", "degree", "communication"], "notes": "statistics from 'HR-statistik/personalstatistik' (descriptive statistics sense)"}
+{"ann_id": "D003", "skills": ["statistics", "reporting", "degree", "communication"], "notes": ""}
+{"ann_id": "D004", "skills": ["qlik", "reporting", "english_req", "swedish_req", "communication"], "notes": "'Excellent' is not Excel; reporting from 'BI reporting tools'"}
+{"ann_id": "D005", "skills": ["statistics", "degree", "communication"], "notes": ""}
+{"ann_id": "D006", "skills": ["sql", "python", "gcp", "statistics", "experimentation", "visualization", "degree", "communication"], "notes": "gcp via BigQuery; 'Data vitualization' typo counted as visualization; 'language skills' is the staffing firm's niche, not a requirement"}
+{"ann_id": "D007", "skills": ["sql", "machine_learning", "etl_dw", "visualization", "degree"], "notes": "ML as a BI focus area; etl_dw from 'modellering av data'; reporting 0 (analysrapporter only as portal content)"}
+{"ann_id": "D008", "skills": ["english_req"], "notes": ""}
+{"ann_id": "D009", "skills": ["sql", "python", "r", "experimentation", "visualization", "communication"], "notes": "R from 'R/Python'; etl_dw 0 ('data logic, models' too vague)"}
+{"ann_id": "D010", "skills": ["tableau", "degree", "english_req", "swedish_req", "communication"], "notes": "Swedish 'en fördel men inte ett krav' counted as asked for; Google Analytics not mapped to any key"}
+{"ann_id": "D011", "skills": ["excel", "sql", "cloud_any", "etl_dw", "visualization", "reporting"], "notes": "cloud_any from company product 'connect and control their spaces through the cloud' (technical but company description)"}
+{"ann_id": "D012", "skills": ["git", "cloud_any", "machine_learning", "etl_dw", "visualization", "degree", "communication"], "notes": "text is truncated; visualization only from team name 'Advanced Analytics and Visualization'; etl_dw from 'extract, load and transform'"}
+{"ann_id": "D013", "skills": ["sql", "python", "r", "power_bi", "tableau", "looker", "dbt", "etl_dw", "visualization", "reporting", "degree", "communication"], "notes": "Swedish lessons offered as perk, not a requirement"}
+{"ann_id": "D014", "skills": ["excel", "reporting", "communication"], "notes": "excel from 'opt-in excels' (Excel files); 'Microsoft Office' alone not counted"}
+{"ann_id": "D015", "skills": ["r", "stata", "statistics", "reporting", "degree", "english_req", "communication"], "notes": "experimentation 0: 'experimentell design/data' is research experiments, not product/marketing sense; reporting from 'Skriva preliminära rapporter'/R Markdown rapportskrivning"}
+{"ann_id": "D016", "skills": ["communication"], "notes": "experimentation 0: 'Web Analytics & CRO' team name only, no A/B tests stated"}
+{"ann_id": "D017", "skills": ["power_bi", "azure", "etl_dw", "visualization", "reporting"], "notes": "power_bi from 'PBI'; degree 0: only 'fresh graduates' considered (no degree stated)"}
+{"ann_id": "D018", "skills": ["excel", "qlik", "statistics", "reporting", "english_req", "swedish_req", "communication"], "notes": "statistics from field of study ('studerar ekonomi, statistik'); degree 0: ongoing university studies, not a degree; communication from 'pedagogiskt förklara' to decision makers"}
+{"ann_id": "D019", "skills": ["statistics", "forecasting", "etl_dw", "visualization", "ai_any", "degree", "communication"], "notes": "forecasting from 'förutse händelser' (+ modellering/simulering)"}
+{"ann_id": "D020", "skills": ["sql", "power_bi", "tableau", "qlik", "looker", "gcp", "experimentation", "visualization", "reporting", "communication"], "notes": "etl_dw 0: 'SQL to extract, transform and analyze' not called ETL"}
+{"ann_id": "D021", "skills": ["python", "r", "azure", "etl_dw", "visualization", "english_req", "swedish_req"], "notes": "etl_dw from 'Data warehousing'"}
+{"ann_id": "D022", "skills": ["gcp", "visualization", "reporting", "communication"], "notes": "gcp via 'Big Query'; experimentation 0 ('test and learn mindset' only)"}
+{"ann_id": "D023", "skills": ["cloud_any", "statistics", "visualization"], "notes": "text partly truncated; statistics/visualization from team expertise list; forecasting 0 ('predicting shopper behavior' as company expertise); experimentation 0 (virtual store tests are market research)"}
+{"ann_id": "D024", "skills": ["python", "statistics", "degree", "communication"], "notes": ""}
+{"ann_id": "D025", "skills": ["excel", "qlik", "machine_learning", "visualization", "reporting", "communication"], "notes": "statistics 0: only 'sannolikhetslära' (probability) and matematik; Big Data/Hadoop/Google Analytics have no key"}
+{"ann_id": "D026", "skills": ["excel", "tableau", "statistics", "visualization", "degree"], "notes": "experimentation 0: 'produkttester' (market research product tests) not clearly A/B/experiments"}
+{"ann_id": "D027", "skills": ["dbt", "etl_dw", "visualization", "communication"], "notes": "etl_dw from 'Data Vault'; communication from 'visualisera och kommunicera data'"}
+{"ann_id": "D028", "skills": ["sql", "python", "r", "statistics", "etl_dw", "visualization", "reporting", "degree", "communication"], "notes": ""}
+{"ann_id": "D029", "skills": ["excel", "reporting", "degree", "english_req", "swedish_req", "communication"], "notes": "degree: 'troligen högskolestudier, kanske fil.kand.' (soft, but mentioned)"}
+{"ann_id": "D030", "skills": ["communication"], "notes": "excel 0: only generic 'create spreadsheets', Excel not named; 'excellent' is not Excel"}
+{"ann_id": "D031", "skills": ["sql", "tableau", "gcp", "statistics", "visualization", "english_req", "swedish_req", "communication"], "notes": "gcp via BigQuery; visualization from 'göra data visuellt'; experimentation 0 ('experimentera internt' = trying new methods)"}
+{"ann_id": "D032", "skills": ["degree"], "notes": "communication 0: only cross-functional collaboration; budgeting/follow-up not counted as reporting"}
+{"ann_id": "D033", "skills": ["excel"], "notes": ""}
+{"ann_id": "D034", "skills": ["statistics", "forecasting", "experimentation", "reporting", "communication"], "notes": "forecasting from 'prediktiv analys'; experimentation from campaign/service 'tester' + 'testbara hypoteser' for conversion optimisation (moderately sure)"}
+{"ann_id": "D035", "skills": ["spss", "statistics", "reporting", "degree", "english_req", "swedish_req", "communication"], "notes": "excel 0: only 'MS Office'"}
+{"ann_id": "D036", "skills": ["excel", "sql", "r", "sas", "vba", "power_bi", "qlik", "statistics", "forecasting", "visualization", "reporting", "english_req", "communication"], "notes": "SAS listed among analytics tools (software); machine_learning 0: 'decision trees' listed under statistical techniques, ML not named"}
+{"ann_id": "D037", "skills": ["etl_dw", "communication"], "notes": "etl_dw only from 'dwh' team mention (data warehouse)"}
+{"ann_id": "D038", "skills": ["experimentation", "visualization", "english_req", "swedish_req"], "notes": "visualization from title '(Data Visualization)'; languages from bare 'Swedish & English' line in requirements area"}
+{"ann_id": "D039", "skills": ["cloud_any", "ai_any", "degree"], "notes": "cloud/AI from company product description"}
+{"ann_id": "D040", "skills": ["reporting", "swedish_req"], "notes": "reporting from 'Redovisning ... tillsammans med VD' (presenting results; uncertain); degree 0 ('studier eller motsvarande')"}
+{"ann_id": "D041", "skills": ["degree", "communication"], "notes": "degree from 'examen inom företagsekonomi/marknadsföring' (level not stated, read as higher-ed degree)"}
+{"ann_id": "D042", "skills": ["experimentation", "degree", "communication"], "notes": ""}
+{"ann_id": "D043", "skills": ["reporting", "ai_any", "communication"], "notes": "ai_any from 'Data Analytics and AI team'"}
+{"ann_id": "D044", "skills": ["sql", "python", "r", "power_bi", "cloud_any", "machine_learning", "forecasting", "etl_dw", "ai_any", "degree", "swedish_req", "communication"], "notes": "azure 0: Microsoft Fabric not counted as Azure; reporting 0: 'ESG reporting' as domain knowledge, not a reporting task; genai 0 (only AI/ML)"}
+{"ann_id": "D045", "skills": ["etl_dw", "visualization", "reporting"], "notes": ""}
+{"ann_id": "D046", "skills": ["sql", "python", "looker", "gcp", "experimentation", "etl_dw", "visualization", "communication"], "notes": "looker from 'Google Data Studio and Looker'; gcp via BigQuery; etl_dw from 'data warehousing tools'; swedish_req 0 ('Swedish is not a requirement')"}
+{"ann_id": "D047", "skills": ["excel", "sql", "sas", "spss", "statistics", "visualization", "reporting", "degree", "communication"], "notes": ""}
+{"ann_id": "D048", "skills": ["sql", "tableau", "gcp", "visualization", "reporting", "degree", "communication"], "notes": "gcp via 'Google Big Query'; statistics 0 (attribution/MMM not named as statistics)"}
+{"ann_id": "D049", "skills": ["excel", "degree"], "notes": "degree from 'nivå motsvarande högskola med teknisk inriktning'"}
+{"ann_id": "D050", "skills": ["sql", "communication"], "notes": "degree 0: 'relevant utbildning' with no level stated"}

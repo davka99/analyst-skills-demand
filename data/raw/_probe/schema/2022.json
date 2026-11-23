@@ -1,0 +1,365 @@
+{
+  "file": "/annonser/historiska/2022.jsonl.zip",
+  "url": "https://data.arbetsformedlingen.se/annonser/historiska/2022.jsonl.zip",
+  "bytes": 1488544519,
+  "sha256": "89e04e0ec7ac3b71aa7ebb4651094bbf06f506f3ba148fb68e2dc447cc8583d9",
+  "seconds": 73.3,
+  "n": 2000,
+  "key_paths": {
+    "access": 2000,
+    "access_to_own_car": 2000,
+    "application_contacts": 2000,
+    "application_contacts[].contact_type": 1090,
+    "application_contacts[].description": 1090,
+    "application_contacts[].email": 1090,
+    "application_contacts[].name": 1090,
+    "application_contacts[].telephone": 1090,
+    "application_deadline": 2000,
+    "application_details": 2000,
+    "application_details.email": 2000,
+    "application_details.information": 2000,
+    "application_details.other": 2000,
+    "application_details.reference": 2000,
+    "application_details.url": 2000,
+    "application_details.via_af": 2000,
+    "description": 2000,
+    "description.company_information": 2000,
+    "description.conditions": 2000,
+    "description.needs": 2000,
+    "description.requirements": 2000,
+    "description.text": 2000,
+    "description.text_formatted": 2000,
+    "driving_license": 2000,
+    "driving_license[].concept_id": 336,
+    "driving_license[].label": 336,
+    "driving_license[].legacy_ams_taxonomy_id": 336,
+    "driving_license_required": 2000,
+    "duration": 2000,
+    "duration.concept_id": 2000,
+    "duration.label": 2000,
+    "duration.legacy_ams_taxonomy_id": 2000,
+    "employer": 2000,
+    "employer.email": 2000,
+    "employer.name": 2000,
+    "employer.organization_number": 2000,
+    "employer.phone_number": 2000,
+    "employer.url": 2000,
+    "employer.workplace": 2000,
+    "employment_type": 2000,
+    "employment_type.concept_id": 2000,
+    "employment_type.label": 2000,
+    "employment_type.legacy_ams_taxonomy_id": 2000,
+    "experience_required": 2000,
+    "external_id": 2000,
+    "headline": 2000,
+    "id": 2000,
+    "last_publication_date": 2000,
+    "logo_url": 2000,
+    "must_have": 2000,
+    "must_have.education": 2000,
+    "must_have.education_level": 2000,
+    "must_have.languages": 2000,
+    "must_have.skills": 2000,
+    "must_have.work_experiences": 2000,
+    "nice_to_have": 2000,
+    "nice_to_have.education": 2000,
+    "nice_to_have.education_level": 2000,
+    "nice_to_have.languages": 2000,
+    "nice_to_have.skills": 2000,
+    "nice_to_have.work_experiences": 2000,
+    "number_of_vacancies": 2000,
+    "occupation": 2000,
+    "occupation.concept_id": 2000,
+    "occupation.label": 2000,
+    "occupation.legacy_ams_taxonomy_id": 2000,
+    "occupation_field": 2000,
+    "occupation_field.concept_id": 2000,
+    "occupation_field.label": 2000,
+    "occupation_field.legacy_ams_taxonomy_id": 2000,
+    "occupation_group": 2000,
+    "occupation_group.concept_id": 2000,
+    "occupation_group.label": 2000,
+    "occupation_group.legacy_ams_taxonomy_id": 2000,
+    "publication_date": 2000,
+    "removed": 2000,
+    "removed_date": 2000,
+    "salary_description": 2000,
+    "salary_type": 2000,
+    "salary_type.concept_id": 2000,
+    "salary_type.label": 2000,
+    "salary_type.legacy_ams_taxonomy_id": 2000,
+    "scope_of_work": 2000,
+    "scope_of_work.max": 2000,
+    "scope_of_work.min": 2000,
+    "source_type": 2000,
+    "timestamp": 2000,
+    "webpage_url": 2000,
+    "working_hours_type": 2000,
+    "working_hours_type.concept_id": 2000,
+    "working_hours_type.label": 2000,
+    "working_hours_type.legacy_ams_taxonomy_id": 2000,
+    "workplace_address": 2000,
+    "workplace_address.city": 2000,
+    "workplace_address.coordinates": 2000,
+    "workplace_address.country": 2000,
+    "workplace_address.country_code": 2000,
+    "workplace_address.country_concept_id": 2000,
+    "workplace_address.municipality": 2000,
+    "workplace_address.municipality_code": 2000,
+    "workplace_address.municipality_concept_id": 2000,
+    "workplace_address.postcode": 2000,
+    "workplace_address.region": 2000,
+    "workplace_address.region_code": 2000,
+    "workplace_address.region_concept_id": 2000,
+    "workplace_address.street_address": 2000
+  },
+  "field_shares": {
+    "id": 1.0,
+    "headline": 1.0,
+    "publication_date": 1.0,
+    "application_deadline": 1.0,
+    "description": 1.0,
+    "employer_name": 1.0,
+    "employer_orgnr": 0.9965,
+    "occupation": 1.0,
+    "occupation_id": 1.0,
+    "occupation_group": 1.0,
+    "occupation_field": 1.0,
+    "region": 0.9825,
+    "region_code": 0.9825,
+    "municipality": 0.9825,
+    "municipality_code": 0.9825,
+    "vacancies": 1.0,
+    "employment_type": 1.0,
+    "remote": 0.0,
+    "original_id": 0.0,
+    "last_publication_date": 1.0,
+    "removed_date": 0.0,
+    "source_type": 1.0,
+    "language": 0.0,
+    "experience_required": 1.0,
+    "jobtech_skills": 0.0
+  },
+  "samples": [
+    {
+      "id": "26968302",
+      "external_id": "46-556560-6018-581407",
+      "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/26968302",
+      "logo_url": null,
+      "headline": "Avonova Hälsa söker leg. psykolog till Kalmar",
+      "application_deadline": "2023-01-21T23:59:59",
+      "number_of_vacancies": 1,
+      "description": {
+        "text": "[removed: ad text, D16]",
+        "text_formatted": "[removed: ad text, D16]",
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": "[removed: ad text, D16]"
+      },
+      "employment_type": {
+        "concept_id": "PFZr_Syz_cUq",
+        "label": "Vanlig anställning",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_type": {
+        "concept_id": "oG8G_9cW_nRf",
+        "label": "Fast månads- vecko- eller timlön",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_description": "Fast lön",
+      "duration": {
+        "concept_id": "a7uU_j21_mkL",
+        "label": "Tills vidare",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "access": null,
+      "employer": "[removed, D16]",
+      "application_details": "[removed, D16]",
+      "experience_required": true,
+      "access_to_own_car": false,
+      "driving_license_required": false,
+      "driving_license": null,
+      "occupation": {
+        "concept_id": "xBo9_V9m_bfg",
+        "label": "Psykolog",
+        "legacy_ams_taxonomy_id": "5709"
+      },
+      "occupation_group": {
+        "concept_id": "VYeq_GDF_a2g",
+        "label": "Psykologer",
+        "legacy_ams_taxonomy_id": "2241"
+      },
+      "occupation_field": {
+        "concept_id": "NYW6_mP6_vwf",
+        "label": "Hälso- och sjukvård",
+        "legacy_ams_taxonomy_id": "8"
+      },
+      "workplace_address": {
+        "municipality": "Kalmar",
+        "municipality_code": "0880",
+        "municipality_concept_id": "Pnmg_SgP_uHQ",
+        "region": "Kalmar län",
+        "region_code": "08",
+        "region_concept_id": "9QUH_2bb_6Np",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": null,
+        "postcode": null,
+        "city": null,
+        "coordinates": [
+          16.35678,
+          56.663445
+        ]
+      },
+      "must_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [
+          {
+            "weight": 10,
+            "concept_id": "xBo9_V9m_bfg",
+            "label": "Psykolog",
+            "legacy_ams_taxonomy_id": "5709"
+          }
+        ],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "application_contacts": "[removed, D16]",
+      "publication_date": "2022-12-31T14:39:18",
+      "last_publication_date": "2023-01-21T23:59:59",
+      "removed": false,
+      "removed_date": null,
+      "source_type": "VIA_PLATSBANKEN_DXA",
+      "timestamp": 1672493958995
+    },
+    {
+      "id": "26968355",
+      "external_id": "46-556922-0469-1693",
+      "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/26968355",
+      "logo_url": null,
+      "headline": "Sjukvårdsmäklarna AB söker sjuksköterska till avdelning i Stockholm",
+      "application_deadline": "2023-05-27T23:59:59",
+      "number_of_vacancies": 1,
+      "description": {
+        "text": "[removed: ad text, D16]",
+        "text_formatted": "[removed: ad text, D16]",
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": "[removed: ad text, D16]"
+      },
+      "employment_type": {
+        "concept_id": "PFZr_Syz_cUq",
+        "label": "Vanlig anställning",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_type": {
+        "concept_id": "asrX_9Df_ukn",
+        "label": "Fast och rörlig lön",
+        "legacy_ams_taxonomy_id": "7"
+      },
+      "salary_description": "Förutom tydlig kommunikation och förstklassigt boende vid behov, erbjuder vi våra medarbetare förmåner som:\n\n- Kollektivavtalsliknande lösningar\n- Löneväxling\n- Tjänstepension.",
+      "duration": {
+        "concept_id": "qQUd_4qe_NDT",
+        "label": "6 månader eller längre",
+        "legacy_ams_taxonomy_id": "2"
+      },
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "access": null,
+      "employer": "[removed, D16]",
+      "application_details": "[removed, D16]",
+      "experience_required": true,
+      "access_to_own_car": false,
+      "driving_license_required": false,
+      "driving_license": null,
+      "occupation": {
+        "concept_id": "bXNH_MNX_dUR",
+        "label": "Sjuksköterska, grundutbildad",
+        "legacy_ams_taxonomy_id": "7296"
+      },
+      "occupation_group": {
+        "concept_id": "Z8ci_bBE_tmx",
+        "label": "Grundutbildade sjuksköterskor",
+        "legacy_ams_taxonomy_id": "2221"
+      },
+      "occupation_field": {
+        "concept_id": "NYW6_mP6_vwf",
+        "label": "Hälso- och sjukvård",
+        "legacy_ams_taxonomy_id": "8"
+      },
+      "workplace_address": {
+        "municipality": "Huddinge",
+        "municipality_code": "0126",
+        "municipality_concept_id": "g1Gc_aXK_EKu",
+        "region": "Stockholms län",
+        "region_code": "01",
+        "region_concept_id": "CifL_Rzy_Mku",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": null,
+        "postcode": null,
+        "city": null,
+        "coordinates": [
+          17.982157,
+          59.23633
+        ]
+      },
+      "must_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [
+          {
+            "weight": 10,
+            "concept_id": "bXNH_MNX_dUR",
+            "label": "Sjuksköterska, grundutbildad",
+            "legacy_ams_taxonomy_id": "7296"
+          }
+        ],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "application_contacts": "[removed, D16]",
+      "publication_date": "2022-12-31T16:47:02",
+      "last_publication_date": "2023-05-27T23:59:59",
+      "removed": false,
+      "removed_date": null,
+      "source_type": "VIA_PLATSBANKEN_DXA",
+      "timestamp": 1672501622506
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# The yearly JobTech files are 0.6-1.5 GB each and are never committed.
+data/tmp/
+*.zip
+# D16: ad text is never committed. These are recreated by `fetch` (and
+# `annotate_prep`); everything downstream reads data/processed/ads_features.csv.gz.
+data/raw/extract/
+data/annotation/texts/
+data/processed/*.jsonl.gz

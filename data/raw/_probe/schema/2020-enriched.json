@@ -1,0 +1,465 @@
+{
+  "file": "/annonser/historiska/berikade/kompletta/2020_beta1_jsonl.zip",
+  "url": "https://data.arbetsformedlingen.se/annonser/historiska/berikade/kompletta/2020_beta1_jsonl.zip",
+  "bytes": 655823008,
+  "sha256": "cfe6de41739475eee667406b3a55c0869852baa05880c7653acd3e17087cba8b",
+  "seconds": 34.6,
+  "n": 20000,
+  "key_paths": {
+    "access": 20000,
+    "access_to_own_car": 20000,
+    "application_contacts": 20000,
+    "application_deadline": 20000,
+    "application_details": 20000,
+    "application_details.email": 20000,
+    "application_details.information": 20000,
+    "application_details.other": 20000,
+    "application_details.reference": 20000,
+    "application_details.url": 20000,
+    "application_details.via_af": 20000,
+    "description": 20000,
+    "description.company_information": 20000,
+    "description.conditions": 14018,
+    "description.needs": 20000,
+    "description.requirements": 20000,
+    "description.text": 20000,
+    "description.text_formatted": 20000,
+    "detected_language": 20000,
+    "driving_license": 20000,
+    "driving_license[].concept_id": 63,
+    "driving_license[].label": 63,
+    "driving_license[].legacy_ams_taxonomy_id": 3,
+    "driving_license_required": 20000,
+    "duration": 20000,
+    "duration.concept_id": 20000,
+    "duration.label": 18959,
+    "duration.legacy_ams_taxonomy_id": 20000,
+    "employer": 20000,
+    "employer.email": 20000,
+    "employer.name": 20000,
+    "employer.organization_number": 20000,
+    "employer.phone_number": 20000,
+    "employer.url": 20000,
+    "employer.workplace": 20000,
+    "employment_type": 20000,
+    "employment_type[].concept_id": 20000,
+    "employment_type[].label": 20000,
+    "employment_type[].legacy_ams_taxonomy_id": 20000,
+    "employment_type[].original_value": 20000,
+    "experience_required": 20000,
+    "external_id": 20000,
+    "franchise": 20000,
+    "headline": 20000,
+    "hire_work_place": 20000,
+    "id": 20000,
+    "keywords": 20000,
+    "keywords.enriched": 15377,
+    "keywords.enriched.compound": 15377,
+    "keywords.enriched.location": 15377,
+    "keywords.enriched.occupation": 15377,
+    "keywords.enriched.skill": 15377,
+    "keywords.enriched.trait": 15377,
+    "keywords.extracted": 20000,
+    "keywords.extracted.employer": 20000,
+    "keywords.extracted.location": 20000,
+    "keywords.extracted.occupation": 20000,
+    "keywords.extracted.skill": 20000,
+    "larling": 20000,
+    "last_publication_date": 20000,
+    "logo_url": 20000,
+    "must_have": 20000,
+    "must_have.languages": 20000,
+    "must_have.skills": 20000,
+    "must_have.work_experiences": 20000,
+    "nice_to_have": 20000,
+    "nice_to_have.languages": 20000,
+    "nice_to_have.skills": 20000,
+    "nice_to_have.work_experiences": 20000,
+    "number_of_vacancies": 20000,
+    "occupation": 20000,
+    "occupation[].concept_id": 20000,
+    "occupation[].label": 20000,
+    "occupation[].legacy_ams_taxonomy_id": 20000,
+    "occupation[].original_value": 20000,
+    "occupation_field": 20000,
+    "occupation_field[].concept_id": 20000,
+    "occupation_field[].label": 20000,
+    "occupation_field[].legacy_ams_taxonomy_id": 20000,
+    "occupation_group": 20000,
+    "occupation_group[].concept_id": 20000,
+    "occupation_group[].label": 20000,
+    "occupation_group[].legacy_ams_taxonomy_id": 20000,
+    "open_for_all": 20000,
+    "original_id": 20000,
+    "publication_date": 20000,
+    "remote_work": 20000,
+    "removed": 20000,
+    "removed_date": 20000,
+    "salary_description": 13738,
+    "salary_type": 20000,
+    "salary_type.concept_id": 20000,
+    "salary_type.label": 20000,
+    "salary_type.legacy_ams_taxonomy_id": 20000,
+    "scope_of_work": 20000,
+    "scope_of_work.max": 20000,
+    "scope_of_work.min": 20000,
+    "source_type": 20000,
+    "timestamp": 20000,
+    "trainee": 20000,
+    "webpage_url": 20000,
+    "working_hours_type": 20000,
+    "working_hours_type.concept_id": 20000,
+    "working_hours_type.label": 18959,
+    "working_hours_type.legacy_ams_taxonomy_id": 20000,
+    "workplace_address": 20000,
+    "workplace_address.city": 14372,
+    "workplace_address.coordinates": 20000,
+    "workplace_address.country": 14259,
+    "workplace_address.country_code": 20000,
+    "workplace_address.country_concept_id": 20000,
+    "workplace_address.municipality": 20000,
+    "workplace_address.municipality_code": 20000,
+    "workplace_address.municipality_concept_id": 20000,
+    "workplace_address.postcode": 14372,
+    "workplace_address.region": 20000,
+    "workplace_address.region_code": 20000,
+    "workplace_address.region_concept_id": 20000,
+    "workplace_address.street_address": 14335
+  },
+  "field_shares": {
+    "id": 1.0,
+    "headline": 1.0,
+    "publication_date": 1.0,
+    "application_deadline": 1.0,
+    "description": 0.7689,
+    "employer_name": 1.0,
+    "employer_orgnr": 0.0,
+    "occupation": 0.999,
+    "occupation_id": 0.999,
+    "occupation_group": 0.999,
+    "occupation_field": 0.999,
+    "region": 0.7073,
+    "region_code": 0.7073,
+    "municipality": 0.7071,
+    "municipality_code": 0.7071,
+    "vacancies": 1.0,
+    "employment_type": 1.0,
+    "remote": 1.0,
+    "original_id": 1.0,
+    "last_publication_date": 1.0,
+    "removed_date": 0.0,
+    "source_type": 0.011,
+    "language": 0.8712,
+    "experience_required": 0.011,
+    "jobtech_skills": 1.0
+  },
+  "samples": [
+    {
+      "access": null,
+      "access_to_own_car": null,
+      "application_contacts": "[removed, D16]",
+      "application_deadline": "2020-01-15T23:59:59",
+      "application_details": "[removed, D16]",
+      "description": {
+        "company_information": "",
+        "conditions": "[removed: ad text, D16]",
+        "needs": null,
+        "requirements": null,
+        "text": "[removed: ad text, D16]",
+        "text_formatted": null
+      },
+      "detected_language": "sv",
+      "driving_license": null,
+      "driving_license_required": null,
+      "duration": {
+        "concept_id": null,
+        "label": "TILLSVIDARE",
+        "legacy_ams_taxonomy_id": null
+      },
+      "employer": "[removed, D16]",
+      "employment_type": [
+        {
+          "concept_id": null,
+          "label": "VANLIG_ANSTALLNING",
+          "legacy_ams_taxonomy_id": null,
+          "original_value": true
+        }
+      ],
+      "experience_required": null,
+      "external_id": "46-232100-0024-34927",
+      "franchise": false,
+      "headline": "Undersköterska till hjärtmottagningen",
+      "hire_work_place": false,
+      "id": "905db62269bb6692c28caecee0f2069f08096104",
+      "keywords": {
+        "extracted": {
+          "occupation": [
+            "undersköterska, vård- o specialavd. o mottagning",
+            "undersköterskor, vård- o specialavd o mottagning",
+            "hälso- och sjukvård"
+          ],
+          "skill": [],
+          "location": [
+            "se",
+            "uppsala län",
+            "uppsala"
+          ],
+          "employer": [
+            "region uppsala",
+            "uppsala läns landsting"
+          ]
+        },
+        "enriched": {
+          "occupation": [
+            "undersköterska"
+          ],
+          "skill": [
+            "sjukvård",
+            "mottagning"
+          ],
+          "trait": [
+            "arbeta självständigt",
+            "lösningsorienterad",
+            "ärlighet",
+            "flexibel"
+          ],
+          "location": [
+            "uppsala",
+            "uppsala län"
+          ],
+          "compound": [
+            "undersköterska",
+            "sjukvård",
+            "mottagning",
+            "uppsala",
+            "uppsala län"
+          ]
+        }
+      },
+      "larling": false,
+      "last_publication_date": "2020-01-15T23:59:59",
+      "logo_url": null,
+      "must_have": {
+        "languages": null,
+        "skills": null,
+        "work_experiences": null
+      },
+      "nice_to_have": {
+        "languages": null,
+        "skills": null,
+        "work_experiences": null
+      },
+      "number_of_vacancies": 1,
+      "occupation": [
+        {
+          "concept_id": "PQkQ_Dmk_ZF8",
+          "label": "Undersköterska, vård- o specialavd. o mottagning",
+          "legacy_ams_taxonomy_id": "7587",
+          "original_value": true
+        }
+      ],
+      "occupation_field": [
+        {
+          "concept_id": "NYW6_mP6_vwf",
+          "label": "Hälso- och sjukvård",
+          "legacy_ams_taxonomy_id": "8"
+        }
+      ],
+      "occupation_group": [
+        {
+          "concept_id": "LP4Z_ABV_gRm",
+          "label": "Undersköterskor, vård- o specialavd o mottagning",
+          "legacy_ams_taxonomy_id": "5323"
+        }
+      ],
+      "open_for_all": false,
+      "original_id": "23737817",
+      "publication_date": "2020-01-01T00:00:00",
+      "remote_work": false,
+      "removed": null,
+      "removed_date": null,
+      "salary_description": "-",
+      "salary_type": {
+        "concept_id": null,
+        "label": "FAST_LON",
+        "legacy_ams_taxonomy_id": null
+      },
+      "scope_of_work": {
+        "max": null,
+        "min": null
+      },
+      "source_type": null,
+      "timestamp": null,
+      "trainee": false,
+      "webpage_url": null,
+      "working_hours_type": {
+        "concept_id": null,
+        "label": "DELTID",
+        "legacy_ams_taxonomy_id": null
+      },
+      "workplace_address": {
+        "city": "Uppsala",
+        "coordinates": null,
+        "country": "SE",
+        "country_code": null,
+        "country_concept_id": null,
+        "municipality": "Uppsala",
+        "municipality_code": "0380",
+        "municipality_concept_id": null,
+        "postcode": "75185",
+        "region": "Uppsala län",
+        "region_code": "03",
+        "region_concept_id": null,
+        "street_address": "Akademiska sjukhuset"
+      }
+    },
+    {
+      "access": null,
+      "access_to_own_car": null,
+      "application_contacts": "[removed, D16]",
+      "application_deadline": "2020-01-31T23:59:59",
+      "application_details": "[removed, D16]",
+      "description": {
+        "company_information": "",
+        "needs": null,
+        "requirements": null,
+        "text": "[removed: ad text, D16]",
+        "text_formatted": null
+      },
+      "detected_language": "sv",
+      "driving_license": null,
+      "driving_license_required": null,
+      "duration": {
+        "concept_id": null,
+        "legacy_ams_taxonomy_id": null
+      },
+      "employer": "[removed, D16]",
+      "employment_type": [
+        {
+          "concept_id": null,
+          "label": "BEHOVSANSTALLNING",
+          "legacy_ams_taxonomy_id": null,
+          "original_value": true
+        }
+      ],
+      "experience_required": null,
+      "external_id": null,
+      "franchise": false,
+      "headline": "Besöksintervjuare i Svalöv",
+      "hire_work_place": false,
+      "id": "bfb9223063611eb0068ecc52481789f62573fd43",
+      "keywords": {
+        "extracted": {
+          "occupation": [
+            "marknadsundersökare",
+            "inköp",
+            "intervjuare",
+            "försäljning",
+            "marknadsföring"
+          ],
+          "skill": [],
+          "location": [],
+          "employer": [
+            "ipsos"
+          ]
+        },
+        "enriched": {
+          "occupation": [
+            "intervjuare",
+            "besöksintervjuare"
+          ],
+          "skill": [
+            "microsoft office",
+            "egen bil",
+            "svenska",
+            "microsoft windows",
+            "körkort"
+          ],
+          "trait": [
+            "tävlingsinriktad"
+          ],
+          "location": [
+            "svalöv"
+          ],
+          "compound": [
+            "intervjuare",
+            "besöksintervjuare",
+            "microsoft office",
+            "egen bil",
+            "svenska"
+          ]
+        }
+      },
+      "larling": false,
+      "last_publication_date": "2020-01-31T23:59:59",
+      "logo_url": null,
+      "must_have": {
+        "languages": null,
+        "skills": null,
+        "work_experiences": null
+      },
+      "nice_to_have": {
+        "languages": null,
+        "skills": null,
+        "work_experiences": null
+      },
+      "number_of_vacancies": 1,
+      "occupation": [
+        {
+          "concept_id": "yAhe_6tb_jn8",
+          "label": "Intervjuare, opinionsundersökning",
+          "legacy_ams_taxonomy_id": "6970",
+          "original_value": true
+        }
+      ],
+      "occupation_field": [
+        {
+          "concept_id": "RPTn_bxG_ExZ",
+          "label": "Försäljning, inköp, marknadsföring",
+          "legacy_ams_taxonomy_id": "5"
+        }
+      ],
+      "occupation_group": [
+        {
+          "concept_id": "83wV_GJa_vMd",
+          "label": "Marknadsundersökare och intervjuare",
+          "legacy_ams_taxonomy_id": "4226"
+        }
+      ],
+      "open_for_all": false,
+      "original_id": "23736497",
+      "publication_date": "2020-01-01T00:00:00",
+      "remote_work": false,
+      "removed": null,
+      "removed_date": null,
+      "salary_type": {
+        "concept_id": null,
+        "label": "FAST_LON",
+        "legacy_ams_taxonomy_id": null
+      },
+      "scope_of_work": {
+        "max": null,
+        "min": null
+      },
+      "source_type": null,
+      "timestamp": null,
+      "trainee": false,
+      "webpage_url": null,
+      "working_hours_type": {
+        "concept_id": null,
+        "legacy_ams_taxonomy_id": null
+      },
+      "workplace_address": {
+        "coordinates": null,
+        "country_code": null,
+        "country_concept_id": null,
+        "municipality": null,
+        "municipality_code": null,
+        "municipality_concept_id": null,
+        "region": null,
+        "region_code": null,
+        "region_concept_id": null
+      }
+    }
+  ]
+}

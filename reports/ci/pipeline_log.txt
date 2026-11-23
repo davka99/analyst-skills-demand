@@ -1,0 +1,71 @@
+== quality
+{
+ "rows_final": 3641,
+ "final_by_year": {
+  "2016": 216,
+  "2017": 217,
+  "2018": 274,
+  "2019": 325,
+  "2020": 249,
+  "2021": 513,
+  "2022": 578,
+  "2023": 487,
+  "2024": 415,
+  "2025": 367
+ },
+ "dropped_in_window": {
+  "repost": 597,
+  "same_id": 2
+ }
+}
+== quality done in 0.6s
+== validate
+validation written; dictionary 81b956e3e8a3
+== validate done in 0.5s
+== prevalence
+{
+ "n": 3624,
+ "late_n": 1263,
+ "gate_fail": [
+  "cloud_any"
+ ]
+}
+== prevalence done in 5.0s
+== bundles
+                    a           b  n_both  p_b_given_a       lift       phi
+18             python           r     179     0.532738   3.598119  0.652084
+126             azure         aws      50     0.490196  10.149470  0.610932
+0                 sql      python     256     0.573991   2.157591  0.514922
+164  machine_learning      ai_any      79     0.556338   5.091702  0.510045
+80            tableau        qlik      45     0.375000   6.072115  0.421643
+81            tableau      looker      49     0.408333   5.262500  0.400573
+29             python  statistics     217     0.645833   1.875144  0.381890
+42                  r         aws      44     0.235294   4.871745  0.363609
+== bundles done in 0.4s
+== robustness
+                    variant   skill   diff     lo     hi
+0                   primary     sql  0.112  0.044  0.174
+1                   primary  python  0.164  0.113  0.214
+2                   primary   excel -0.182 -0.249 -0.110
+0               no_agencies     sql  0.118  0.039  0.195
+1               no_agencies  python  0.145  0.088  0.206
+2               no_agencies   excel -0.169 -0.233 -0.109
+0             dedup_60_days     sql  0.117  0.049  0.181
+1             dedup_60_days  python  0.176  0.119  0.232
+2             dedup_60_days   excel -0.183 -0.256 -0.113
+0  one_ad_per_employer_year     sql  0.072  0.012  0.129
+1  one_ad_per_employer_year  python  0.142  0.093  0.190
+2  one_ad_per_employer_year   excel -0.146 -0.201 -0.090
+0             narrow_titles     sql -0.030 -0.128  0.066
+1             narrow_titles  python  0.098  0.010  0.181
+2             narrow_titles   excel -0.157 -0.232 -0.075
+0              broad_titles     sql  0.041 -0.011  0.092
+1              broad_titles  python  0.139  0.110  0.166
+2              broad_titles   excel -0.126 -0.171 -0.082
+0               swedish_ads     sql  0.108  0.047  0.166
+1               swedish_ads  python  0.205  0.132  0.280
+2               swedish_ads   excel -0.161 -0.251 -0.071
+0               english_ads     sql  0.053 -0.069  0.159
+1               english_ads  python  0.086  0.003  0.158
+2               english_ads   excel -0.172 -0.260 -0.085
+== robustness done in 3.4s
