@@ -62,6 +62,21 @@ def employer_key(name: str | None, orgnr: str | None) -> str:
     return f"name:{headline_key(name)}" if name else "unknown"
 
 
+PRIVATE_EMPLOYER = "(private individual)"
+
+
+def public_employer_name(name: str | None, orgnr: str | None = None) -> str | None:
+    """Employer name safe to publish, or a placeholder for a private individual.
+
+    A sole trader (enskild firma) is registered under the owner's personal identity
+    number, whose third digit is 0 or 1 (birth month); legal entities have 2 or more.
+    """
+    o = re.sub(r"\D", "", str(orgnr or ""))
+    if len(o) == 10 and o[2] in "01":
+        return PRIVATE_EMPLOYER
+    return name
+
+
 def is_agency(name: str | None) -> bool:
     return bool(name) and bool(AGENCY.search(str(name)))
 
@@ -188,7 +203,7 @@ def build_features(prepared: pd.DataFrame) -> pd.DataFrame:
             "pub_date": d["pub_date"].dt.strftime("%Y-%m-%d"),
             "year": d["year"],
             "category": d["category"],
-            "employer_name": d["employer_name"],
+            "employer_name": [public_employer_name(n, o) for n, o in zip(d["employer_name"], d["employer_orgnr"])],
             "employer_key": d["employer_key"].map(lambda k: "e:" + _short_hash(k)),
             "agency": d["agency"].astype(int),
             "region": d["region"],

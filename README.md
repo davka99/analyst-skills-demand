@@ -2,9 +2,11 @@
 
 Which tools and skills do employers in Sweden ask for when they advertise data-analyst jobs, and how has that changed over ten years? This project reads every data, BI and analytics analyst ad published on Arbetsförmedlingen's Platsbanken from 2016 to 2025 (3,641 ads from 1,180 employers after removing reposts), measures the skills they mention with a validated text dictionary, and reports trends with intervals that account for employers posting many similar ads.
 
+**In plain words:** I read every data-analyst job ad on Arbetsförmedlingen's job board from the last ten years and counted which skills they ask for. Analyst jobs have doubled as a share of all ads, most of them are in Stockholm, and employers now ask more often for Python, cloud platforms and charts and dashboards, and less often for Excel and SAS.
+
 ![Share of analyst ads mentioning each skill, 2016–2018 vs 2023–2025](reports/figures/change_early_late.png)
 
-*† = the change is not clear within ads titled "data analyst" (finding 4). "English required" fell only in English-language ads (finding 5).*
+*How to read it: each row is a skill. The grey dot is the share of ads that mentioned it in 2016–2018, the blue dot the share in 2023–2025; the longer the line, the bigger the change. A triangle marks a change that is clearly more than chance. † = the change is not clear within ads titled "data analyst" (finding 4). "English required" fell only in English-language ads (finding 5).*
 
 ## Business question
 
@@ -18,9 +20,13 @@ All data is real. Shares are "share of ads that mention the skill", with 95 % in
 
    ![Analyst ads per 10,000 Platsbanken ads](reports/figures/volume_per_10k.png)
 
+   *How to read it: how many of every 10,000 job ads were for analysts, per year. Comparing with all ads removes the ups and downs of the job market as a whole.*
+
 2. **What ads ask for now (2023–2025, 1,263 ads from 440 employers):** communication/stakeholders 66 % (61–71 %), data visualisation 49 % (44–54 %), reporting 47 % (44–51 %), a university degree 43 % (37–49 %), **SQL 35 % (30–41 %)**, statistics 34 % (30–39 %), **Python 27 % (23–31 %)**, Excel 15 % (12–19 %), R 15 % (11–19 %), Power BI 12 % (9–14 %), Tableau 10 % (7–12 %), Azure 8 % (5–12 %), Google Cloud/BigQuery 7 % (5–10 %), AI (any mention) 11 % (7–15 %).
 
    ![Skill shares 2023–2025](reports/figures/skills_2023_2025.png)
+
+   *How to read it: the share of 2023–2025 ads that mention each skill; the thin line is the 95 % uncertainty range.*
 
 3. **Clearly falling, in all eight robustness variants:** **Excel 34 % → 15 %**, **SAS 13 % → 3 %** and degree requirements. Statistics mentions fall in every variant, clearly in most.
    **Clearly rising, in all eight variants:** **cloud data platforms 3 % → 17 %** (Azure, AWS, GCP, Snowflake, Databricks), **data visualisation 23 % → 49 %** and Python 10 % → 27 %. Looker/Data Studio and AI mentions rise in the main analysis but not clearly in every variant.
@@ -36,6 +42,8 @@ All data is real. Shares are "share of ads that mention the skill", with 95 % in
 8. **Generative AI has barely reached the ads:** 7 of 3,624 ads mention generative AI, LLMs, ChatGPT or Copilot, all in 2024–2025 (each match read and confirmed).
 
 ![Skill mentions by year](reports/figures/trends_by_year.png)
+
+*How to read it: one small chart per skill, share of ads per year. The shaded band is the uncertainty; single years are based on 214–578 ads, so look at the direction over several years rather than at one year.*
 
 ## Recommendation
 
@@ -57,7 +65,7 @@ For a data-analyst programme aimed at Stockholm, based on what employers write i
 4. **Uncertainty:** employer-cluster bootstrap intervals; logistic trend models with employer-clustered standard errors; Benjamini–Hochberg across 40 skills. "Clearly rising/falling" needs an adjusted p < 0.05, a change of at least 5 percentage points, and an interval that excludes 0. The plan was written down before any results (`docs/decisions.md`, D10).
 5. **Composition and robustness:** every trend pooled, adjusted for title, and for data-analyst titles only; eight robustness variants (agencies, de-duplication rule, one ad per employer, title definitions, ad language).
 
-![Robustness of the change estimates](reports/figures/robustness.png)
+The [robustness chart](reports/figures/robustness.png) shows every change estimate under all eight variants.
 
 ## Data
 
@@ -66,7 +74,7 @@ For a data-analyst programme aimed at Stockholm, based on what employers write i
 | [JobTech / Arbetsförmedlingen – historical job ads](https://jobtechdev.se/en/components/historical-ads), enriched files `berikade/kompletta/<year>_beta1_jsonl.zip` | Every ad on Platsbanken; 7.5 million records read for 2016–2025 (+ 2026-Q1 as a boundary file) | Open download, no key |
 | [JobTech historical search API](https://historical.api.jobtechdev.se) | Yearly totals, used only for reconciliation | Open, no key |
 
-**No ad text is published.** The yearly files (0.6–1.5 GB each) are streamed in GitHub Actions; the stage `build` turns each analyst ad into one row of metadata and 0/1 skill flags (`data/processed/ads_features.csv.gz`), and every result is computed from that file. Employer keys and headlines are stored only as hashes (used for de-duplication). Any ad can be looked up at JobTech by its id. Annotations for validation are kept as ad id + labels in `data/annotation/`; they were made by Claude (AI) sub-agents that saw only the ad text and the written guide, and the disagreements were adjudicated with a written reason for each.
+**No ad text is published.** The yearly files (0.6–1.5 GB each) are streamed in GitHub Actions; the stage `build` turns each analyst ad into one row of metadata and 0/1 skill flags (`data/processed/ads_features.csv.gz`), and every result is computed from that file. Employer keys and headlines are stored only as hashes (used for de-duplication). Employer names are kept for companies and public bodies; a sole trader, whose organisation number is the owner's personal identity number, is shown as "(private individual)". Any ad can be looked up at JobTech by its id. Annotations for validation are kept as ad id + labels in `data/annotation/`; they were made by Claude (AI) sub-agents that saw only the ad text and the written guide, and the disagreements were adjudicated with a written reason for each.
 
 ## How to run
 
