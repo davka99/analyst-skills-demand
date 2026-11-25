@@ -407,6 +407,86 @@ def reconcile() -> None:
     _write_json(config.DATA_RAW / "api_yearly_totals.json", out)
 
 
+def reconcile_monthly() -> None:
+    """Locate the 2025 shortfall (data_quality.md section 2): API totals per month for
+    2024-2025 next to the files' counts per publication month, plus a probe of whether
+    the API counts ads the files may lack (by source and removal status)."""
+    sess = _session()
+    manifest = json.loads((config.DATA_RAW / "fetch_manifest.json").read_text(encoding="utf-8"))
+    files: dict = {}
+    for entry in manifest["years"].values():
+        for month, n in entry["by_month_new"].items():
+            files[month] = files.get(month, 0) + n
+    out: dict = {"run_at_utc": datetime.now(timezone.utc).isoformat(), "api": config.HISTORICAL_API,
+                 "months": {}}
+    import calendar
+
+    for year in (2024, 2025):
+        for m in range(1, 13):
+            last = calendar.monthrange(year, m)[1]
+            params = {"historical-from": f"{year}-{m:02d}-01T00:00:00",
+                      "historical-to": f"{year}-{m:02d}-{last}T23:59:59", "limit": 0}
+            key = f"{year}-{m:02d}"
+            try:
+                r = sess.get(f"{config.HISTORICAL_API}/search", params=params, timeout=120)
+                tot = r.json().get("total") if r.ok else None
+                api = tot.get("value") if isinstance(tot, dict) else tot
+                out["months"][key] = {"api": api, "files": files.get(key), "status": r.status_code}
+            except Exception as exc:  # noqa: BLE001
+                out["months"][key] = {"error": repr(exc), "files": files.get(key)}
+            e = out["months"][key]
+            if e.get("api") and e.get("files"):
+                e["diff_pct"] = round(100 * (e["files"] - e["api"]) / e["api"], 2)
+            print(key, e)
+    # Decisive check: are ads that the API counts for 2025 present in the 2025 file?
+    # 100 API ads per month (first page), membership tested against all ids in the file.
+    import calendar as _cal
+
+    sample = []
+    for m in range(1, 13):
+        last = _cal.monthrange(2025, m)[1]
+        try:
+            r = sess.get(f"{config.HISTORICAL_API}/search",
+                         params={"historical-from": f"2025-{m:02d}-01T00:00:00",
+                                 "historical-to": f"2025-{m:02d}-{last}T23:59:59", "limit": 100},
+                         timeout=120)
+            sample += [(f"2025-{m:02d}", h) for h in (r.json().get("hits", []) if r.ok else [])]
+        except Exception as exc:  # noqa: BLE001
+            out.setdefault("sample_errors", []).append(f"2025-{m:02d}: {exc!r}")
+    base, files = _file_list(sess, [2025])
+    label, link = files[0]
+    dest = config.DATA_TMP / link.rsplit("/", 1)[-1]
+    download(sess, urljoin(base, link), dest)
+    ids: set[str] = set()
+    for rec in jobtech.iter_records(dest):
+        ids.add(str(rec.get("id")) if rec.get("id") is not None else jobtech.synthetic_id(rec))
+    dest.unlink()
+
+    def describe(h: dict) -> dict:
+        return {"source_type": str(h.get("source_type")), "removed": str(h.get("removed")),
+                "has_description": bool((h.get("description") or {}).get("text")),
+                "publication_date": str(h.get("publication_date"))[:10],
+                "last_publication_date": str(h.get("last_publication_date"))[:10],
+                "removed_date": str(h.get("removed_date"))[:10]}
+
+    found = [h for _, h in sample if str(h.get("id")) in ids]
+    missing = [h for _, h in sample if str(h.get("id")) not in ids]
+    by_month = Counter(mo for mo, h in sample if str(h.get("id")) not in ids)
+    out["membership_2025"] = {
+        "file_ids": len(ids), "sampled": len(sample), "found": len(found), "missing": len(missing),
+        "missing_share": round(len(missing) / max(len(sample), 1), 4),
+        "missing_by_month": dict(sorted(by_month.items())),
+        "keys_in_api": sorted({k for _, h in sample for k in h})[:80],
+        "missing_profile": {k: dict(Counter(describe(h)[k] for h in missing))
+                            for k in ("source_type", "removed", "has_description")},
+        "found_profile": {k: dict(Counter(describe(h)[k] for h in found))
+                          for k in ("source_type", "removed", "has_description")},
+        "missing_examples": [{"id": str(h.get("id")), **describe(h)} for h in missing[:25]],
+    }
+    print(json.dumps(out["membership_2025"], indent=1)[:3000])
+    _write_json(config.DATA_RAW / "api_monthly_totals.json", out)
+
+
 def denominators(manifest: dict) -> dict:
     """Ads per publication year (unique ids across files), overall and by area."""
     from adskills.quality import STOCKHOLM
@@ -844,7 +924,7 @@ def robustness() -> None:
     print(rob[rob["skill"].isin(["sql", "python", "excel"])][["variant", "skill", "diff", "lo", "hi"]].round(3).to_string())
 
 
-STAGES = {"probe": probe, "schema": schema, "schema_alt": lambda: schema(alt=True, n=20000), "fetch": fetch, "build": build, "reconcile": reconcile, "quality": quality_stage, "annotate_prep": annotate_prep, "validate": validate, "prevalence": prevalence, "bundles": bundles, "robustness": robustness}
+STAGES = {"probe": probe, "schema": schema, "schema_alt": lambda: schema(alt=True, n=20000), "fetch": fetch, "build": build, "reconcile": reconcile, "quality": quality_stage, "annotate_prep": annotate_prep, "validate": validate, "prevalence": prevalence, "bundles": bundles, "robustness": robustness, "reconcile_monthly": reconcile_monthly}
 
 
 def main(argv: list[str]) -> int:
