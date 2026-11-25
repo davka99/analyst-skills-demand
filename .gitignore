@@ -13,3 +13,6 @@ data/tmp/
 data/raw/extract/
 data/annotation/texts/
 data/processed/*.jsonl.gz
+
+# CI results live in GitHub Actions, not in the repo.
+reports/ci/
