@@ -1,0 +1,233 @@
+{
+  "run_at_utc": "2026-11-25T11:48:37.103461+00:00",
+  "api": "https://historical.api.jobtechdev.se",
+  "months": {
+    "2024-01": {
+      "api": 72954,
+      "files": 72883,
+      "status": 200,
+      "diff_pct": -0.1
+    },
+    "2024-02": {
+      "api": 71656,
+      "files": 71584,
+      "status": 200,
+      "diff_pct": -0.1
+    },
+    "2024-03": {
+      "api": 69066,
+      "files": 69195,
+      "status": 200,
+      "diff_pct": 0.19
+    },
+    "2024-04": {
+      "api": 76284,
+      "files": 76088,
+      "status": 200,
+      "diff_pct": -0.26
+    },
+    "2024-05": {
+      "api": 68693,
+      "files": 68722,
+      "status": 200,
+      "diff_pct": 0.04
+    },
+    "2024-06": {
+      "api": 55225,
+      "files": 55182,
+      "status": 200,
+      "diff_pct": -0.08
+    },
+    "2024-07": {
+      "api": 40453,
+      "files": 40450,
+      "status": 200,
+      "diff_pct": -0.01
+    },
+    "2024-08": {
+      "api": 52240,
+      "files": 52237,
+      "status": 200,
+      "diff_pct": -0.01
+    },
+    "2024-09": {
+      "api": 55936,
+      "files": 55712,
+      "status": 200,
+      "diff_pct": -0.4
+    },
+    "2024-10": {
+      "api": 58451,
+      "files": 58361,
+      "status": 200,
+      "diff_pct": -0.15
+    },
+    "2024-11": {
+      "api": 50619,
+      "files": 50146,
+      "status": 200,
+      "diff_pct": -0.93
+    },
+    "2024-12": {
+      "api": 46560,
+      "files": 44910,
+      "status": 200,
+      "diff_pct": -3.54
+    },
+    "2025-01": {
+      "api": 62401,
+      "files": 55463,
+      "status": 200,
+      "diff_pct": -11.12
+    },
+    "2025-02": {
+      "api": 61501,
+      "files": 55403,
+      "status": 200,
+      "diff_pct": -9.92
+    },
+    "2025-03": {
+      "api": 65757,
+      "files": 59715,
+      "status": 200,
+      "diff_pct": -9.19
+    },
+    "2025-04": {
+      "api": 77188,
+      "files": 57693,
+      "status": 200,
+      "diff_pct": -25.26
+    },
+    "2025-05": {
+      "api": 52347,
+      "files": 52415,
+      "status": 200,
+      "diff_pct": 0.13
+    },
+    "2025-06": {
+      "api": 41563,
+      "files": 40175,
+      "status": 200,
+      "diff_pct": -3.34
+    },
+    "2025-07": {
+      "api": 32871,
+      "files": 30517,
+      "status": 200,
+      "diff_pct": -7.16
+    },
+    "2025-08": {
+      "api": 37421,
+      "files": 41183,
+      "status": 200,
+      "diff_pct": 10.05
+    },
+    "2025-09": {
+      "api": 50457,
+      "files": 49671,
+      "status": 200,
+      "diff_pct": -1.56
+    },
+    "2025-10": {
+      "api": 50902,
+      "files": 50186,
+      "status": 200,
+      "diff_pct": -1.41
+    },
+    "2025-11": {
+      "api": 43577,
+      "files": 44326,
+      "status": 200,
+      "diff_pct": 1.72
+    },
+    "2025-12": {
+      "api": 44354,
+      "files": 44693,
+      "status": 200,
+      "diff_pct": 0.76
+    }
+  },
+  "membership_2025": {
+    "file_ids": 1164482,
+    "sampled": 1200,
+    "found": 1200,
+    "missing": 0,
+    "missing_share": 0.0,
+    "missing_by_month": {},
+    "keys_in_api": [
+      "access",
+      "access_to_own_car",
+      "application_contacts",
+      "application_deadline",
+      "application_details",
+      "description",
+      "driving_license",
+      "driving_license_required",
+      "duration",
+      "employer",
+      "employment_type",
+      "experience_required",
+      "external_id",
+      "headline",
+      "id",
+      "label",
+      "last_publication_date",
+      "logo_url",
+      "must_have",
+      "nice_to_have",
+      "number_of_vacancies",
+      "occupation",
+      "occupation_field",
+      "occupation_group",
+      "original_id",
+      "publication_date",
+      "relevance",
+      "removed",
+      "removed_date",
+      "salary_description",
+      "salary_type",
+      "scope_of_work",
+      "source_type",
+      "timestamp",
+      "webpage_url",
+      "working_hours_type",
+      "workplace_address"
+    ],
+    "missing_profile": {
+      "source_type": {},
+      "removed": {},
+      "has_description": {}
+    },
+    "found_profile": {
+      "source_type": {
+        "VIA_PLATSBANKEN_DXA": 470,
+        "VIA_ANNONSERA": 714,
+        "VIA_AIS": 1,
+        "VIA_JOBPOSTING": 15
+      },
+      "removed": {
+        "False": 350,
+        "True": 850
+      },
+      "has_description": {
+        "true": 1198,
+        "false": 2
+      }
+    },
+    "api_id_examples": [
+      [
+        "a56434a816781cfe7c05dcc01140dd55b3af8695",
+        "29431014"
+      ],
+      [
+        "638021a4c3946c07ac6626195528962866d19c2d",
+        "29431000"
+      ],
+      [
+        "6f479f61a636c207fef4669df071322cd355c4af",
+        "29430998"
+      ]
+    ],
+    "missing_examples": []
+  }
+}
