@@ -111,7 +111,7 @@ adjudication). To check them, the repository owner labels a random subsample of 
 from the test sample** blind, for the 15 main skills, using only this guide.
 
 1. In GitHub: **Actions → annotation-kit → Run workflow** (about 20–30 minutes; it downloads
-   the yearly files). Download the artifact `human-annotation-kit` (kept for 7 days). It has
+   the yearly files). Download the artifact `human-annotation-kit` (kept for 1 day, so download it right after the run). It has
    `human_texts.md` (the ads) and `human_labels.csv` (the sheet to fill in).
 2. Read each ad in `human_texts.md` and enter **1** or **0** for every skill column in
    `human_labels.csv` (opens in Excel; semicolon-separated). Use `note` for doubts. Do not
