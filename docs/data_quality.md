@@ -34,12 +34,36 @@ same dates):
 | 2025 | 581,440 | 621,875 | **−6.5 %** |
 
 2016–2024 agree within half a percent, so the files are complete for those years.
-**2025 is 6.5 % short of the API.** The monthly profile of 2025 has no visible gap
-(no truncated month), and the 2026-Q1 boundary file adds only 2,600 ads published
-in 2025, so later 2026 files are unlikely to explain it. The cause is unknown; the
-dataset is "continuously updated" by JobTech. Numerator and denominator of the
-volume index come from the same files, so the index is consistent, but 2025 volume
-is marked as less certain.
+**2025 is 6.5 % short of the API.** Numerator and denominator of the volume index come
+from the same files, so the index is consistent, but 2025 volume is marked as less certain.
+
+**Where the gap sits (stage `reconcile_monthly`, `data/raw/api_monthly_totals.json`).**
+Per publication month, files against the API:
+
+| Month | Files vs API |
+|---|---|
+| 2024-01 – 2024-10 | −0.4 % to +0.2 % |
+| 2024-11 / 2024-12 | −0.9 % / −3.5 % |
+| 2025-01 / 02 / 03 | −11.1 % / −9.9 % / −9.2 % |
+| 2025-04 | **−25.3 %** |
+| 2025-05 / 06 | +0.1 % / −3.3 % |
+| 2025-07 / 08 | −7.2 % / **+10.1 %** |
+| 2025-09 – 2025-12 | −1.6 % to +1.7 % |
+
+- The gap is concentrated in Dec 2024 – Apr 2025 and Jul 2025, and August has *more* ads
+  in the files than in the API, so it is not a uniform loss.
+- **Membership test:** one page of 100 API ads at a random offset was drawn for every day
+  of Jan–May, Jul and Aug 2025 (21,049 ads) and looked up by id in the 2025 file. 98.7 %
+  are there. The 276 that are not are all removed ads published in July–August (largest groups:
+  administration and finance, health care, education), i.e. about 3 % of those months.
+- In January–April, **none** of the 12,000 sampled API ads was missing, although these
+  months have the largest shortfall. The API only pages through the first 2,000 ads per
+  query, so on busy days (April averages 2,600 a day) the tail could not be sampled;
+  publication dates and ids in the sample match the queried day, so a different date field
+  or duplicate hits do not explain it.
+- **Conclusion:** a small, identified part of the gap is removed July–August ads missing
+  from the file. The larger spring shortfall is located but not explained; JobTech's
+  dataset is "continuously updated", and the 2026-Q1 file adds only 2,600 ads from 2025.
 
 ## 3. Duplicates
 

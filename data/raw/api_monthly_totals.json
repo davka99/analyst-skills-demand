@@ -1,0 +1,543 @@
+{
+  "run_at_utc": "2026-11-25T12:00:01.052882+00:00",
+  "api": "https://historical.api.jobtechdev.se",
+  "months": {
+    "2024-01": {
+      "api": 72954,
+      "files": 72883,
+      "status": 200,
+      "diff_pct": -0.1
+    },
+    "2024-02": {
+      "api": 71656,
+      "files": 71584,
+      "status": 200,
+      "diff_pct": -0.1
+    },
+    "2024-03": {
+      "api": 69066,
+      "files": 69195,
+      "status": 200,
+      "diff_pct": 0.19
+    },
+    "2024-04": {
+      "api": 76284,
+      "files": 76088,
+      "status": 200,
+      "diff_pct": -0.26
+    },
+    "2024-05": {
+      "api": 68693,
+      "files": 68722,
+      "status": 200,
+      "diff_pct": 0.04
+    },
+    "2024-06": {
+      "api": 55225,
+      "files": 55182,
+      "status": 200,
+      "diff_pct": -0.08
+    },
+    "2024-07": {
+      "api": 40453,
+      "files": 40450,
+      "status": 200,
+      "diff_pct": -0.01
+    },
+    "2024-08": {
+      "api": 52240,
+      "files": 52237,
+      "status": 200,
+      "diff_pct": -0.01
+    },
+    "2024-09": {
+      "api": 55936,
+      "files": 55712,
+      "status": 200,
+      "diff_pct": -0.4
+    },
+    "2024-10": {
+      "api": 58451,
+      "files": 58361,
+      "status": 200,
+      "diff_pct": -0.15
+    },
+    "2024-11": {
+      "api": 50619,
+      "files": 50146,
+      "status": 200,
+      "diff_pct": -0.93
+    },
+    "2024-12": {
+      "api": 46560,
+      "files": 44910,
+      "status": 200,
+      "diff_pct": -3.54
+    },
+    "2025-01": {
+      "api": 62401,
+      "files": 55463,
+      "status": 200,
+      "diff_pct": -11.12
+    },
+    "2025-02": {
+      "api": 61501,
+      "files": 55403,
+      "status": 200,
+      "diff_pct": -9.92
+    },
+    "2025-03": {
+      "api": 65757,
+      "files": 59715,
+      "status": 200,
+      "diff_pct": -9.19
+    },
+    "2025-04": {
+      "api": 77188,
+      "files": 57693,
+      "status": 200,
+      "diff_pct": -25.26
+    },
+    "2025-05": {
+      "api": 52347,
+      "files": 52415,
+      "status": 200,
+      "diff_pct": 0.13
+    },
+    "2025-06": {
+      "api": 41563,
+      "files": 40175,
+      "status": 200,
+      "diff_pct": -3.34
+    },
+    "2025-07": {
+      "api": 32871,
+      "files": 30517,
+      "status": 200,
+      "diff_pct": -7.16
+    },
+    "2025-08": {
+      "api": 37421,
+      "files": 41183,
+      "status": 200,
+      "diff_pct": 10.05
+    },
+    "2025-09": {
+      "api": 50457,
+      "files": 49671,
+      "status": 200,
+      "diff_pct": -1.56
+    },
+    "2025-10": {
+      "api": 50902,
+      "files": 50186,
+      "status": 200,
+      "diff_pct": -1.41
+    },
+    "2025-11": {
+      "api": 43577,
+      "files": 44326,
+      "status": 200,
+      "diff_pct": 1.72
+    },
+    "2025-12": {
+      "api": 44354,
+      "files": 44693,
+      "status": 200,
+      "diff_pct": 0.76
+    }
+  },
+  "date_check": {
+    "2025-01": {
+      "hits": 3100,
+      "unique_ids": 3100,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-02": {
+      "hits": 2800,
+      "unique_ids": 2800,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-03": {
+      "hits": 3017,
+      "unique_ids": 3017,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-04": {
+      "hits": 3000,
+      "unique_ids": 3000,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-05": {
+      "hits": 3100,
+      "unique_ids": 3100,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-07": {
+      "hits": 3100,
+      "unique_ids": 3100,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-08": {
+      "hits": 2932,
+      "unique_ids": 2932,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    }
+  },
+  "membership_2025": {
+    "file_ids": 1164482,
+    "sampled": 21049,
+    "found": 20773,
+    "missing": 276,
+    "missing_share": 0.0131,
+    "missing_by_month": {
+      "2025-05": 1,
+      "2025-07": 176,
+      "2025-08": 99
+    },
+    "sampled_by_month": {
+      "2025-01": 3100,
+      "2025-02": 2800,
+      "2025-03": 3017,
+      "2025-04": 3000,
+      "2025-05": 3100,
+      "2025-07": 3100,
+      "2025-08": 2932
+    },
+    "keys_in_api": [
+      "_queried_day",
+      "access",
+      "access_to_own_car",
+      "application_contacts",
+      "application_deadline",
+      "application_details",
+      "description",
+      "driving_license",
+      "driving_license_required",
+      "duration",
+      "employer",
+      "employment_type",
+      "experience_required",
+      "external_id",
+      "headline",
+      "id",
+      "label",
+      "last_publication_date",
+      "logo_url",
+      "must_have",
+      "nice_to_have",
+      "number_of_vacancies",
+      "occupation",
+      "occupation_field",
+      "occupation_group",
+      "original_id",
+      "publication_date",
+      "relevance",
+      "removed",
+      "removed_date",
+      "salary_description",
+      "salary_type",
+      "scope_of_work",
+      "source_type",
+      "timestamp",
+      "webpage_url",
+      "working_hours_type",
+      "workplace_address"
+    ],
+    "missing_profile": {
+      "source_type": {
+        "VIA_PLATSBANKEN_DXA": 252,
+        "VIA_ANNONSERA": 24
+      },
+      "removed": {
+        "True": 276
+      },
+      "has_description": {
+        "true": 276
+      }
+    },
+    "missing_pubdate_vs_file": "see missing_examples",
+    "missing_occupation_field": {
+      "Administration, ekonomi, juridik": 55,
+      "Hälso- och sjukvård": 40,
+      "Pedagogik": 37,
+      "Chefer och verksamhetsledare": 29,
+      "Yrken med social inriktning": 21,
+      "Data/IT": 20,
+      "Säkerhet och bevakning": 17,
+      "Försäljning, inköp, marknadsföring": 14,
+      "Yrken med teknisk inriktning": 9,
+      "Bygg och anläggning": 7
+    },
+    "found_profile": {
+      "source_type": {
+        "VIA_PLATSBANKEN_DXA": 13214,
+        "VIA_ANNONSERA": 7507,
+        "VIA_AIS": 52
+      },
+      "removed": {
+        "False": 11544,
+        "True": 9229
+      },
+      "has_description": {
+        "true": 20754,
+        "false": 19
+      }
+    },
+    "api_id_examples": [
+      [
+        "441a88349c2274ddcbbdc5e399903d603bffb6a5",
+        "29353789"
+      ],
+      [
+        "362f17c03109ef6a8cd1d334c8cf2968cb4272b3",
+        "29353788"
+      ],
+      [
+        "a1ffc2eee3261128befdf603246e325580b2ee21",
+        "29353757"
+      ]
+    ],
+    "missing_examples": [
+      {
+        "id": "2eb94e40d3f5349803fd3404ff57a85b6de8d790",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-05-17",
+        "last_publication_date": "2025-06-02",
+        "removed_date": "2025-09-01"
+      },
+      {
+        "id": "48a2dca94648dd20471965a026cc8a204c42fc5c",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-05",
+        "last_publication_date": "2025-08-03",
+        "removed_date": "2025-08-04"
+      },
+      {
+        "id": "53c27e7e7d1d6d1250e130dec4c7f2514ec1e200",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-05",
+        "last_publication_date": "2025-07-15",
+        "removed_date": "2025-07-16"
+      },
+      {
+        "id": "e10bf1b23884667b5c324df1ce66dbd9e5a479a1",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-05",
+        "last_publication_date": "2025-07-20",
+        "removed_date": "2025-07-21"
+      },
+      {
+        "id": "0d822f5534831203257fe5196f2c68b9114dac22",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-01",
+        "removed_date": "2025-08-02"
+      },
+      {
+        "id": "11b089096a4b8012cff7dea7f25b9a06c24eda87",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-04",
+        "removed_date": "2025-08-05"
+      },
+      {
+        "id": "181ff0278e043d66d5112ee5f7dc1d2b0d28d7c3",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-17",
+        "removed_date": "2025-08-18"
+      },
+      {
+        "id": "1dde3d1268d316cad494a1156ca9fd76e6da6d20",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-17",
+        "removed_date": "2025-08-18"
+      },
+      {
+        "id": "230fa50d30d0b0142a2672a39e8436ff289d1afd",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-08",
+        "removed_date": "2025-08-09"
+      },
+      {
+        "id": "25bf28acd20acc5e6ca1e5cd57345564eae54df4",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-03",
+        "removed_date": "2025-08-04"
+      },
+      {
+        "id": "2e3a0d7261fa86df8b2df271c4f5be238e215d0f",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-10",
+        "removed_date": "2025-08-11"
+      },
+      {
+        "id": "2f39574216a01c01a7ca93fa2070e5965cb812d0",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-11",
+        "removed_date": "2025-08-12"
+      },
+      {
+        "id": "2f79db4258d1cf1f956ad9e90760e3924fc2aedc",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-06",
+        "removed_date": "2025-08-07"
+      },
+      {
+        "id": "305d9299000e34c26be8c3073bf98875cb5589ca",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-22",
+        "removed_date": "2025-08-23"
+      },
+      {
+        "id": "36245d94451a138d0a261304073d7be62bfdbe02",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-03",
+        "removed_date": "2025-08-04"
+      },
+      {
+        "id": "380436eae1e8193b15e39291b9044667a2e9c320",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-07-25",
+        "removed_date": "2025-07-26"
+      },
+      {
+        "id": "3972a1da24d1c3d42f22270925c0e0fc93a12aeb",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-10",
+        "removed_date": "2025-08-11"
+      },
+      {
+        "id": "3b6f587897e4a1cd266bd39c1c6a8bd24849b647",
+        "source_type": "VIA_ANNONSERA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-10",
+        "removed_date": "2025-08-11"
+      },
+      {
+        "id": "475d089d06fe09316e6fc30a2a8f4fac1e1eeb51",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-11",
+        "removed_date": "2025-08-12"
+      },
+      {
+        "id": "49202206db4ee529f9a650f2d2ba0f90227c9fb7",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-01",
+        "removed_date": "2025-08-02"
+      },
+      {
+        "id": "51f734c61f85edf4eaea4c2980394a8aad0e3473",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-04",
+        "removed_date": "2025-08-05"
+      },
+      {
+        "id": "522ee5ee61bd300d2e9bd2b887aa4869978df88c",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-04",
+        "removed_date": "2025-08-05"
+      },
+      {
+        "id": "563859ed6835c73ab48beba0cfa1f350d0f7752f",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-03",
+        "removed_date": "2025-08-04"
+      },
+      {
+        "id": "58da06b595ea2bbd57368cc74c2117b7c9693a6d",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-08-03",
+        "removed_date": "2025-08-04"
+      },
+      {
+        "id": "5f1e2c80b45f8ce098a5ab5d9bb949118bd52529",
+        "source_type": "VIA_PLATSBANKEN_DXA",
+        "removed": "True",
+        "has_description": true,
+        "publication_date": "2025-07-11",
+        "last_publication_date": "2025-07-30",
+        "removed_date": "2025-07-31"
+      }
+    ]
+  }
+}

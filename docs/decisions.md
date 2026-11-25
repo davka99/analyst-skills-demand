@@ -259,3 +259,18 @@ diagnostic fixes.
   titles); (2) the fall in "English required" happens only in English-language ads
   (−46 pp) and not in Swedish-language ads (−2 pp, ~40 % every year), so it reflects
   how English-language ads are written, not lower demand for English.
+
+## D17 – 2025 shortfall investigated (after publication)
+
+Stage `reconcile_monthly` compares files and API per month and tests whether sampled API ads
+exist in the 2025 file (`docs/data_quality.md`, section 2). Result: the gap is concentrated
+in Dec 2024 – Apr 2025 and July; 98.7 % of 21,049 sampled API ads are in the file, and the
+1.3 % missing are removed July–August ads. The spring shortfall remains unexplained. No
+analysis result changes: the volume index uses the files for numerator and denominator.
+
+## D18 – Human check of the AI-assisted annotation (after publication)
+
+The repository owner labels 40 random ads from the test sample blind for 15 main skills
+(`docs/annotation_guide.md`, "Human check"); `human_check` reports agreement and Cohen's
+kappa with the adjudicated reference and with the dictionary. The kit with ad texts is built
+in GitHub Actions and kept as a 7-day artifact, so no ad text is committed (D16).
