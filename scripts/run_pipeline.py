@@ -439,20 +439,31 @@ def reconcile_monthly() -> None:
                 e["diff_pct"] = round(100 * (e["files"] - e["api"]) / e["api"], 2)
             print(key, e)
     # Decisive check: are ads that the API counts for 2025 present in the 2025 file?
-    # 100 API ads per month (first page), membership tested against all ids in the file.
+    # The first page of a month is not a random sample (run 1 found all of them), so one
+    # page of 100 ads at a random offset is drawn for every day of the months with the
+    # largest gaps (Jan-Apr, Jul) and two control months (May, Aug), and membership is
+    # tested against all ids in the file.
     import calendar as _cal
 
+    rng = __import__("random").Random(config.SEED)
     sample = []
-    for m in range(1, 13):
-        last = _cal.monthrange(2025, m)[1]
-        try:
-            r = sess.get(f"{config.HISTORICAL_API}/search",
-                         params={"historical-from": f"2025-{m:02d}-01T00:00:00",
-                                 "historical-to": f"2025-{m:02d}-{last}T23:59:59", "limit": 100},
-                         timeout=120)
-            sample += [(f"2025-{m:02d}", h) for h in (r.json().get("hits", []) if r.ok else [])]
-        except Exception as exc:  # noqa: BLE001
-            out.setdefault("sample_errors", []).append(f"2025-{m:02d}: {exc!r}")
+    for m in (1, 2, 3, 4, 5, 7, 8):
+        for d in range(1, _cal.monthrange(2025, m)[1] + 1):
+            day = f"2025-{m:02d}-{d:02d}"
+            base_params = {"historical-from": f"{day}T00:00:00", "historical-to": f"{day}T23:59:59"}
+            try:
+                r = sess.get(f"{config.HISTORICAL_API}/search", params={**base_params, "limit": 0},
+                             timeout=120)
+                tot = r.json().get("total") if r.ok else None
+                n_day = (tot.get("value") if isinstance(tot, dict) else tot) or 0
+                if n_day == 0:
+                    continue
+                offset = rng.randrange(0, max(1, min(n_day, 2000) - 100) + 1)
+                r = sess.get(f"{config.HISTORICAL_API}/search",
+                             params={**base_params, "limit": 100, "offset": offset}, timeout=120)
+                sample += [(f"2025-{m:02d}", h) for h in (r.json().get("hits", []) if r.ok else [])]
+            except Exception as exc:  # noqa: BLE001
+                out.setdefault("sample_errors", []).append(f"{day}: {exc!r}")
     base, files = _file_list(sess, [2025])
     label, link = files[0]
     dest = config.DATA_TMP / link.rsplit("/", 1)[-1]
@@ -479,13 +490,18 @@ def reconcile_monthly() -> None:
     found = [h for _, h in sample if in_file(h)]
     missing = [h for _, h in sample if not in_file(h)]
     by_month = Counter(mo for mo, h in sample if not in_file(h))
+    sampled_by_month = Counter(mo for mo, _ in sample)
     out["membership_2025"] = {
         "file_ids": len(ids), "sampled": len(sample), "found": len(found), "missing": len(missing),
         "missing_share": round(len(missing) / max(len(sample), 1), 4),
         "missing_by_month": dict(sorted(by_month.items())),
+        "sampled_by_month": dict(sorted(sampled_by_month.items())),
         "keys_in_api": sorted({k for _, h in sample for k in h})[:80],
         "missing_profile": {k: dict(Counter(describe(h)[k] for h in missing))
                             for k in ("source_type", "removed", "has_description")},
+        "missing_pubdate_vs_file": "see missing_examples",
+        "missing_occupation_field": dict(Counter(
+            str((h.get("occupation_field") or {}).get("label")) for h in missing).most_common(10)),
         "found_profile": {k: dict(Counter(describe(h)[k] for h in found))
                           for k in ("source_type", "removed", "has_description")},
         "api_id_examples": [[str(h.get("id")), str(h.get("original_id"))] for _, h in sample[:3]],
