@@ -1,0 +1,29 @@
+# Builds the kit for the owner's blind human check (docs/annotation_guide.md, "Human
+# check"). Ad texts are never committed (D16): the kit is uploaded as a workflow artifact
+# that expires after 7 days. Only the filled label sheet is committed.
+name: annotation-kit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Download the yearly files and build the kit
+        run: python scripts/run_pipeline.py fetch human_prep
+      - uses: actions/upload-artifact@v4
+        with:
+          name: human-annotation-kit
+          path: data/annotation/texts/human/
+          retention-days: 7

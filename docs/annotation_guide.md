@@ -103,3 +103,23 @@ applied when disagreements on the test sample are adjudicated:
 - **degree:** a named degree or education at university level counts ("högskole-
   utbildning", "examen", MSc); "relevant utbildning" without level, students and
   "new graduates" do not.
+
+## Human check (repository owner)
+
+The reference labels above were produced with AI assistance (independent sub-agents and
+adjudication). To check them, the repository owner labels a random subsample of **40 ads
+from the test sample** blind, for the 15 main skills, using only this guide.
+
+1. In GitHub: **Actions → annotation-kit → Run workflow** (about 20–30 minutes; it downloads
+   the yearly files). Download the artifact `human-annotation-kit` (kept for 7 days). It has
+   `human_texts.md` (the ads) and `human_labels.csv` (the sheet to fill in).
+2. Read each ad in `human_texts.md` and enter **1** or **0** for every skill column in
+   `human_labels.csv` (opens in Excel; semicolon-separated). Use `note` for doubts. Do not
+   look at `data/annotation/ann_*.jsonl`, the dictionary or the results first.
+3. Save the sheet as `data/annotation/human_labels.csv` (labels only — **never commit the
+   texts**) and run `python scripts/run_pipeline.py human_check`. It writes
+   `reports/human_check.json`: raw agreement and Cohen's kappa per skill, against the
+   adjudicated reference and against the dictionary.
+
+Expect 1–2 hours. Skills with kappa below 0.6 are listed in the summary; they are the ones
+where the AI-assisted reference (or the guide) needs a second look.

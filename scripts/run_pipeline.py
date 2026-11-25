@@ -585,6 +585,50 @@ def annotate_prep() -> None:
     print({n: int(len(x)) for n, x in (("dev", dev), ("test", test))})
 
 
+def human_prep() -> None:
+    """Needs the fetched extract. Kit for the owner's blind human check (adskills.human):
+    texts + an empty label sheet in data/annotation/texts/human/ (never committed)."""
+    import pandas as pd
+
+    from adskills import human, quality
+
+    ids = pd.read_csv(config.ROOT / "data" / "annotation" / "sample_ids.csv", dtype={"id": str})
+    sample = human.draw(ids, seed=config.SEED + 7)
+    text = quality.load_extract(config.DATA_RAW / "extract").drop_duplicates("id").set_index("id")
+    sheet = human.write_kit(sample, text[["headline", "description"]],
+                            config.ROOT / "data" / "annotation" / "texts" / "human")
+    print(f"kit written: {sheet.parent} ({len(sample)} ads, {len(human.HUMAN_SKILLS)} skills)")
+
+
+def human_check() -> None:
+    """Offline. Agreement of the owner's labels (data/annotation/human_labels.csv) with the
+    adjudicated reference and with the dictionary: reports/human_check.json."""
+    import pandas as pd
+
+    from adskills import human, validation
+
+    ann = config.ROOT / "data" / "annotation"
+    labels = ann / human.LABELS_FILE
+    if not labels.exists():
+        print(f"no {labels.name} yet: build the kit with the annotation-kit workflow first")
+        return
+    h = human.load_labels(labels)
+    gold = validation.load_annotations([ann / f"ann_test_batch_{i}.jsonl" for i in (1, 2, 3)])
+    gold = validation.apply_adjudication(gold, ann / "adjudication_test.csv")
+    ids = pd.read_csv(ann / "sample_ids.csv", dtype={"id": str}).set_index("ann_id")["id"]
+    feats = load_analysis_ads().set_index("id")
+    pred = feats.loc[ids.loc[h.index].to_numpy(), list(human.HUMAN_SKILLS)].astype(bool)
+    pred.index = h.index
+    vs_ref = human.agreement(h, gold)
+    vs_dict = human.agreement(h, pred)
+    out = {"n_ads": int(len(h)), "skills": list(human.HUMAN_SKILLS),
+           "vs_adjudicated_reference": {"summary": human.summary(vs_ref),
+                                        "by_skill": vs_ref.to_dict("records")},
+           "vs_dictionary": {"summary": human.summary(vs_dict), "by_skill": vs_dict.to_dict("records")}}
+    _write_json(config.REPORTS / "human_check.json", out)
+    print(json.dumps({k: v["summary"] for k, v in out.items() if isinstance(v, dict)}, indent=1))
+
+
 def validate() -> None:
     import hashlib
 
@@ -932,7 +976,7 @@ def robustness() -> None:
     print(rob[rob["skill"].isin(["sql", "python", "excel"])][["variant", "skill", "diff", "lo", "hi"]].round(3).to_string())
 
 
-STAGES = {"probe": probe, "schema": schema, "schema_alt": lambda: schema(alt=True, n=20000), "fetch": fetch, "build": build, "reconcile": reconcile, "quality": quality_stage, "annotate_prep": annotate_prep, "validate": validate, "prevalence": prevalence, "bundles": bundles, "robustness": robustness, "reconcile_monthly": reconcile_monthly}
+STAGES = {"probe": probe, "schema": schema, "schema_alt": lambda: schema(alt=True, n=20000), "fetch": fetch, "build": build, "reconcile": reconcile, "quality": quality_stage, "annotate_prep": annotate_prep, "validate": validate, "prevalence": prevalence, "bundles": bundles, "robustness": robustness, "reconcile_monthly": reconcile_monthly, "human_prep": human_prep, "human_check": human_check}
 
 
 def main(argv: list[str]) -> int:
