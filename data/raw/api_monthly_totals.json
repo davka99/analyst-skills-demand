@@ -1,5 +1,5 @@
 {
-  "run_at_utc": "2026-11-25T11:52:17.537230+00:00",
+  "run_at_utc": "2026-11-25T12:00:01.052882+00:00",
   "api": "https://historical.api.jobtechdev.se",
   "months": {
     "2024-01": {
@@ -147,6 +147,57 @@
       "diff_pct": 0.76
     }
   },
+  "date_check": {
+    "2025-01": {
+      "hits": 3100,
+      "unique_ids": 3100,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-02": {
+      "hits": 2800,
+      "unique_ids": 2800,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-03": {
+      "hits": 3017,
+      "unique_ids": 3017,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-04": {
+      "hits": 3000,
+      "unique_ids": 3000,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-05": {
+      "hits": 3100,
+      "unique_ids": 3100,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-07": {
+      "hits": 3100,
+      "unique_ids": 3100,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    },
+    "2025-08": {
+      "hits": 2932,
+      "unique_ids": 2932,
+      "pubdate_not_queried_day": 0,
+      "pubdate_month_differs": 0,
+      "examples": []
+    }
+  },
   "membership_2025": {
     "file_ids": 1164482,
     "sampled": 21049,
@@ -168,6 +219,7 @@
       "2025-08": 2932
     },
     "keys_in_api": [
+      "_queried_day",
       "access",
       "access_to_own_car",
       "application_contacts",
