@@ -461,7 +461,10 @@ def reconcile_monthly() -> None:
                 offset = rng.randrange(0, max(1, min(n_day, 2000) - 100) + 1)
                 r = sess.get(f"{config.HISTORICAL_API}/search",
                              params={**base_params, "limit": 100, "offset": offset}, timeout=120)
-                sample += [(f"2025-{m:02d}", h) for h in (r.json().get("hits", []) if r.ok else [])]
+                hits = r.json().get("hits", []) if r.ok else []
+                sample += [(f"2025-{m:02d}", h) for h in hits]
+                for h in hits:
+                    h["_queried_day"] = day
             except Exception as exc:  # noqa: BLE001
                 out.setdefault("sample_errors", []).append(f"{day}: {exc!r}")
     base, files = _file_list(sess, [2025])
@@ -491,6 +494,20 @@ def reconcile_monthly() -> None:
     missing = [h for _, h in sample if not in_file(h)]
     by_month = Counter(mo for mo, h in sample if not in_file(h))
     sampled_by_month = Counter(mo for mo, _ in sample)
+    # Does the API's date filter use the publication date? Share of hits whose
+    # publication_date is not the queried day, and repeated ids, per month.
+    date_check = {}
+    for mo in sorted(sampled_by_month):
+        hs = [h for m_, h in sample if m_ == mo]
+        off = [h for h in hs if str(h.get("publication_date"))[:10] != h["_queried_day"]]
+        date_check[mo] = {
+            "hits": len(hs), "unique_ids": len({str(h.get("id")) for h in hs}),
+            "pubdate_not_queried_day": len(off),
+            "pubdate_month_differs": sum(str(h.get("publication_date"))[:7] != mo for h in hs),
+            "examples": [[h["_queried_day"], str(h.get("publication_date")),
+                          str(h.get("last_publication_date")), str(h.get("timestamp"))]
+                         for h in off[:3]]}
+    out["date_check"] = date_check
     out["membership_2025"] = {
         "file_ids": len(ids), "sampled": len(sample), "found": len(found), "missing": len(missing),
         "missing_share": round(len(missing) / max(len(sample), 1), 4),
