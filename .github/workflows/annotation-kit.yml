@@ -1,6 +1,6 @@
 # Builds the kit for the owner's blind human check (docs/annotation_guide.md, "Human
 # check"). Ad texts are never committed (D16): the kit is uploaded as a workflow artifact
-# that expires after 7 days. Only the filled label sheet is committed.
+# that expires after 1 day. Only the filled label sheet is committed.
 name: annotation-kit
 
 on:
@@ -26,4 +26,4 @@ jobs:
         with:
           name: human-annotation-kit
           path: data/annotation/texts/human/
-          retention-days: 7
+          retention-days: 1

@@ -76,3 +76,13 @@ def test_load_extract(tmp_path):
     df = quality.load_extract(tmp_path)
     assert df["file_label"].tolist() == ["2016", "2017", "2017"]
     assert df["file_order"].tolist() == [0, 1, 1]
+
+
+def test_public_employer_name_hides_sole_traders():
+    from adskills.quality import PRIVATE_EMPLOYER, public_employer_name
+
+    assert public_employer_name("Acme AB", "556559-5450") == "Acme AB"
+    assert public_employer_name("Region Stockholm", "232100-0016") == "Region Stockholm"
+    # A sole trader's org. number is the owner's personal identity number.
+    assert public_employer_name("Anna Andersson", "850101-1234") == PRIVATE_EMPLOYER
+    assert public_employer_name("Okänd", None) == "Okänd"

@@ -802,8 +802,10 @@ def prevalence() -> None:
                           f"{late['employer_key'].nunique():,} employers", top=22)
     tools = [k for k in ["sql", "python", "excel", "power_bi", "r", "tableau", "qlik", "sas", "azure", "gcp", "statistics",
                          "machine_learning", "ai_any", "english_req", "swedish_req", "degree"] if k not in gate_fail]
+    # The hero chart also shows the two clearest rising trends and the most-mentioned skill (README findings 2–3).
+    hero = tools + [k for k in ["visualization", "any_cloud_vendor", "communication"] if k not in gate_fail]
     ch = pd.DataFrame(changes["pooled"])
-    ch = ch[ch["skill"].isin(tools)]
+    ch = ch[ch["skill"].isin(hero)]
     da_verdict = {r["skill"]: r["verdict"] for r in changes["data_analyst_only"]}
 
     def tag(k):  # dagger = not a clear change within data-analyst titles (D11)
