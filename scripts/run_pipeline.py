@@ -457,9 +457,13 @@ def reconcile_monthly() -> None:
     label, link = files[0]
     dest = config.DATA_TMP / link.rsplit("/", 1)[-1]
     download(sess, urljoin(base, link), dest)
+    # Enriched files carry a hashed `id` and the Platsbanken number in `original_id`;
+    # the API may return either, so both are collected.
     ids: set[str] = set()
     for rec in jobtech.iter_records(dest):
         ids.add(str(rec.get("id")) if rec.get("id") is not None else jobtech.synthetic_id(rec))
+        if rec.get("original_id") is not None:
+            ids.add(str(rec.get("original_id")))
     dest.unlink()
 
     def describe(h: dict) -> dict:
@@ -469,9 +473,12 @@ def reconcile_monthly() -> None:
                 "last_publication_date": str(h.get("last_publication_date"))[:10],
                 "removed_date": str(h.get("removed_date"))[:10]}
 
-    found = [h for _, h in sample if str(h.get("id")) in ids]
-    missing = [h for _, h in sample if str(h.get("id")) not in ids]
-    by_month = Counter(mo for mo, h in sample if str(h.get("id")) not in ids)
+    def in_file(h: dict) -> bool:
+        return any(str(h.get(k)) in ids for k in ("id", "original_id") if h.get(k) is not None)
+
+    found = [h for _, h in sample if in_file(h)]
+    missing = [h for _, h in sample if not in_file(h)]
+    by_month = Counter(mo for mo, h in sample if not in_file(h))
     out["membership_2025"] = {
         "file_ids": len(ids), "sampled": len(sample), "found": len(found), "missing": len(missing),
         "missing_share": round(len(missing) / max(len(sample), 1), 4),
@@ -481,6 +488,7 @@ def reconcile_monthly() -> None:
                             for k in ("source_type", "removed", "has_description")},
         "found_profile": {k: dict(Counter(describe(h)[k] for h in found))
                           for k in ("source_type", "removed", "has_description")},
+        "api_id_examples": [[str(h.get("id")), str(h.get("original_id"))] for _, h in sample[:3]],
         "missing_examples": [{"id": str(h.get("id")), **describe(h)} for h in missing[:25]],
     }
     print(json.dumps(out["membership_2025"], indent=1)[:3000])
