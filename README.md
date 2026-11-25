@@ -112,7 +112,7 @@ tests/               pytest suite (title rules, skill rules, reader, statistics,
 - **Ads are not vacancies, and not hires.** Volume is about advertising, not employment.
 - **Small yearly samples** (214–578 ads per year after the text filter); single-year shares have wide intervals. Conclusions rest on pooled periods.
 - **Measurement error:** recall below 0.85 for degree, A/B testing and Azure means those shares are under-counted; the dictionary was frozen before testing and the remaining misses are listed in `docs/decisions.md` (D14). Snowflake and YH had no positives in the test sample, so their accuracy is unmeasured.
-- **2025 is 6.5 % short** of the API's yearly total for unknown reasons; 2016–2024 match within half a percent.
+- **2025 is 6.5 % short** of the API's yearly total; 2016–2024 match within half a percent. The gap sits in Dec 2024 – Apr 2025 (up to −25 % in April) and July; a small part is removed July–August ads missing from the file, the rest is located but not explained (`docs/data_quality.md`, section 2).
 - **Annotation was AI-assisted** (independent sub-agents + adjudication by the analysis author), not done by human experts; all labels are in the repo for audit.
 - Associations between region and skills are descriptive, not causal.
 
